@@ -8,6 +8,8 @@ names(scheme_data)[] <- c("s_state","s_district","s_block","s_gp")
 scheme_data <- scheme_data %>% mutate_all(funs(str_replace_all(., "�", "")))
 scheme_data <- scheme_data %>% mutate_all(funs(str_trim(str_to_lower(.))))
 
+# Remove unwanted rows
+scheme_data <- scheme_data %>% filter(!s_gp %in% c('total','block level line deptt.','po','grand total'))
 
 geo_mapping <- read_csv("data/geography-mapping-cbga/csv/Odisha.csv", 
                    col_types = cols(`Notified Area Council (NAC)` = col_skip(), 
@@ -20,6 +22,8 @@ names(geo_mapping) <- c("g_ac_id","g_ac","g_block","g_gp","g_district","g_pc")
 geo_mapping <- geo_mapping %>% mutate_all(funs(str_replace_all(., "�", "")))
 geo_mapping <- geo_mapping %>% mutate_all(funs(str_trim(str_to_lower(.))))
 geo_mapping <- geo_mapping[!is.na(geo_mapping$g_block),]
+geo_mapping$g_match_id <- 1:nrow(geo_mapping)
+
 
 # District match
 
@@ -50,40 +54,93 @@ geo_mapping$updated_district_name[is.na(geo_mapping$updated_district_name)] <- g
 # Block match
 scheme_blocks <- unique(scheme_data[,c("s_district", "s_block")])
 geo_blocks <- unique(geo_mapping[,c("updated_district_name", "g_block")])
-odisha_blocks <- left_join(scheme_blocks, geo_blocks, by=c('s_district'='updated_district_name', 's_block'='g_block'),keep = T)
 
 
-# Fuzzy Match
-
-all_scheme_districts <- unique(odisha_blocks$s_district)
+all_scheme_districts <- unique(scheme_blocks$s_district)
 odisha_block_match <- data.frame()
-block_original_rows <- 0
 for(i in 1:length(all_scheme_districts)){
-block_df <- odisha_blocks[odisha_blocks$s_district == all_scheme_districts[[i]],]  
-block_original_rows <- block_original_rows + nrow(block_df)
-geo_df <- geo_blocks[geo_blocks$updated_district_name == all_scheme_districts[[i]],]
-block_df <-
-  block_df %>% stringdist_left_join(geo_df[,"g_block"],
+geo_block_df <- geo_blocks[geo_blocks$updated_district_name == all_scheme_districts[[i]],]  
+
+scheme_block_df <- scheme_blocks[scheme_blocks$s_district == all_scheme_districts[[i]],]
+scheme_block_df <-
+  scheme_block_df %>% stringdist_left_join(geo_block_df,
                                          by = c('s_block' = 'g_block'),
-                                         max_dist = 1)
-names(block_df)[which(names(block_df)=='g_block.x')] <- 'block_direct_match'
-names(block_df)[which(names(block_df)=='g_block.y')] <- 'block_fuzzy_match'
-odisha_block_match <- bind_rows(odisha_block_match, block_df)
+                                         max_dist = 1,distance_col = 'distance_block' )
+
+scheme_block_df$final_match <- 1
+scheme_block_df$final_match[is.na(scheme_block_df$g_block)] <- 0
+
+blocks_one_to_many <- scheme_block_df %>% group_by(s_block) %>% summarise(total_count=length(s_district)) %>% filter(total_count>1) %>% select(s_block) 
+blocks_one_to_many <- blocks_one_to_many$s_block[!is.na(blocks_one_to_many$s_block)]
+scheme_block_df$final_match[scheme_block_df$s_block %in% blocks_one_to_many] <- 0
+
+blocks_many_to_one <- scheme_block_df %>% group_by(g_block) %>% summarise(total_count=length(s_district)) %>% filter(total_count>1) %>% select(g_block) 
+blocks_many_to_one <- blocks_many_to_one$g_block[!is.na(blocks_many_to_one$g_block)]
+scheme_block_df$final_match[scheme_block_df$s_block %in% blocks_many_to_one] <- 0
+
+
+odisha_block_match <- bind_rows(odisha_block_match, scheme_block_df)
 }
 
 # Update blocks in the geography file
-odisha_blocks_to_update <- odisha_block_match[!is.na(odisha_block_match$block_fuzzy_match),]
+odisha_blocks_to_update <- odisha_block_match[odisha_block_match$final_match == 1,]
+odisha_blocks_to_update$g_block_mapping <- odisha_blocks_to_update$g_block
+odisha_blocks_to_update$g_block_mapping[odisha_blocks_to_update$distance == 1] <- odisha_blocks_to_update$s_block[odisha_blocks_to_update$distance == 1]
+
+
 geo_mapping <-
   left_join(
     geo_mapping,
-    odisha_blocks_to_update[, c("s_district", "block_fuzzy_match", "s_block")],
-    by = c("updated_district_name" = "s_district", "g_block" = "block_fuzzy_match")
+    odisha_blocks_to_update[, c("s_district", "g_block","g_block_mapping")],
+    by = c("updated_district_name" = "s_district", "g_block" = "g_block")
   )
-names(geo_mapping)[which(names(geo_mapping)=='s_block')] <- 'updated_block_name'
+names(geo_mapping)[which(names(geo_mapping)=='g_block_mapping')] <- 'updated_block_name'
 
 # GP match
 
-x <- unique(geo_mapping[,c("g_district", "g_block", "updated_district_name", "updated_block_name")])
+odisha_gp_match <- data.frame()
 
+# which(all_scheme_districts == "bhadrak")
+# i <- 22
 
+for(i in 1:length(all_scheme_districts)){
+  all_scheme_blocks <- unique(scheme_data$s_block[scheme_data$s_district == all_scheme_districts[[i]]])
+  # j <- 6
+  for(j in 1:length(all_scheme_blocks)){
+    scheme_gp_df <- scheme_data[scheme_data$s_district == all_scheme_districts[[i]] & scheme_data$s_block == all_scheme_blocks[[j]],]  
+    geo_gp_df <- unique(geo_mapping[geo_mapping$updated_district_name == all_scheme_districts[[i]] & geo_mapping$updated_block_name == all_scheme_blocks[[j]],c("g_district","g_block","g_gp")])
+    geo_gp_df <- geo_gp_df[!is.na(geo_gp_df$g_gp),]
+    scheme_gp_df <-
+      scheme_gp_df %>% stringdist_left_join(geo_gp_df[,c("g_district", "g_block", "g_gp")],
+                                        by = c('s_gp' = 'g_gp'),
+                                        max_dist = 1,distance_col = 'distance')
+    
+    scheme_gp_df$final_match <- 1
+    scheme_gp_df$final_match[is.na(scheme_gp_df$g_gp)] <- 0
+    gps_one_to_many <- scheme_gp_df %>% group_by(s_gp) %>% summarise(total_count=length(s_state)) %>% filter(total_count>1) %>% select(s_gp)
+    gps_one_to_many <- gps_one_to_many$s_gp[!is.na(gps_one_to_many$s_gp)]
+    scheme_gp_df$final_match[scheme_gp_df$s_gp %in% gps_one_to_many] <- 0
+    gps_many_to_one <- scheme_gp_df %>% group_by(g_gp) %>% summarise(total_count=length(s_state)) %>% filter(total_count>1) %>% select(g_gp)
+    gps_many_to_one <- gps_many_to_one$g_gp[!is.na(gps_many_to_one$g_gp)]
+    scheme_gp_df$final_match[scheme_gp_df$g_gp %in% gps_many_to_one] <- 0
+    
+    
+    odisha_gp_match <- bind_rows(odisha_gp_match, scheme_gp_df)
+    
+  }
+}
 
+# What matched directly or fuzzy within a distance of 1
+
+odisha_gp_match_result <- odisha_gp_match[odisha_gp_match$final_match == 1,]
+odisha_gp_match_result$g_gp_mapping <- odisha_gp_match_result$g_gp
+odisha_gp_match_result$g_gp_mapping[odisha_gp_match_result$distance == 1] <- odisha_gp_match_result$s_gp[odisha_gp_match_result$distance == 1]
+
+geo_mapping <-
+  left_join(
+    geo_mapping,
+    odisha_gp_match_result[, c("s_district","s_block","g_gp","g_gp_mapping")],
+    by = c("updated_district_name" = "s_district", "updated_block_name" = "s_block","g_gp"="g_gp")
+  )
+
+names(geo_mapping)[which(names(geo_mapping)=='g_gp_mapping')] <- 'updated_gp_name'
