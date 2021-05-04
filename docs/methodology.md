@@ -1,9 +1,11 @@
 ## Methodology
 
 **Objective**
+
 Verify the mapping of geographic entities (District, Block, Gram Panchayat) between scheme budget data and other geographic datasets prepared by the team at CBGA. 
 
 **States**
+
 - Bihar
 - Chattisgarh
 - Jharkhand
@@ -12,9 +14,11 @@ Verify the mapping of geographic entities (District, Block, Gram Panchayat) betw
 - Uttar Pradesh
 
 **Schemes**
+
 - MNREGA
 
 **Process**
+
 - CBGA conducts a mapping exercise between Gram Panchayats and Assembly/Parliamentary constituencies for each state.
 - The file prepared and shared by CBGA has to be verified against the scheme budget/expenditure data downloaded through the scheme portals.
 - For verification, we follow a hierarchical process and find the mapping percentage between entities:
@@ -25,11 +29,13 @@ Verify the mapping of geographic entities (District, Block, Gram Panchayat) betw
   - We then follow the same process to map **scheme blocks** to geography blocks for each district which is then followed by mapping the **gram panchayats**, present in the scheme file, for each district and block to the gram panchayats present in the geography file against their updated districts and blocks.
 
 **Exclusions**
+
 At every step (district/block/gp) we exclude rows where:
 - We don't find a direct or a fuzzy match (within a string distance of 1).
 - Where multiple entities in the scheme file map to one entity of the geography file and vice-versa.
 
 **Output**
+
 A mapping between the entities of the scheme file and the geography file. The geography file comprises of these columns:
 - State
 - District (mapped to scheme)
