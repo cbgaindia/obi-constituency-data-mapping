@@ -1,0 +1,45 @@
+---
+title: "results"
+output: 
+  md_document:
+    variant: markdown_github
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## State Mapping Summary
+
+---
+
+```{r merge-results, echo=FALSE}
+source("scripts/libraries.R")
+state_list <- c("odisha")
+state_summary_df <- data.frame()
+for(i in 1:length(state_list)){
+  state_summary_data <- readr::read_csv(glue("data/Results/{state_list[[i]]}.csv"))
+  total_gps <- sum(state_summary_data$total_gps)
+  total_gps_mapped <- sum(state_summary_data$total_gps_mapped)
+  percent_gps_mapped <- round(total_gps_mapped/total_gps*100)
+  state_summary_df <-
+    bind_rows(
+      state_summary_df,
+      data.frame(
+        'state_name' = state_list[[i]],
+        'total_gps' = total_gps,
+        'total_gps_mapped' = total_gps_mapped,
+        'percent_gps_mapped' = percent_gps_mapped
+      )
+    )
+}
+
+knitr::kable(state_summary_df, format = 'pipe',caption = "Scheme GP - Constituency Mapping Summary")
+```
+
+
+
+
+
