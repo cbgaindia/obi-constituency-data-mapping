@@ -12,7 +12,8 @@ source("scripts/libraries.R")
 state_list <- c("odisha")
 state_summary_df <- data.frame()
 for(i in 1:length(state_list)){
-  state_summary_data <- readr::read_csv(glue("data/Results/{state_list[[i]]}.csv"))
+  state_summary_data_url <- glue("data/Results/{state_list[[i]]}.csv")
+  state_summary_data <- readr::read_csv(state_summary_data_url)
   total_gps <- sum(state_summary_data$total_gps)
   total_gps_mapped <- sum(state_summary_data$total_gps_mapped)
   percent_gps_mapped <- round(total_gps_mapped/total_gps*100)
@@ -23,7 +24,8 @@ for(i in 1:length(state_list)){
         'state_name' = state_list[[i]],
         'total_gps' = total_gps,
         'total_gps_mapped' = total_gps_mapped,
-        'percent_gps_mapped' = percent_gps_mapped
+        'percent_gps_mapped' = percent_gps_mapped,
+        'state_summary_file' = kableExtra::cell_spec("Link",link = state_summary_data_url, new_tab = TRUE)
       )
     )
 }
