@@ -21,11 +21,11 @@ for(i in 1:length(state_list)){
     bind_rows(
       state_summary_df,
       data.frame(
-        'state_name' = state_list[[i]],
-        'total_gps' = total_gps,
-        'total_gps_mapped' = total_gps_mapped,
-        'percent_gps_mapped' = percent_gps_mapped,
-        'state_summary_file' = kableExtra::cell_spec("Link",link = state_summary_data_url, new_tab = TRUE)
+        'state' = state_list[[i]],
+        'totalGP' = total_gps,
+        'totalGPMapped' = total_gps_mapped,
+        'percentGPMapped' = percent_gps_mapped,
+        'summaryFile' = kableExtra::cell_spec("Link",link = state_summary_data_url, new_tab = TRUE)
       )
     )
 }
