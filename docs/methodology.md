@@ -49,7 +49,7 @@ This file shall assist us in calculating the budget indicators for constituencie
 **Results**
 
 1. Summary of results for the mapping exercise for each state are [here](../results.md) 
-2. Summary of the total Gram Panchayats mapped in each block and district. A sample file for Odisha is [here](../data/results/odisha.csv)
+2. Summary of the total Gram Panchayats mapped in each block and district. A sample file for Odisha is [here](../data/Results/odisha.csv)
 
 _Note: We might not be able to get a 100% match between entities in the scheme and gepgraphy files after this process. We will share the results of the verification exercise with CBGA. This will help them in identifying the entities that were not mapped and suggest changes so we can increase the match between entities._  
 
