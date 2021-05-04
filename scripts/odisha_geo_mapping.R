@@ -171,4 +171,4 @@ for(i in 1:length(all_districts)){
 }
 
 state_mapping_summary <- state_mapping_summary %>% mutate(gp_mapping_percent=round(total_gps_mapped/total_gps*100)) 
-
+readr::write_csv(state_mapping_summary, "data/Results/odisha.csv")
