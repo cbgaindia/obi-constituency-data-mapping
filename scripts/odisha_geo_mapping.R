@@ -2,7 +2,7 @@ source("scripts/libraries.R")
 
 ## Import and Process files (Standaridse geography vars)
 
-scheme_data <- read_csv("data/CBGA/odisha/scheme-data/csv/MGNREGA-Odisha-2019-20.csv")
+scheme_data <- read_csv("data/scheme/MNREGA/odisha/2019-20/csv/MGNREGA-Odisha-2019-20.csv")
 scheme_data <- scheme_data[,c(1,2,3,5)]
 names(scheme_data)[] <- c("s_state","s_district","s_block","s_gp") 
 scheme_data <- scheme_data %>% mutate_all(funs(str_replace_all(., "�", "")))
@@ -11,7 +11,7 @@ scheme_data <- scheme_data %>% mutate_all(funs(str_trim(str_to_lower(.))))
 # Remove unwanted rows
 scheme_data <- scheme_data %>% filter(!s_gp %in% c('total','block level line deptt.','po','grand total'))
 
-geo_mapping <- read_csv("data/CBGA/odisha/geography-mapping-cbga/csv/Odisha.csv", 
+geo_mapping <- read_csv("data/geography/raw/csv/Odisha.csv", 
                    col_types = cols(`Notified Area Council (NAC)` = col_skip(), 
                                     `Municipality (M)` = col_skip(), 
                                     `Municipal Corporation (MC)` = col_skip(), 
@@ -34,7 +34,7 @@ district_in_map <- ifelse(all_districts %in% unique(geo_mapping$g_district), 1, 
 district_match_df <- data.frame("district_name"=all_districts, "district_in_scheme"=district_in_scheme,"district_in_map"=district_in_map)
 district_match_df <- district_match_df %>% arrange(district_name)
 district_match_df$updated_district_name <- ""
-readr::write_csv(district_match_df, file = "data/CBGA/odisha/geography-mapping-cbga/csv/odisha-districts.csv")
+readr::write_csv(district_match_df, file = "data/geography/raw/csv/odisha-districts.csv")
 
 # Read Odisha districts file with updated district names
 
@@ -44,7 +44,7 @@ readr::write_csv(district_match_df, file = "data/CBGA/odisha/geography-mapping-c
 
 # "nabrangpur" This district is present in the geography file but not in the scheme file
 
-odisha_districts <- readr::read_csv("data/CBGA/odisha/geography-mapping-cbga/csv/odisha-districts.csv")
+odisha_districts <- readr::read_csv("data/geography/raw/csv/odisha-districts.csv")
 
 # Update districts in the geography file
 odisha_districts_to_update <- odisha_districts[odisha_districts$district_in_scheme == 0,c('district_name','updated_district_name')] 
@@ -145,6 +145,8 @@ geo_mapping <-
   )
 
 names(geo_mapping)[which(names(geo_mapping)=='g_gp_mapping')] <- 'updated_gp_name'
+readr::write_csv(geo_mapping, "data/geography/updated/odisha.csv")
+
 
 # Summary of the mapping exercise
 
@@ -171,4 +173,4 @@ for(i in 1:length(all_districts)){
 }
 
 state_mapping_summary <- state_mapping_summary %>% mutate(gp_mapping_percent=round(total_gps_mapped/total_gps*100)) 
-readr::write_csv(state_mapping_summary, "data/Results/odisha.csv")
+readr::write_csv(state_mapping_summary, "data/results/scheme-geography-mapping-summary.csv")
