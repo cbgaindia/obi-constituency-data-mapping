@@ -1,0 +1,86 @@
+---
+title: "Odisha - Scheme Geography Mapping Summary"
+author: "CivicDataLab"
+output: 
+  html_document:
+    df_print: default
+    number_sections: no
+    self_contained: no
+    toc: no
+    toc_float:
+      collapsed: no
+---
+
+<br /> Last updated: `r format(Sys.time(), '%d %B, %Y')` (See [changelog](https://github.com/cbgaindia/obi-constituency-data-mapping/commits/main)).
+
+
+```{r chunk-options, include=FALSE}
+# Options for building this document
+knitr::opts_chunk$set(
+  fig.height=5, 
+  fig.width=10, 
+  fig.align='center',
+  echo=FALSE,
+  message=FALSE,
+  warning=FALSE
+)
+```
+
+```{r read-input-files}
+source("../scripts/libraries.R")
+scheme_mapping_summary <- readr::read_csv("../data/results/scheme-geography-mapping-summary.csv")
+```
+
+## Mapping Results
+
+[Link]() to access the GP wise mapping file for all schemes. 
+
+### MNREGA - 2019-20
+
+```{r geo-file-summary}
+total_districts <- scheme_mapping_summary %>% select(g_district) %>% unique() %>% nrow()
+total_blocks <- scheme_mapping_summary %>% select(g_district, g_block) %>% unique() %>% nrow()
+total_gps <- scheme_mapping_summary %>% select(g_district, g_block, g_gp) %>% unique() %>% nrow
+total_districts_mapped <- scheme_mapping_summary %>% select(g_district, district_mapped) %>% unique %>% filter(district_mapped=="yes") %>% nrow()
+total_blocks_mapped <- scheme_mapping_summary %>% select(g_district, g_block, block_mapped) %>% unique() %>% filter(block_mapped=="yes") %>% nrow()
+total_gps_mapped <- scheme_mapping_summary %>% select(g_district, g_block, g_gp, gp_mapped) %>% unique() %>% filter(gp_mapped=="yes") %>% nrow()
+
+mapping_summary_table <- data.frame()
+variables_to_include <- c("districts","blocks","gps")
+for(i in 1:length(variables_to_include)){
+  var_type <- variables_to_include[[i]] %>% stringr::str_to_title()
+  var_total <-
+    ifelse(
+      var_type == "Districts",
+      total_districts,
+      ifelse(var_type == "Blocks", total_blocks, total_gps)
+    )
+  var_mapped <-
+    ifelse(
+      var_type == "Districts",
+      total_districts_mapped,
+      ifelse(var_type == "Blocks", total_blocks_mapped, total_gps_mapped)
+    )
+  var_df <-
+    data.frame('Type' = var_type,
+               'Total' = var_total,
+               'Mapped' = var_mapped)
+  var_df$MappingPercent <- round(var_df$Mapped / var_df$Total*100)
+  mapping_summary_table <- bind_rows(mapping_summary_table ,var_df)
+}
+
+knitr::kable(mapping_summary_table)
+```
+
+
+## Links
+
+**Data**
+
+- [Scheme data for MNREGA - Raw]()
+- [Scheme data for MNREGA - Updated]()
+- [Gram Panchayat - AC/PC mapping file]()
+
+**Docs**
+
+- [Methodology]()
