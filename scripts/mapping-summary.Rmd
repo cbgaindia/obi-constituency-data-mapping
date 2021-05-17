@@ -28,7 +28,8 @@ knitr::opts_chunk$set(
 
 ```{r read-input-files}
 source("../scripts/libraries.R")
-scheme_mapping_summary <- readr::read_csv("../data/results/scheme-geography-mapping-summary.csv")
+# scheme_mapping_summary <- readr::read_csv("../data/results/mnrega-2019-20-geography-mapping-summary.csv")
+scheme_mapping_summary <- readr::read_csv("../data/results/mnrega-2018-19-geography-mapping-summary.csv")
 ```
 
 ## Mapping Results
