@@ -7,6 +7,7 @@ source("scripts/libraries.R")
 # 2 - Rename cols
 # 3 - Remove extra spaces from cols and convert all cols to lowercase 
 # 4 - Remove unwanted rows by filtering values from the GP col
+# 5 - Assign unique ID to each row
 
 scheme_data <- read_csv("data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20.csv")
 scheme_data <- scheme_data[,c(1,2,3,5)]
