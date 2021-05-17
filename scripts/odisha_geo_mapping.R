@@ -8,13 +8,15 @@ source("scripts/libraries.R")
 # 3 - Remove extra spaces from cols and convert all cols to lowercase 
 # 4 - Remove unwanted rows by filtering values from the GP col
 
-scheme_data <- read_csv("data/scheme/MNREGA/odisha/2019-20/csv/MGNREGA-Odisha-2019-20.csv")
+scheme_data <- read_csv("data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20.csv")
 scheme_data <- scheme_data[,c(1,2,3,5)]
 names(scheme_data)[] <- c("s_state","s_district","s_block","s_gp") 
 scheme_data <- scheme_data %>% mutate_all(funs(str_replace_all(., "�", "")))
 scheme_data <- scheme_data %>% mutate_all(funs(str_trim(str_to_lower(.))))
 
 scheme_data <- scheme_data %>% filter(!s_gp %in% c('total','block level line deptt.','po','grand total'))
+scheme_data$s_id <- 1:nrow(scheme_data)
+
 
 # Rules for standardising geography data 
 # 1 - Filter selected cols
@@ -38,7 +40,7 @@ geo_mapping <- geo_mapping %>% mutate_all(funs(str_trim(str_to_lower(.))))
 geo_mapping <- geo_mapping[!is.na(geo_mapping$g_block),]
 geo_mapping <- unique(geo_mapping)
 geo_mapping$g_match_id <- 1:nrow(geo_mapping)
-
+readr::write_csv(geo_mapping, file = "data/geography/updated/geo-odisha-updated.csv")
 
 # District match ----------------------------------------------------------
 
@@ -162,12 +164,12 @@ scheme_data <-
   )
 
 names(scheme_data)[which(names(scheme_data)=='s_gp_mapping')] <- 'updated_gp_name'
-readr::write_csv(scheme_data, "data/geography/updated/odisha.csv")
+readr::write_csv(scheme_data, "data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv")
 
 # Export mapping results --------------------------------------------------
 
 state_mapping_summary <- data.frame()
-all_districts <- unique(scheme_data$s_district) 
+all_districts <- unique(scheme_data$s_district)  
 p <- progress::progress_bar$new(total = length(all_districts))
 for(i in 1:length(all_districts)){
   p$tick()
