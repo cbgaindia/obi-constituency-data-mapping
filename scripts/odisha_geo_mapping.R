@@ -166,30 +166,3 @@ scheme_data <-
 
 names(scheme_data)[which(names(scheme_data)=='s_gp_mapping')] <- 'updated_gp_name'
 readr::write_csv(scheme_data, "data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv")
-
-# Export mapping results --------------------------------------------------
-
-state_mapping_summary <- data.frame()
-all_districts <- unique(scheme_data$s_district)  
-p <- progress::progress_bar$new(total = length(all_districts))
-for(i in 1:length(all_districts)){
-  p$tick()
-  district_summary <- data.frame()
-  select_district <- all_districts[[i]]
-  district_mapped <- ifelse(select_district %in% unique(geo_mapping$updated_district_name),"yes","no")
-  blocks <- unique(scheme_data$s_block[scheme_data$s_district == select_district])
-  total_blocks <- length(blocks)
-  total_blocks_mapped <- unique(geo_mapping$updated_block_name[geo_mapping$updated_district_name == select_district & !is.na(geo_mapping$updated_block_name)]) %>% length()
-  for(j in 1:length(blocks)){
-    select_block <- blocks[j]
-    block_mapped <- ifelse(select_block %in% unique(geo_mapping$updated_block_name),"yes","no")
-    total_gps <- scheme_data %>% filter(s_district==select_district, s_block==select_block) %>% select(s_gp) %>% unique() %>% nrow()
-    total_gps_mapped <- geo_mapping %>%  filter(updated_district_name==select_district, updated_block_name==select_block, !is.na(updated_gp_name)) %>% select(updated_gp_name) %>% nrow()
-    block_df <- data.frame('district'=select_district, 'district_mapped'=district_mapped,'block'=select_block, 'block_mapped'=block_mapped,'total_gps' = total_gps, 'total_gps_mapped'=total_gps_mapped)
-    district_summary <- bind_rows(district_summary, block_df)
-  }
-  state_mapping_summary <- bind_rows(state_mapping_summary, district_summary)
-}
-
-state_mapping_summary <- state_mapping_summary %>% mutate(gp_mapping_percent=round(total_gps_mapped/total_gps*100)) 
-readr::write_csv(state_mapping_summary, "data/results/scheme-geography-mapping-summary.csv")
