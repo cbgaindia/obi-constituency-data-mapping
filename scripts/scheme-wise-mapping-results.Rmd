@@ -1,0 +1,168 @@
+---
+title: "Mapping scmeme indicators to Constituencies"
+subtitle: "Matching geographies between the two databases"
+output: 
+  html_document:
+    df_print: default
+    number_sections: no
+    self_contained: no
+    toc: no
+    toc_float:
+      collapsed: no
+---
+
+<br /> Last updated: `r format(Sys.time(), '%d %B, %Y')` (See [changelog](https://github.com/cbgaindia/obi-constituency-data-mapping/commits/main)).
+
+
+
+### Results
+
+<br />
+
+```{r chunk-options, include=FALSE}
+# Options for building this document
+knitr::opts_chunk$set(
+  fig.height=5, 
+  fig.width=10, 
+  fig.align='center',
+  echo=FALSE,
+  message=FALSE,
+  warning=FALSE
+)
+```
+
+```{r function-to-summarise-mapping-for-scheme}
+source("../scripts/libraries.R")
+scheme_to_summarise <- c("mnrega-2018-19","mnrega-2019-20","pmagy-2019-20")
+
+summarise_scheme_mapping <- function(scheme_to_summarise){
+  
+  # Read files
+  scheme_mapping_summary <-
+    readr::read_csv(glue(
+      "../data/results/{scheme_to_summarise}-geography-mapping-summary.csv"
+    ))
+
+  # Evaluate percentage mapping for each geographic entity  
+  total_districts <-
+    scheme_mapping_summary %>% select(g_district) %>% unique() %>% nrow()
+  total_blocks <-
+    scheme_mapping_summary %>% select(g_district, g_block) %>% unique() %>% nrow()
+  total_gps <-
+    scheme_mapping_summary %>% select(g_district, g_block, g_gp) %>% unique() %>% nrow
+  
+  total_districts_mapped <-
+    scheme_mapping_summary %>% select(g_district, district_mapped) %>% unique %>% filter(district_mapped ==
+                                                                                           "yes") %>% nrow()
+  total_blocks_mapped <-
+    scheme_mapping_summary %>% select(g_district, g_block, block_mapped) %>% unique() %>% filter(block_mapped ==
+                                                                                                   "yes") %>% nrow()
+  total_gps_mapped <-
+    scheme_mapping_summary %>% select(g_district, g_block, g_gp, gp_mapped) %>% unique() %>% filter(gp_mapped ==
+                                                                                                      "yes") %>% nrow()
+  
+  # bind rows in a dataframe
+
+  mapping_summary_table <- data.frame()
+  variables_to_include <- c("districts","blocks","gps")
+  for(i in 1:length(variables_to_include)){
+    var_type <- variables_to_include[[i]] %>% stringr::str_to_title()
+    var_total <-
+      ifelse(
+        var_type == "Districts",
+        total_districts,
+        ifelse(var_type == "Blocks", total_blocks, total_gps)
+      )
+    var_mapped <-
+      ifelse(
+        var_type == "Districts",
+        total_districts_mapped,
+        ifelse(var_type == "Blocks", total_blocks_mapped, total_gps_mapped)
+      )
+    var_df <-
+      data.frame('Type' = var_type,
+                 'Total' = var_total,
+                 'Mapped' = var_mapped)
+    var_df$MappingPercent <- round(var_df$Mapped / var_df$Total*100)
+    var_df$scheme <- ifelse(scheme_to_summarise == "mnrega-2018-19","MNREGA (2018-19)",ifelse(scheme_to_summarise == "mnrega-2019-20","MNREGA (2019-20)","PMAGY (2019-20)"))
+    mapping_summary_table <- bind_rows(mapping_summary_table ,var_df)
+  }
+  
+  return(mapping_summary_table)
+} 
+```
+
+```{r generate-summary-for-each-scheme}
+
+all_schemes_mapping_summary <- lapply(scheme_to_summarise, summarise_scheme_mapping)
+all_schemes_mapping_summary <- bind_rows(all_schemes_mapping_summary)
+
+```
+
+```{r display-results}
+bullet_green <- "<span style=\"color:green\">&#8226;</span>"
+bullet_red <- "<span style=\"color:red\">&#8226;</span>"
+
+all_schemes_mapping_summary_t <-
+  all_schemes_mapping_summary %>% gt(rowname_col = "Type", groupname_col = "scheme") %>% tab_header(title = "Scheme Geography Mapping Summary") %>% fmt_number(
+    columns = c("Total", "Mapped"),
+    use_seps = TRUE,
+    decimals = 0
+  ) %>% fmt_percent(columns = "MappingPercent",
+                    scale_values = FALSE,
+                    decimals = 0) %>% text_transform(
+  locations = cells_body(columns = Mapped,
+                         rows = Total == Mapped),
+  fn = function(x)
+    paste(x, bullet_green)
+) %>% text_transform(
+  locations = cells_body(columns = Mapped,
+                         rows = Mapped < Total),
+  fn = function(x)
+    paste(x, bullet_red)
+) %>%  tab_options(table.width = pct(80),table.align = "center",
+                   heading.background.color = "#F7EFB2",
+                 row_group.font.weight = "bold",
+                    column_labels.font.size = "small",
+                     table.border.top.color =  "#000",
+                 table.border.top.width = 2,
+                 table_body.border.bottom.color =  "#000",
+                 table_body.border.bottom.width = 2,
+    table.font.size = "small",
+    row_group.font.size = "small",
+    data_row.padding = px(3),
+      row_group.background.color = "#e8e8e4", row_group.border.bottom.color = "#8d99ae") %>%  tab_style(
+    style = cell_text(weight = "bold", font = google_font(name = "Roboto")),
+    locations = cells_body(columns = MappingPercent)
+  )
+
+
+all_schemes_mapping_summary_t
+```
+
+<br />
+
+---
+
+### Dataset Links
+
+Geography Mapping File -- [Link]()
+
+| Scheme | Year    | Mapping Summary | Raw Data File | Updated Data File  |
+|:------:| :-----: | :--------------:| :------------:| :----------------: |
+| MNREGA | 2018-19 | [Link]()        | [Link]()      | [Link]()           |
+| MNREGA | 2019-20 | [Link]()        | [Link]()      | [Link]()           |
+| PMAGY  | 2019-20 | [Link]()        | [Link]()      | [Link]()           |
+
+#### Dataset Descriptions
+
+1. **Mapping Summary** -- This file contains details on the mapping between district/block/gp in the geography file to scheme file. 
+2. **Raw Data File** -- This file contains information on the scheme level indicators in a CSV format.
+3. **Updated Data File** -- This file contains information on the geographies that were updated in the scheme file after matching them with geographic entities (district/block/gp) in the geography mapping file. 
+4. The **geography mapping file** is used for mapping GramPanchayats to Assembly and Parliamentary constituencies.
+
+
+---
+
+
+
