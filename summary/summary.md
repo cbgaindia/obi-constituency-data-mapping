@@ -1,6 +1,6 @@
 ### Results
 
-![results-summary](results=180521.png)
+![results-summary](results-180521.png)
 
 ---
 
