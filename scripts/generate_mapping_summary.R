@@ -7,7 +7,8 @@ source("scripts/libraries.R")
 
 geo_mapping <- readr::read_csv(file = "data/geography/updated/geo-odisha-updated.csv")
 # scheme_data <- readr::read_csv(file="data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv")
-scheme_data <- readr::read_csv(file="data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv")
+# scheme_data <- readr::read_csv(file="data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv")
+scheme_data <- readr::read_csv(file="data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv")
 
 # Export mapping results --------------------------------------------------
 
@@ -69,4 +70,5 @@ state_mapping_summary <-
     "g_pc"
   )]
 # readr::write_csv(state_mapping_summary, "data/results/mnrega-2019-20-geography-mapping-summary.csv")
-readr::write_csv(state_mapping_summary, "data/results/mnrega-2018-19-geography-mapping-summary.csv")
+# readr::write_csv(state_mapping_summary, "data/results/mnrega-2018-19-geography-mapping-summary.csv")
+readr::write_csv(state_mapping_summary, "data/results/pmagy-2019-20-geography-mapping-summary.csv")
