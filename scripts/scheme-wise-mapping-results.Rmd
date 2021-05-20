@@ -144,7 +144,6 @@ all_schemes_mapping_summary_t
 
 ### Dataset Links
 
-
 | Scheme | Year    | Mapping Summary | Raw Data File | Updated Data File  |
 |:------:| :-----: | :--------------:| :------------:| :----------------: |
 | MNREGA | 2018-19 | [Link](data/results/mnrega-2018-19-geography-mapping-summary.csv)        | [Link](data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA-Odisha-2018-19.csv)      | [Link](data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv)           |
