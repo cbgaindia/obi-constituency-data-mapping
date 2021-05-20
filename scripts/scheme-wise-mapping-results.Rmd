@@ -146,20 +146,20 @@ all_schemes_mapping_summary_t
 
 ### Dataset Links
 
-Geography Mapping File -- [Link]()
+Geography File for Odisha -- [Link](data/geography/updated/geo-odisha-updated.csv)
 
 | Scheme | Year    | Mapping Summary | Raw Data File | Updated Data File  |
 |:------:| :-----: | :--------------:| :------------:| :----------------: |
-| MNREGA | 2018-19 | [Link]()        | [Link]()      | [Link]()           |
-| MNREGA | 2019-20 | [Link]()        | [Link]()      | [Link]()           |
-| PMAGY  | 2019-20 | [Link]()        | [Link]()      | [Link]()           |
+| MNREGA | 2018-19 | [Link](data/results/mnrega-2018-19-geography-mapping-summary.csv)        | [Link](data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA-Odisha-2018-19.csv)      | [Link](data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv)           |
+| MNREGA | 2019-20 | [Link](data/results/mnrega-2019-20-geography-mapping-summary.csv)        | [Link](data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20.csv)      | [Link](https://github.com/cbgaindia/obi-constituency-data-mapping/blob/main/data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv)           |
+| PMAGY  | 2019-20 | [Link](data/results/pmagy-2019-20-geography-mapping-summary.csv)        | [Link](data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20.csv)      | [Link](data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv)           |
 
 #### Dataset Descriptions
 
-1. **Mapping Summary** -- This file contains details on the mapping between district/block/gp in the geography file to scheme file. 
+1. **Mapping Summary** -- To check which entities (district/block/village) from the Geography file were mapped to entities in the scheme file. 
 2. **Raw Data File** -- This file contains information on the scheme level indicators in a CSV format.
-3. **Updated Data File** -- This file contains information on the geographies that were updated in the scheme file after matching them with geographic entities (district/block/gp) in the geography mapping file. 
-4. The **geography mapping file** is used for mapping GramPanchayats to Assembly and Parliamentary constituencies.
+3. **Updated Data File** -- List of geographies that were updated in the scheme file after the mapping process between the two files.
+4. The **Geography File** contains the list of all Gram Panchayats present within an assembly and parliamentary constituency. The file was curated and shared by the CBGA team.
 
 
 ---
