@@ -146,12 +146,12 @@ all_schemes_mapping_summary_t
 
 | Scheme | Year    | Mapping Summary | Raw Data File | Updated Data File  |
 |:------:| :-----: | :--------------:| :------------:| :----------------: |
-| MNREGA | 2018-19 | [Link](data/results/mnrega-2018-19-geography-mapping-summary.csv)        | [Link](data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA-Odisha-2018-19.csv)      | [Link](data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv)           |
-| MNREGA | 2019-20 | [Link](data/results/mnrega-2019-20-geography-mapping-summary.csv)        | [Link](data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20.csv)      | [Link](https://github.com/cbgaindia/obi-constituency-data-mapping/blob/main/data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv)           |
-| PMAGY  | 2019-20 | [Link](data/results/pmagy-2019-20-geography-mapping-summary.csv)        | [Link](data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20.csv)      | [Link](data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv)           |
+| MNREGA | 2018-19 | [Link](../data/results/mnrega-2018-19-geography-mapping-summary.csv)        | [Link](../data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA-Odisha-2018-19.csv)      | [Link](../data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv)           |
+| MNREGA | 2019-20 | [Link](../data/results/mnrega-2019-20-geography-mapping-summary.csv)        | [Link](../data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20.csv)      | [Link](..//data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv)           |
+| PMAGY  | 2019-20 | [Link](../data/results/pmagy-2019-20-geography-mapping-summary.csv)        | [Link](../data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20.csv)      | [Link](../data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv)           |
 
 
-Geography File for Odisha -- [Link](data/geography/updated/geo-odisha-updated.csv)
+Geography File for Odisha -- [Link](../data/geography/updated/geo-odisha-updated.csv)
 
 <br />
 
