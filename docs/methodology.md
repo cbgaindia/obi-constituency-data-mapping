@@ -14,12 +14,15 @@ Verify the extent to which the geographic entities (District, Block, Gram Pancha
 2. MNREGA 2019-20
 3. PMAGY 2019-20
 
-### Process
+### Premise
 
 - CBGA team curated a mapping file that links all Gram Panchayats to an assembly and a parliamentary constituency in a state. 
 - The scheme indicators are downloaded from the scheme MIS dashboard for all Gram Panchayats in a state. 
 - Aggregate indicators for constituencies can be calculated by linking the two files using Gram Panchayat as the key
-- The process to verify the total GP's that match between the two files is listed below:
+
+### Process
+
+The process to verify the total GP's that match between the two files is listed below:
 
 1. Districts across both files are matched. If we find districts in the scheme file that are __not matching directly_ with the districts in the geography file, we do a [fuzzy join](https://github.com/dgrtwo/fuzzyjoin/blob/master/README.md) between the files using the [string distance approach](https://cran.r-project.org/web/packages/fuzzyjoin/vignettes/stringdist_join.html) and match all districts where we find a match within a **distance of 1**. 
 2. At this stage, it is possible that we could not find a match for all districts present in the scheme file. We ignore those entities. *This means that we wont be able to calculate the aggregate statistics for these entities*.
