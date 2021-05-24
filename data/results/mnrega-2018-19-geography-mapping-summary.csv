@@ -35,28 +35,28 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 34,baragarh,yes,paikmal,yes,palsada,yes,1,1 padampur,bargarh
 35,baragarh,yes,paikmal,yes,saraikela,yes,1,1 padampur,bargarh
 36,baragarh,yes,paikmal,yes,temeri,yes,1,1 padampur,bargarh
-37,baragarh,yes,rajborasmbar (padampur),yes,kansar,no,1,1 padampur,bargarh
-38,baragarh,yes,rajborasmbar (padampur),yes,kansingha,no,1,1 padampur,bargarh
-39,baragarh,yes,rajborasmbar (padampur),yes,khaliapali,no,1,1 padampur,bargarh
-40,baragarh,yes,rajborasmbar (padampur),yes,charpali,no,1,1 padampur,bargarh
-41,baragarh,yes,rajborasmbar (padampur),yes,jamartala,no,1,1 padampur,bargarh
-42,baragarh,yes,rajborasmbar (padampur),yes,jamala,no,1,1 padampur,bargarh
-43,baragarh,yes,rajborasmbar (padampur),yes,gyan,no,1,1 padampur,bargarh
-44,baragarh,yes,rajborasmbar (padampur),yes,tal,no,1,1 padampur,bargarh
-45,baragarh,yes,rajborasmbar (padampur),yes,dangaghat,no,1,1 padampur,bargarh
-46,baragarh,yes,rajborasmbar (padampur),yes,dahigaon,no,1,1 padampur,bargarh
-47,baragarh,yes,rajborasmbar (padampur),yes,dahita,no,1,1 padampur,bargarh
-48,baragarh,yes,rajborasmbar (padampur),yes,palsapali,no,1,1 padampur,bargarh
-49,baragarh,yes,rajborasmbar (padampur),yes,purena,no,1,1 padampur,bargarh
-50,baragarh,yes,rajborasmbar (padampur),yes,barikel,no,1,1 padampur,bargarh
-51,baragarh,yes,rajborasmbar (padampur),yes,barihapali,no,1,1 padampur,bargarh
-52,baragarh,yes,rajborasmbar (padampur),yes,budamal,no,1,1 padampur,bargarh
-53,baragarh,yes,rajborasmbar (padampur),yes,buden,no,1,1 padampur,bargarh
-54,baragarh,yes,rajborasmbar (padampur),yes,bheunria,no,1,1 padampur,bargarh
-55,baragarh,yes,rajborasmbar (padampur),yes,mahulpali,no,1,1 padampur,bargarh
-56,baragarh,yes,rajborasmbar (padampur),yes,melchhamunda,no,1,1 padampur,bargarh
-57,baragarh,yes,rajborasmbar (padampur),yes,sargibahal,no,1,1 padampur,bargarh
-58,baragarh,yes,rajborasmbar (padampur),yes,loharpali,no,1,1 padampur,bargarh
+37,baragarh,yes,rajborasmbar (padampur),yes,kansar,yes,1,1 padampur,bargarh
+38,baragarh,yes,rajborasmbar (padampur),yes,kansingha,yes,1,1 padampur,bargarh
+39,baragarh,yes,rajborasmbar (padampur),yes,khaliapali,yes,1,1 padampur,bargarh
+40,baragarh,yes,rajborasmbar (padampur),yes,charpali,yes,1,1 padampur,bargarh
+41,baragarh,yes,rajborasmbar (padampur),yes,jamartala,yes,1,1 padampur,bargarh
+42,baragarh,yes,rajborasmbar (padampur),yes,jamala,yes,1,1 padampur,bargarh
+43,baragarh,yes,rajborasmbar (padampur),yes,gyan,yes,1,1 padampur,bargarh
+44,baragarh,yes,rajborasmbar (padampur),yes,tal,yes,1,1 padampur,bargarh
+45,baragarh,yes,rajborasmbar (padampur),yes,dangaghat,yes,1,1 padampur,bargarh
+46,baragarh,yes,rajborasmbar (padampur),yes,dahigaon,yes,1,1 padampur,bargarh
+47,baragarh,yes,rajborasmbar (padampur),yes,dahita,yes,1,1 padampur,bargarh
+48,baragarh,yes,rajborasmbar (padampur),yes,palsapali,yes,1,1 padampur,bargarh
+49,baragarh,yes,rajborasmbar (padampur),yes,purena,yes,1,1 padampur,bargarh
+50,baragarh,yes,rajborasmbar (padampur),yes,barikel,yes,1,1 padampur,bargarh
+51,baragarh,yes,rajborasmbar (padampur),yes,barihapali,yes,1,1 padampur,bargarh
+52,baragarh,yes,rajborasmbar (padampur),yes,budamal,yes,1,1 padampur,bargarh
+53,baragarh,yes,rajborasmbar (padampur),yes,buden,yes,1,1 padampur,bargarh
+54,baragarh,yes,rajborasmbar (padampur),yes,bheunria,yes,1,1 padampur,bargarh
+55,baragarh,yes,rajborasmbar (padampur),yes,mahulpali,yes,1,1 padampur,bargarh
+56,baragarh,yes,rajborasmbar (padampur),yes,melchhamunda,yes,1,1 padampur,bargarh
+57,baragarh,yes,rajborasmbar (padampur),yes,sargibahal,yes,1,1 padampur,bargarh
+58,baragarh,yes,rajborasmbar (padampur),yes,loharpali,yes,1,1 padampur,bargarh
 59,baragarh,yes,gaisilet,yes,buromunda,yes,2,2 bijepur,bargarh
 60,baragarh,yes,gaisilet,yes,chantipali,yes,2,2 bijepur,bargarh
 61,baragarh,yes,gaisilet,yes,chikhili,yes,2,2 bijepur,bargarh
@@ -935,31 +935,31 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 934,sambalpur,yes,maneswar,yes,dhama,yes,18,18 rairakhol,sambalpur
 935,sambalpur,yes,maneswar,yes,huma,yes,18,18 rairakhol,sambalpur
 936,sambalpur,yes,maneswar,yes,sahaspur,yes,18,18 rairakhol,sambalpur
-937,keonjhar,yes,harichandpur,yes,badapalasapal,no,20,20 telkoi (st),keonjhar (st)
-938,keonjhar,yes,harichandpur,yes,bareigoda,no,20,20 telkoi (st),keonjhar (st)
-939,keonjhar,yes,harichandpur,yes,baxibarigaon,no,20,20 telkoi (st),keonjhar (st)
-940,keonjhar,yes,harichandpur,yes,bhagamunda,no,20,20 telkoi (st),keonjhar (st)
-941,keonjhar,yes,harichandpur,yes,bhanrapur,no,20,20 telkoi (st),keonjhar (st)
-942,keonjhar,yes,harichandpur,yes,budhakhaman,no,20,20 telkoi (st),keonjhar (st)
-943,keonjhar,yes,harichandpur,yes,daitari,no,20,20 telkoi (st),keonjhar (st)
-944,keonjhar,yes,harichandpur,yes,dhurudiambo,no,20,20 telkoi (st),keonjhar (st)
-945,keonjhar,yes,harichandpur,yes,gaunighasa,no,20,20 telkoi (st),keonjhar (st)
-946,keonjhar,yes,harichandpur,yes,harichandanpur,no,20,20 telkoi (st),keonjhar (st)
-947,keonjhar,yes,harichandpur,yes,hunda,no,20,20 telkoi (st),keonjhar (st)
-948,keonjhar,yes,harichandpur,yes,jamujodi,no,20,20 telkoi (st),keonjhar (st)
-949,keonjhar,yes,harichandpur,yes,janghira,no,20,20 telkoi (st),keonjhar (st)
-950,keonjhar,yes,harichandpur,yes,jiranga,no,20,20 telkoi (st),keonjhar (st)
-951,keonjhar,yes,harichandpur,yes,junga,no,20,20 telkoi (st),keonjhar (st)
-952,keonjhar,yes,harichandpur,yes,manoharpur,no,20,20 telkoi (st),keonjhar (st)
-953,keonjhar,yes,harichandpur,yes,pitapiti,no,20,20 telkoi (st),keonjhar (st)
-954,keonjhar,yes,harichandpur,yes,pithagola,no,20,20 telkoi (st),keonjhar (st)
-955,keonjhar,yes,harichandpur,yes,rasola,no,20,20 telkoi (st),keonjhar (st)
-956,keonjhar,yes,harichandpur,yes,rebanapalaspal,no,20,20 telkoi (st),keonjhar (st)
-957,keonjhar,yes,harichandpur,yes,sagadapata,no,20,20 telkoi (st),keonjhar (st)
-958,keonjhar,yes,harichandpur,yes,sunapentha,no,20,20 telkoi (st),keonjhar (st)
-959,keonjhar,yes,harichandpur,yes,tangiriapal,no,20,20 telkoi (st),keonjhar (st)
-960,keonjhar,yes,harichandpur,yes,tentalaposi,no,20,20 telkoi (st),keonjhar (st)
-961,keonjhar,yes,harichandpur,yes,thakurapada,no,20,20 telkoi (st),keonjhar (st)
+937,keonjhar,yes,harichandpur,yes,badapalasapal,yes,20,20 telkoi (st),keonjhar (st)
+938,keonjhar,yes,harichandpur,yes,bareigoda,yes,20,20 telkoi (st),keonjhar (st)
+939,keonjhar,yes,harichandpur,yes,baxibarigaon,yes,20,20 telkoi (st),keonjhar (st)
+940,keonjhar,yes,harichandpur,yes,bhagamunda,yes,20,20 telkoi (st),keonjhar (st)
+941,keonjhar,yes,harichandpur,yes,bhanrapur,yes,20,20 telkoi (st),keonjhar (st)
+942,keonjhar,yes,harichandpur,yes,budhakhaman,yes,20,20 telkoi (st),keonjhar (st)
+943,keonjhar,yes,harichandpur,yes,daitari,yes,20,20 telkoi (st),keonjhar (st)
+944,keonjhar,yes,harichandpur,yes,dhurudiambo,yes,20,20 telkoi (st),keonjhar (st)
+945,keonjhar,yes,harichandpur,yes,gaunighasa,yes,20,20 telkoi (st),keonjhar (st)
+946,keonjhar,yes,harichandpur,yes,harichandanpur,yes,20,20 telkoi (st),keonjhar (st)
+947,keonjhar,yes,harichandpur,yes,hunda,yes,20,20 telkoi (st),keonjhar (st)
+948,keonjhar,yes,harichandpur,yes,jamujodi,yes,20,20 telkoi (st),keonjhar (st)
+949,keonjhar,yes,harichandpur,yes,janghira,yes,20,20 telkoi (st),keonjhar (st)
+950,keonjhar,yes,harichandpur,yes,jiranga,yes,20,20 telkoi (st),keonjhar (st)
+951,keonjhar,yes,harichandpur,yes,junga,yes,20,20 telkoi (st),keonjhar (st)
+952,keonjhar,yes,harichandpur,yes,manoharpur,yes,20,20 telkoi (st),keonjhar (st)
+953,keonjhar,yes,harichandpur,yes,pitapiti,yes,20,20 telkoi (st),keonjhar (st)
+954,keonjhar,yes,harichandpur,yes,pithagola,yes,20,20 telkoi (st),keonjhar (st)
+955,keonjhar,yes,harichandpur,yes,rasola,yes,20,20 telkoi (st),keonjhar (st)
+956,keonjhar,yes,harichandpur,yes,rebanapalaspal,yes,20,20 telkoi (st),keonjhar (st)
+957,keonjhar,yes,harichandpur,yes,sagadapata,yes,20,20 telkoi (st),keonjhar (st)
+958,keonjhar,yes,harichandpur,yes,sunapentha,yes,20,20 telkoi (st),keonjhar (st)
+959,keonjhar,yes,harichandpur,yes,tangiriapal,yes,20,20 telkoi (st),keonjhar (st)
+960,keonjhar,yes,harichandpur,yes,tentalaposi,yes,20,20 telkoi (st),keonjhar (st)
+961,keonjhar,yes,harichandpur,yes,thakurapada,yes,20,20 telkoi (st),keonjhar (st)
 962,keonjhar,yes,telkol,yes,akula,yes,20,20 telkoi (st),keonjhar (st)
 963,keonjhar,yes,telkol,yes,balabhadrapur,yes,20,20 telkoi (st),keonjhar (st)
 964,keonjhar,yes,telkol,yes,bhimkand,yes,20,20 telkoi (st),keonjhar (st)
@@ -1172,31 +1172,31 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 1171,keonjhar,yes,banspal,yes,suakati,yes,24,24 keonjhar (st),keonjhar (st)
 1172,keonjhar,yes,banspal,yes,talachampei,yes,24,24 keonjhar (st),keonjhar (st)
 1173,keonjhar,yes,banspal,yes,talakainsari,yes,24,24 keonjhar (st),keonjhar (st)
-1174,keonjhar,yes,keonjhar,yes,baradapal,no,24,24 keonjhar (st),keonjhar (st)
-1175,keonjhar,yes,keonjhar,yes,bauripada,no,24,24 keonjhar (st),keonjhar (st)
-1176,keonjhar,yes,keonjhar,yes,bodapalsa,no,24,24 keonjhar (st),keonjhar (st)
-1177,keonjhar,yes,keonjhar,yes,dimbo,no,24,24 keonjhar (st),keonjhar (st)
-1178,keonjhar,yes,keonjhar,yes,gobardhan,no,24,24 keonjhar (st),keonjhar (st)
-1179,keonjhar,yes,keonjhar,yes,gopinathpur,no,24,24 keonjhar (st),keonjhar (st)
-1180,keonjhar,yes,keonjhar,yes,handibhanga,no,24,24 keonjhar (st),keonjhar (st)
-1181,keonjhar,yes,keonjhar,yes,janardan pur,no,24,24 keonjhar (st),keonjhar (st)
-1182,keonjhar,yes,keonjhar,yes,kandrapasi,no,24,24 keonjhar (st),keonjhar (st)
-1183,keonjhar,yes,keonjhar,yes,kathabari,no,24,24 keonjhar (st),keonjhar (st)
-1184,keonjhar,yes,keonjhar,yes,kaunrikala,no,24,24 keonjhar (st),keonjhar (st)
-1185,keonjhar,yes,keonjhar,yes,mahadeijoda,no,24,24 keonjhar (st),keonjhar (st)
-1186,keonjhar,yes,keonjhar,yes,maidankel,no,24,24 keonjhar (st),keonjhar (st)
-1187,keonjhar,yes,keonjhar,yes,mandua,no,24,24 keonjhar (st),keonjhar (st)
-1188,keonjhar,yes,keonjhar,yes,naranpur,no,24,24 keonjhar (st),keonjhar (st)
-1189,keonjhar,yes,keonjhar,yes,nelung,no,24,24 keonjhar (st),keonjhar (st)
-1190,keonjhar,yes,keonjhar,yes,nuagaon,no,24,24 keonjhar (st),keonjhar (st)
-1191,keonjhar,yes,keonjhar,yes,padmapur,no,24,24 keonjhar (st),keonjhar (st)
-1192,keonjhar,yes,keonjhar,yes,palaspanga,no,24,24 keonjhar (st),keonjhar (st)
-1193,keonjhar,yes,keonjhar,yes,parjanpur,no,24,24 keonjhar (st),keonjhar (st)
-1194,keonjhar,yes,keonjhar,yes,raghunathpur,no,24,24 keonjhar (st),keonjhar (st)
-1195,keonjhar,yes,keonjhar,yes,raikala,no,24,24 keonjhar (st),keonjhar (st)
-1196,keonjhar,yes,keonjhar,yes,raisuan,no,24,24 keonjhar (st),keonjhar (st)
-1197,keonjhar,yes,keonjhar,yes,shankiri,no,24,24 keonjhar (st),keonjhar (st)
-1198,keonjhar,yes,keonjhar,yes,sirispal,no,24,24 keonjhar (st),keonjhar (st)
+1174,keonjhar,yes,keonjhar,yes,baradapal,yes,24,24 keonjhar (st),keonjhar (st)
+1175,keonjhar,yes,keonjhar,yes,bauripada,yes,24,24 keonjhar (st),keonjhar (st)
+1176,keonjhar,yes,keonjhar,yes,bodapalsa,yes,24,24 keonjhar (st),keonjhar (st)
+1177,keonjhar,yes,keonjhar,yes,dimbo,yes,24,24 keonjhar (st),keonjhar (st)
+1178,keonjhar,yes,keonjhar,yes,gobardhan,yes,24,24 keonjhar (st),keonjhar (st)
+1179,keonjhar,yes,keonjhar,yes,gopinathpur,yes,24,24 keonjhar (st),keonjhar (st)
+1180,keonjhar,yes,keonjhar,yes,handibhanga,yes,24,24 keonjhar (st),keonjhar (st)
+1181,keonjhar,yes,keonjhar,yes,janardan pur,yes,24,24 keonjhar (st),keonjhar (st)
+1182,keonjhar,yes,keonjhar,yes,kandrapasi,yes,24,24 keonjhar (st),keonjhar (st)
+1183,keonjhar,yes,keonjhar,yes,kathabari,yes,24,24 keonjhar (st),keonjhar (st)
+1184,keonjhar,yes,keonjhar,yes,kaunrikala,yes,24,24 keonjhar (st),keonjhar (st)
+1185,keonjhar,yes,keonjhar,yes,mahadeijoda,yes,24,24 keonjhar (st),keonjhar (st)
+1186,keonjhar,yes,keonjhar,yes,maidankel,yes,24,24 keonjhar (st),keonjhar (st)
+1187,keonjhar,yes,keonjhar,yes,mandua,yes,24,24 keonjhar (st),keonjhar (st)
+1188,keonjhar,yes,keonjhar,yes,naranpur,yes,24,24 keonjhar (st),keonjhar (st)
+1189,keonjhar,yes,keonjhar,yes,nelung,yes,24,24 keonjhar (st),keonjhar (st)
+1190,keonjhar,yes,keonjhar,yes,nuagaon,yes,24,24 keonjhar (st),keonjhar (st)
+1191,keonjhar,yes,keonjhar,yes,padmapur,yes,24,24 keonjhar (st),keonjhar (st)
+1192,keonjhar,yes,keonjhar,yes,palaspanga,yes,24,24 keonjhar (st),keonjhar (st)
+1193,keonjhar,yes,keonjhar,yes,parjanpur,yes,24,24 keonjhar (st),keonjhar (st)
+1194,keonjhar,yes,keonjhar,yes,raghunathpur,yes,24,24 keonjhar (st),keonjhar (st)
+1195,keonjhar,yes,keonjhar,yes,raikala,yes,24,24 keonjhar (st),keonjhar (st)
+1196,keonjhar,yes,keonjhar,yes,raisuan,yes,24,24 keonjhar (st),keonjhar (st)
+1197,keonjhar,yes,keonjhar,yes,shankiri,yes,24,24 keonjhar (st),keonjhar (st)
+1198,keonjhar,yes,keonjhar,yes,sirispal,yes,24,24 keonjhar (st),keonjhar (st)
 1199,keonjhar,yes,joda,yes,ansheikala,yes,25,25 champua,keonjhar (st)
 1200,keonjhar,yes,joda,yes,badakalimati,yes,25,25 champua,keonjhar (st)
 1201,keonjhar,yes,joda,yes,balada,yes,25,25 champua,keonjhar (st)
@@ -1556,22 +1556,22 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 1555,mayurbhanj,yes,suliapada,yes,nuagaon,yes,34,34 morada,mayurbhanj (st)
 1556,mayurbhanj,yes,suliapada,yes,paktia,yes,34,34 morada,mayurbhanj (st)
 1557,mayurbhanj,yes,suliapada,yes,ufalgadia,yes,34,34 morada,mayurbhanj (st)
-1558,mayurbhanj,yes,rasagobindapur,yes,amarda,no,34,34 morada,mayurbhanj (st)
-1559,mayurbhanj,yes,rasagobindapur,yes,badampur,no,34,34 morada,mayurbhanj (st)
-1560,mayurbhanj,yes,rasagobindapur,yes,bhaduasole,no,34,34 morada,mayurbhanj (st)
-1561,mayurbhanj,yes,rasagobindapur,yes,chhatna,no,34,34 morada,mayurbhanj (st)
-1562,mayurbhanj,yes,rasagobindapur,yes,debasole,no,34,34 morada,mayurbhanj (st)
-1563,mayurbhanj,yes,rasagobindapur,yes,gadighaty,no,34,34 morada,mayurbhanj (st)
-1564,mayurbhanj,yes,rasagobindapur,yes,jhatiada,no,34,34 morada,mayurbhanj (st)
-1565,mayurbhanj,yes,rasagobindapur,yes,kamardiha,no,34,34 morada,mayurbhanj (st)
-1566,mayurbhanj,yes,rasagobindapur,yes,khuntapal,no,34,34 morada,mayurbhanj (st)
-1567,mayurbhanj,yes,rasagobindapur,yes,nakichua,no,34,34 morada,mayurbhanj (st)
-1568,mayurbhanj,yes,rasagobindapur,yes,nalagaza,no,34,34 morada,mayurbhanj (st)
-1569,mayurbhanj,yes,rasagobindapur,yes,raghabpur,no,34,34 morada,mayurbhanj (st)
-1570,mayurbhanj,yes,rasagobindapur,yes,rasgovindpur,no,34,34 morada,mayurbhanj (st)
-1571,mayurbhanj,yes,rasagobindapur,yes,sanamanida,no,34,34 morada,mayurbhanj (st)
-1572,mayurbhanj,yes,rasagobindapur,yes,sarumula,no,34,34 morada,mayurbhanj (st)
-1573,mayurbhanj,yes,rasagobindapur,yes,totapada,no,34,34 morada,mayurbhanj (st)
+1558,mayurbhanj,yes,rasagobindapur,yes,amarda,yes,34,34 morada,mayurbhanj (st)
+1559,mayurbhanj,yes,rasagobindapur,yes,badampur,yes,34,34 morada,mayurbhanj (st)
+1560,mayurbhanj,yes,rasagobindapur,yes,bhaduasole,yes,34,34 morada,mayurbhanj (st)
+1561,mayurbhanj,yes,rasagobindapur,yes,chhatna,yes,34,34 morada,mayurbhanj (st)
+1562,mayurbhanj,yes,rasagobindapur,yes,debasole,yes,34,34 morada,mayurbhanj (st)
+1563,mayurbhanj,yes,rasagobindapur,yes,gadighaty,yes,34,34 morada,mayurbhanj (st)
+1564,mayurbhanj,yes,rasagobindapur,yes,jhatiada,yes,34,34 morada,mayurbhanj (st)
+1565,mayurbhanj,yes,rasagobindapur,yes,kamardiha,yes,34,34 morada,mayurbhanj (st)
+1566,mayurbhanj,yes,rasagobindapur,yes,khuntapal,yes,34,34 morada,mayurbhanj (st)
+1567,mayurbhanj,yes,rasagobindapur,yes,nakichua,yes,34,34 morada,mayurbhanj (st)
+1568,mayurbhanj,yes,rasagobindapur,yes,nalagaza,yes,34,34 morada,mayurbhanj (st)
+1569,mayurbhanj,yes,rasagobindapur,yes,raghabpur,yes,34,34 morada,mayurbhanj (st)
+1570,mayurbhanj,yes,rasagobindapur,yes,rasgovindpur,yes,34,34 morada,mayurbhanj (st)
+1571,mayurbhanj,yes,rasagobindapur,yes,sanamanida,yes,34,34 morada,mayurbhanj (st)
+1572,mayurbhanj,yes,rasagobindapur,yes,sarumula,yes,34,34 morada,mayurbhanj (st)
+1573,mayurbhanj,yes,rasagobindapur,yes,totapada,yes,34,34 morada,mayurbhanj (st)
 1574,mayurbhanj,yes,morada,yes,barkand,yes,34,34 morada,mayurbhanj (st)
 1575,mayurbhanj,yes,morada,yes,bhaliadiha,yes,34,34 morada,mayurbhanj (st)
 1576,mayurbhanj,yes,morada,yes,chadheigan,yes,34,34 morada,mayurbhanj (st)
@@ -1736,30 +1736,30 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 1735,balasore,yes,basta,yes,basuchakurai,yes,37,37 basta,balasore
 1736,balasore,yes,basta,yes,kainagari,yes,37,37 basta,balasore
 1737,balasore,yes,basta,yes,patrajhada,no,37,37 basta,balasore
-1738,balasore,yes,balasore,yes,kasipada,no,38,38 balasore,balasore
-1739,balasore,yes,balasore,yes,bahabalpur,no,38,38 balasore,balasore
-1740,balasore,yes,balasore,yes,buanl,no,38,38 balasore,balasore
-1741,balasore,yes,balasore,yes,chhanua,no,38,38 balasore,balasore
-1742,balasore,yes,balasore,yes,haldipada,no,38,38 balasore,balasore
-1743,balasore,yes,balasore,yes,kasafal,no,38,38 balasore,balasore
-1744,balasore,yes,balasore,yes,nagram,no,38,38 balasore,balasore
-1745,balasore,yes,balasore,yes,odangi,no,38,38 balasore,balasore
-1746,balasore,yes,balasore,yes,olanda sargan,no,38,38 balasore,balasore
+1738,balasore,yes,balasore,yes,kasipada,yes,38,38 balasore,balasore
+1739,balasore,yes,balasore,yes,bahabalpur,yes,38,38 balasore,balasore
+1740,balasore,yes,balasore,yes,buanl,yes,38,38 balasore,balasore
+1741,balasore,yes,balasore,yes,chhanua,yes,38,38 balasore,balasore
+1742,balasore,yes,balasore,yes,haldipada,yes,38,38 balasore,balasore
+1743,balasore,yes,balasore,yes,kasafal,yes,38,38 balasore,balasore
+1744,balasore,yes,balasore,yes,nagram,yes,38,38 balasore,balasore
+1745,balasore,yes,balasore,yes,odangi,yes,38,38 balasore,balasore
+1746,balasore,yes,balasore,yes,olanda sargan,yes,38,38 balasore,balasore
 1747,balasore,yes,balasore,yes,rasalpur,no,38,38 balasore,balasore
-1748,balasore,yes,balasore,yes,raisuan,no,38,38 balasore,balasore
-1749,balasore,yes,balasore,yes,sartha,no,38,38 balasore,balasore
-1750,balasore,yes,balasore,yes,sindhia,no,38,38 balasore,balasore
-1751,balasore,yes,balasore,yes,srirampur,no,38,38 balasore,balasore
-1752,balasore,yes,balasore,yes,alumeda,no,38,38 balasore,balasore
-1753,balasore,yes,balasore,yes,anko,no,38,38 balasore,balasore
-1754,balasore,yes,balasore,yes,baincha,no,38,38 balasore,balasore
-1755,balasore,yes,balasore,yes,dubulagadi,no,38,38 balasore,balasore
-1756,balasore,yes,balasore,yes,rupsa samil hasanpur,no,38,38 balasore,balasore
-1757,balasore,yes,balasore,yes,gopinathpur,no,38,38 balasore,balasore
-1758,balasore,yes,balasore,yes,kuradiha,no,38,38 balasore,balasore
-1759,balasore,yes,balasore,yes,parikhi,no,38,38 balasore,balasore
-1760,balasore,yes,balasore,yes,patrapada,no,38,38 balasore,balasore
-1761,balasore,yes,balasore,yes,srikona,no,38,38 balasore,balasore
+1748,balasore,yes,balasore,yes,raisuan,yes,38,38 balasore,balasore
+1749,balasore,yes,balasore,yes,sartha,yes,38,38 balasore,balasore
+1750,balasore,yes,balasore,yes,sindhia,yes,38,38 balasore,balasore
+1751,balasore,yes,balasore,yes,srirampur,yes,38,38 balasore,balasore
+1752,balasore,yes,balasore,yes,alumeda,yes,38,38 balasore,balasore
+1753,balasore,yes,balasore,yes,anko,yes,38,38 balasore,balasore
+1754,balasore,yes,balasore,yes,baincha,yes,38,38 balasore,balasore
+1755,balasore,yes,balasore,yes,dubulagadi,yes,38,38 balasore,balasore
+1756,balasore,yes,balasore,yes,rupsa samil hasanpur,yes,38,38 balasore,balasore
+1757,balasore,yes,balasore,yes,gopinathpur,yes,38,38 balasore,balasore
+1758,balasore,yes,balasore,yes,kuradiha,yes,38,38 balasore,balasore
+1759,balasore,yes,balasore,yes,parikhi,yes,38,38 balasore,balasore
+1760,balasore,yes,balasore,yes,patrapada,yes,38,38 balasore,balasore
+1761,balasore,yes,balasore,yes,srikona,yes,38,38 balasore,balasore
 1762,balasore,yes,remuna,yes,badapal,yes,39,39 remuna (sc),balasore
 1763,balasore,yes,remuna,yes,balia,yes,39,39 remuna (sc),balasore
 1764,balasore,yes,remuna,yes,barunsing,yes,39,39 remuna (sc),balasore
@@ -1796,19 +1796,19 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 1795,balasore,yes,remuna,yes,talapada,yes,39,39 remuna (sc),balasore
 1796,balasore,yes,remuna,yes,tentulida,yes,39,39 remuna (sc),balasore
 1797,balasore,yes,remuna,yes,tundura,yes,39,39 remuna (sc),balasore
-1798,balasore,yes,balasore,yes,ransahi,no,39,39 remuna (sc),balasore
-1799,balasore,yes,balasore,yes,genguti,no,39,39 remuna (sc),balasore
-1800,balasore,yes,balasore,yes,gudu,no,39,39 remuna (sc),balasore
-1801,balasore,yes,balasore,yes,hidigan,no,39,39 remuna (sc),balasore
-1802,balasore,yes,balasore,yes,jayadeba kasaba,no,39,39 remuna (sc),balasore
-1803,balasore,yes,balasore,yes,bardhanpur,no,39,39 remuna (sc),balasore
-1804,balasore,yes,balasore,yes,chandipur,no,39,39 remuna (sc),balasore
-1805,balasore,yes,balasore,yes,khannagar,no,39,39 remuna (sc),balasore
-1806,balasore,yes,balasore,yes,panchupada,no,39,39 remuna (sc),balasore
-1807,balasore,yes,balasore,yes,padmapur,no,39,39 remuna (sc),balasore
+1798,balasore,yes,balasore,yes,ransahi,yes,39,39 remuna (sc),balasore
+1799,balasore,yes,balasore,yes,genguti,yes,39,39 remuna (sc),balasore
+1800,balasore,yes,balasore,yes,gudu,yes,39,39 remuna (sc),balasore
+1801,balasore,yes,balasore,yes,hidigan,yes,39,39 remuna (sc),balasore
+1802,balasore,yes,balasore,yes,jayadeba kasaba,yes,39,39 remuna (sc),balasore
+1803,balasore,yes,balasore,yes,bardhanpur,yes,39,39 remuna (sc),balasore
+1804,balasore,yes,balasore,yes,chandipur,yes,39,39 remuna (sc),balasore
+1805,balasore,yes,balasore,yes,khannagar,yes,39,39 remuna (sc),balasore
+1806,balasore,yes,balasore,yes,panchupada,yes,39,39 remuna (sc),balasore
+1807,balasore,yes,balasore,yes,padmapur,yes,39,39 remuna (sc),balasore
 1808,balasore,yes,balasore,yes,rasalpur,no,39,39 remuna (sc),balasore
-1809,balasore,yes,balasore,yes,sargan,no,39,39 remuna (sc),balasore
-1810,balasore,yes,balasore,yes,sasang,no,39,39 remuna (sc),balasore
+1809,balasore,yes,balasore,yes,sargan,yes,39,39 remuna (sc),balasore
+1810,balasore,yes,balasore,yes,sasang,yes,39,39 remuna (sc),balasore
 1811,balasore,yes,nilgiri,yes,ajodhya,yes,40,40 nilgiri,balasore
 1812,balasore,yes,nilgiri,yes,arabandha,yes,40,40 nilgiri,balasore
 1813,balasore,yes,nilgiri,yes,begunia,yes,40,40 nilgiri,balasore
@@ -2310,49 +2310,49 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 2309,jajpur,yes,bari,yes,serapur,yes,49,49 bari,jajpur (sc)
 2310,jajpur,yes,bari,yes,swainkhanda,yes,49,49 bari,jajpur (sc)
 2311,jajpur,yes,bari,yes,udayanathpur,yes,49,49 bari,jajpur (sc)
-2312,jajpur,yes,barachana,yes,achyutibasanta,no,50,50 barachana,jajpur (sc)
-2313,jajpur,yes,barachana,yes,anaka,no,50,50 barachana,jajpur (sc)
-2314,jajpur,yes,barachana,yes,arakhpur,no,50,50 barachana,jajpur (sc)
-2315,jajpur,yes,barachana,yes,badabalikuda,no,50,50 barachana,jajpur (sc)
-2316,jajpur,yes,barachana,yes,badaghumuri,no,50,50 barachana,jajpur (sc)
-2317,jajpur,yes,barachana,yes,balichandrapur,no,50,50 barachana,jajpur (sc)
-2318,jajpur,yes,barachana,yes,balipadia,no,50,50 barachana,jajpur (sc)
-2319,jajpur,yes,barachana,yes,bandalo,no,50,50 barachana,jajpur (sc)
-2320,jajpur,yes,barachana,yes,bantala,no,50,50 barachana,jajpur (sc)
+2312,jajpur,yes,barachana,yes,achyutibasanta,yes,50,50 barachana,jajpur (sc)
+2313,jajpur,yes,barachana,yes,anaka,yes,50,50 barachana,jajpur (sc)
+2314,jajpur,yes,barachana,yes,arakhpur,yes,50,50 barachana,jajpur (sc)
+2315,jajpur,yes,barachana,yes,badabalikuda,yes,50,50 barachana,jajpur (sc)
+2316,jajpur,yes,barachana,yes,badaghumuri,yes,50,50 barachana,jajpur (sc)
+2317,jajpur,yes,barachana,yes,balichandrapur,yes,50,50 barachana,jajpur (sc)
+2318,jajpur,yes,barachana,yes,balipadia,yes,50,50 barachana,jajpur (sc)
+2319,jajpur,yes,barachana,yes,bandalo,yes,50,50 barachana,jajpur (sc)
+2320,jajpur,yes,barachana,yes,bantala,yes,50,50 barachana,jajpur (sc)
 2321,jajpur,yes,barachana,yes,barada,no,50,50 barachana,jajpur (sc)
-2322,jajpur,yes,barachana,yes,barchana,no,50,50 barachana,jajpur (sc)
+2322,jajpur,yes,barachana,yes,barchana,yes,50,50 barachana,jajpur (sc)
 2323,jajpur,yes,barachana,yes,barpada,no,50,50 barachana,jajpur (sc)
-2324,jajpur,yes,barachana,yes,bharatpur,no,50,50 barachana,jajpur (sc)
-2325,jajpur,yes,barachana,yes,bhusandapur,no,50,50 barachana,jajpur (sc)
-2326,jajpur,yes,barachana,yes,bikramtiran,no,50,50 barachana,jajpur (sc)
-2327,jajpur,yes,barachana,yes,byree,no,50,50 barachana,jajpur (sc)
-2328,jajpur,yes,barachana,yes,champapur,no,50,50 barachana,jajpur (sc)
-2329,jajpur,yes,barachana,yes,chandital,no,50,50 barachana,jajpur (sc)
-2330,jajpur,yes,barachana,yes,charinangal,no,50,50 barachana,jajpur (sc)
-2331,jajpur,yes,barachana,yes,chhatia,no,50,50 barachana,jajpur (sc)
-2332,jajpur,yes,barachana,yes,darpan,no,50,50 barachana,jajpur (sc)
-2333,jajpur,yes,barachana,yes,dhanmandal,no,50,50 barachana,jajpur (sc)
-2334,jajpur,yes,barachana,yes,gopalpur,no,50,50 barachana,jajpur (sc)
-2335,jajpur,yes,barachana,yes,kaimatia,no,50,50 barachana,jajpur (sc)
-2336,jajpur,yes,barachana,yes,khaira,no,50,50 barachana,jajpur (sc)
-2337,jajpur,yes,barachana,yes,kolanagiri,no,50,50 barachana,jajpur (sc)
-2338,jajpur,yes,barachana,yes,kundalo,no,50,50 barachana,jajpur (sc)
-2339,jajpur,yes,barachana,yes,majhipada,no,50,50 barachana,jajpur (sc)
-2340,jajpur,yes,barachana,yes,manduka,no,50,50 barachana,jajpur (sc)
-2341,jajpur,yes,barachana,yes,nalipur,no,50,50 barachana,jajpur (sc)
-2342,jajpur,yes,barachana,yes,nelia,no,50,50 barachana,jajpur (sc)
-2343,jajpur,yes,barachana,yes,palei,no,50,50 barachana,jajpur (sc)
-2344,jajpur,yes,barachana,yes,paria,no,50,50 barachana,jajpur (sc)
-2345,jajpur,yes,barachana,yes,patarajpur,no,50,50 barachana,jajpur (sc)
-2346,jajpur,yes,barachana,yes,radhadeipur,no,50,50 barachana,jajpur (sc)
-2347,jajpur,yes,barachana,yes,raipur,no,50,50 barachana,jajpur (sc)
-2348,jajpur,yes,barachana,yes,salapada,no,50,50 barachana,jajpur (sc)
-2349,jajpur,yes,barachana,yes,samia,no,50,50 barachana,jajpur (sc)
-2350,jajpur,yes,barachana,yes,santipur,no,50,50 barachana,jajpur (sc)
-2351,jajpur,yes,barachana,yes,saudia,no,50,50 barachana,jajpur (sc)
-2352,jajpur,yes,barachana,yes,siha,no,50,50 barachana,jajpur (sc)
-2353,jajpur,yes,barachana,yes,solar,no,50,50 barachana,jajpur (sc)
-2354,jajpur,yes,barachana,yes,sunguda,no,50,50 barachana,jajpur (sc)
+2324,jajpur,yes,barachana,yes,bharatpur,yes,50,50 barachana,jajpur (sc)
+2325,jajpur,yes,barachana,yes,bhusandapur,yes,50,50 barachana,jajpur (sc)
+2326,jajpur,yes,barachana,yes,bikramtiran,yes,50,50 barachana,jajpur (sc)
+2327,jajpur,yes,barachana,yes,byree,yes,50,50 barachana,jajpur (sc)
+2328,jajpur,yes,barachana,yes,champapur,yes,50,50 barachana,jajpur (sc)
+2329,jajpur,yes,barachana,yes,chandital,yes,50,50 barachana,jajpur (sc)
+2330,jajpur,yes,barachana,yes,charinangal,yes,50,50 barachana,jajpur (sc)
+2331,jajpur,yes,barachana,yes,chhatia,yes,50,50 barachana,jajpur (sc)
+2332,jajpur,yes,barachana,yes,darpan,yes,50,50 barachana,jajpur (sc)
+2333,jajpur,yes,barachana,yes,dhanmandal,yes,50,50 barachana,jajpur (sc)
+2334,jajpur,yes,barachana,yes,gopalpur,yes,50,50 barachana,jajpur (sc)
+2335,jajpur,yes,barachana,yes,kaimatia,yes,50,50 barachana,jajpur (sc)
+2336,jajpur,yes,barachana,yes,khaira,yes,50,50 barachana,jajpur (sc)
+2337,jajpur,yes,barachana,yes,kolanagiri,yes,50,50 barachana,jajpur (sc)
+2338,jajpur,yes,barachana,yes,kundalo,yes,50,50 barachana,jajpur (sc)
+2339,jajpur,yes,barachana,yes,majhipada,yes,50,50 barachana,jajpur (sc)
+2340,jajpur,yes,barachana,yes,manduka,yes,50,50 barachana,jajpur (sc)
+2341,jajpur,yes,barachana,yes,nalipur,yes,50,50 barachana,jajpur (sc)
+2342,jajpur,yes,barachana,yes,nelia,yes,50,50 barachana,jajpur (sc)
+2343,jajpur,yes,barachana,yes,palei,yes,50,50 barachana,jajpur (sc)
+2344,jajpur,yes,barachana,yes,paria,yes,50,50 barachana,jajpur (sc)
+2345,jajpur,yes,barachana,yes,patarajpur,yes,50,50 barachana,jajpur (sc)
+2346,jajpur,yes,barachana,yes,radhadeipur,yes,50,50 barachana,jajpur (sc)
+2347,jajpur,yes,barachana,yes,raipur,yes,50,50 barachana,jajpur (sc)
+2348,jajpur,yes,barachana,yes,salapada,yes,50,50 barachana,jajpur (sc)
+2349,jajpur,yes,barachana,yes,samia,yes,50,50 barachana,jajpur (sc)
+2350,jajpur,yes,barachana,yes,santipur,yes,50,50 barachana,jajpur (sc)
+2351,jajpur,yes,barachana,yes,saudia,yes,50,50 barachana,jajpur (sc)
+2352,jajpur,yes,barachana,yes,siha,yes,50,50 barachana,jajpur (sc)
+2353,jajpur,yes,barachana,yes,solar,yes,50,50 barachana,jajpur (sc)
+2354,jajpur,yes,barachana,yes,sunguda,yes,50,50 barachana,jajpur (sc)
 2355,jajpur,yes,dharmasala,yes,abhayapur,yes,51,51 dharmasala,jajpur (sc)
 2356,jajpur,yes,dharmasala,yes,anjira,yes,51,51 dharmasala,jajpur (sc)
 2357,jajpur,yes,dharmasala,yes,antia,yes,51,51 dharmasala,jajpur (sc)
@@ -2530,33 +2530,33 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 2529,jajpur,yes,danagadi,yes,salijanga,yes,54,54 sukinda,jajpur (sc)
 2530,jajpur,yes,danagadi,yes,trijanga,yes,54,54 sukinda,jajpur (sc)
 2531,jajpur,yes,danagadi,yes,uchabali,yes,54,54 sukinda,jajpur (sc)
-2532,anugul,yes,pallahara,yes,allori,no,59,59 pallahara,dhenkanal
-2533,anugul,yes,pallahara,yes,badasada,no,59,59 pallahara,dhenkanal
-2534,anugul,yes,pallahara,yes,balipasi,no,59,59 pallahara,dhenkanal
-2535,anugul,yes,pallahara,yes,bandhabhuin,no,59,59 pallahara,dhenkanal
-2536,anugul,yes,pallahara,yes,baradiha,no,59,59 pallahara,dhenkanal
-2537,anugul,yes,pallahara,yes,batisuan,no,59,59 pallahara,dhenkanal
-2538,anugul,yes,pallahara,yes,chasagurujang,no,59,59 pallahara,dhenkanal
-2539,anugul,yes,pallahara,yes,dimiria,no,59,59 pallahara,dhenkanal
-2540,anugul,yes,pallahara,yes,injidi,no,59,59 pallahara,dhenkanal
-2541,anugul,yes,pallahara,yes,iswarnagar,no,59,59 pallahara,dhenkanal
-2542,anugul,yes,pallahara,yes,jharabeda,no,59,59 pallahara,dhenkanal
-2543,anugul,yes,pallahara,yes,karadapal,no,59,59 pallahara,dhenkanal
-2544,anugul,yes,pallahara,yes,khamara,no,59,59 pallahara,dhenkanal
-2545,anugul,yes,pallahara,yes,khemala,no,59,59 pallahara,dhenkanal
-2546,anugul,yes,pallahara,yes,kunjam,no,59,59 pallahara,dhenkanal
-2547,anugul,yes,pallahara,yes,munduribeda,no,59,59 pallahara,dhenkanal
-2548,anugul,yes,pallahara,yes,nagira,no,59,59 pallahara,dhenkanal
-2549,anugul,yes,pallahara,yes,namapashi,no,59,59 pallahara,dhenkanal
-2550,anugul,yes,pallahara,yes,nijigada,no,59,59 pallahara,dhenkanal
-2551,anugul,yes,pallahara,yes,pabitrapur,no,59,59 pallahara,dhenkanal
-2552,anugul,yes,pallahara,yes,parachhata,no,59,59 pallahara,dhenkanal
-2553,anugul,yes,pallahara,yes,pechamundi,no,59,59 pallahara,dhenkanal
-2554,anugul,yes,pallahara,yes,rajadang,no,59,59 pallahara,dhenkanal
-2555,anugul,yes,pallahara,yes,rohila,no,59,59 pallahara,dhenkanal
-2556,anugul,yes,pallahara,yes,saida,no,59,59 pallahara,dhenkanal
-2557,anugul,yes,pallahara,yes,sankhamur,no,59,59 pallahara,dhenkanal
-2558,anugul,yes,pallahara,yes,seagarh,no,59,59 pallahara,dhenkanal
+2532,anugul,yes,pallahara,yes,allori,yes,59,59 pallahara,dhenkanal
+2533,anugul,yes,pallahara,yes,badasada,yes,59,59 pallahara,dhenkanal
+2534,anugul,yes,pallahara,yes,balipasi,yes,59,59 pallahara,dhenkanal
+2535,anugul,yes,pallahara,yes,bandhabhuin,yes,59,59 pallahara,dhenkanal
+2536,anugul,yes,pallahara,yes,baradiha,yes,59,59 pallahara,dhenkanal
+2537,anugul,yes,pallahara,yes,batisuan,yes,59,59 pallahara,dhenkanal
+2538,anugul,yes,pallahara,yes,chasagurujang,yes,59,59 pallahara,dhenkanal
+2539,anugul,yes,pallahara,yes,dimiria,yes,59,59 pallahara,dhenkanal
+2540,anugul,yes,pallahara,yes,injidi,yes,59,59 pallahara,dhenkanal
+2541,anugul,yes,pallahara,yes,iswarnagar,yes,59,59 pallahara,dhenkanal
+2542,anugul,yes,pallahara,yes,jharabeda,yes,59,59 pallahara,dhenkanal
+2543,anugul,yes,pallahara,yes,karadapal,yes,59,59 pallahara,dhenkanal
+2544,anugul,yes,pallahara,yes,khamara,yes,59,59 pallahara,dhenkanal
+2545,anugul,yes,pallahara,yes,khemala,yes,59,59 pallahara,dhenkanal
+2546,anugul,yes,pallahara,yes,kunjam,yes,59,59 pallahara,dhenkanal
+2547,anugul,yes,pallahara,yes,munduribeda,yes,59,59 pallahara,dhenkanal
+2548,anugul,yes,pallahara,yes,nagira,yes,59,59 pallahara,dhenkanal
+2549,anugul,yes,pallahara,yes,namapashi,yes,59,59 pallahara,dhenkanal
+2550,anugul,yes,pallahara,yes,nijigada,yes,59,59 pallahara,dhenkanal
+2551,anugul,yes,pallahara,yes,pabitrapur,yes,59,59 pallahara,dhenkanal
+2552,anugul,yes,pallahara,yes,parachhata,yes,59,59 pallahara,dhenkanal
+2553,anugul,yes,pallahara,yes,pechamundi,yes,59,59 pallahara,dhenkanal
+2554,anugul,yes,pallahara,yes,rajadang,yes,59,59 pallahara,dhenkanal
+2555,anugul,yes,pallahara,yes,rohila,yes,59,59 pallahara,dhenkanal
+2556,anugul,yes,pallahara,yes,saida,yes,59,59 pallahara,dhenkanal
+2557,anugul,yes,pallahara,yes,sankhamur,yes,59,59 pallahara,dhenkanal
+2558,anugul,yes,pallahara,yes,seagarh,yes,59,59 pallahara,dhenkanal
 2559,anugul,yes,kaniha,yes,balipasi,yes,59,59 pallahara,dhenkanal
 2560,anugul,yes,kaniha,yes,arkil,yes,59,59 pallahara,dhenkanal
 2561,anugul,yes,kaniha,yes,bajrakote,yes,59,59 pallahara,dhenkanal
@@ -2679,27 +2679,27 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 2678,dhenkanal,yes,gondia,yes,sadangi,yes,55,55 dhenkanal,dhenkanal
 2679,dhenkanal,yes,gondia,yes,santhapur,yes,55,55 dhenkanal,dhenkanal
 2680,dhenkanal,yes,gondia,yes,sorisiapada,yes,55,55 dhenkanal,dhenkanal
-2681,dhenkanal,yes,dhenkanal,yes,baladiabandha,no,55,55 dhenkanal,dhenkanal
-2682,dhenkanal,yes,dhenkanal,yes,baliamba,no,55,55 dhenkanal,dhenkanal
-2683,dhenkanal,yes,dhenkanal,yes,beltikiri,no,55,55 dhenkanal,dhenkanal
-2684,dhenkanal,yes,dhenkanal,yes,bhaliabolkateni,no,55,55 dhenkanal,dhenkanal
-2685,dhenkanal,yes,dhenkanal,yes,bhapur,no,55,55 dhenkanal,dhenkanal
-2686,dhenkanal,yes,dhenkanal,yes,chandrasekhar prasad,no,55,55 dhenkanal,dhenkanal
-2687,dhenkanal,yes,dhenkanal,yes,dharanipatana,no,55,55 dhenkanal,dhenkanal
-2688,dhenkanal,yes,dhenkanal,yes,gobindpur,no,55,55 dhenkanal,dhenkanal
-2689,dhenkanal,yes,dhenkanal,yes,kaeimati,no,55,55 dhenkanal,dhenkanal
-2690,dhenkanal,yes,dhenkanal,yes,kakudibhaga,no,55,55 dhenkanal,dhenkanal
-2691,dhenkanal,yes,dhenkanal,yes,suakhaikateni,no,55,55 dhenkanal,dhenkanal
-2692,dhenkanal,yes,dhenkanal,yes,kankadahada,no,55,55 dhenkanal,dhenkanal
-2693,dhenkanal,yes,dhenkanal,yes,kankadapala,no,55,55 dhenkanal,dhenkanal
-2694,dhenkanal,yes,dhenkanal,yes,madhusahupatana,no,55,55 dhenkanal,dhenkanal
-2695,dhenkanal,yes,dhenkanal,yes,mangalpur,no,55,55 dhenkanal,dhenkanal
-2696,dhenkanal,yes,dhenkanal,yes,manipur,no,55,55 dhenkanal,dhenkanal
-2697,dhenkanal,yes,dhenkanal,yes,nadiali,no,55,55 dhenkanal,dhenkanal
-2698,dhenkanal,yes,dhenkanal,yes,nagiapasi,no,55,55 dhenkanal,dhenkanal
-2699,dhenkanal,yes,dhenkanal,yes,sankarpur,no,55,55 dhenkanal,dhenkanal
-2700,dhenkanal,yes,dhenkanal,yes,saptasajya,no,55,55 dhenkanal,dhenkanal
-2701,dhenkanal,yes,dhenkanal,yes,talabarakota,no,55,55 dhenkanal,dhenkanal
+2681,dhenkanal,yes,dhenkanal,yes,baladiabandha,yes,55,55 dhenkanal,dhenkanal
+2682,dhenkanal,yes,dhenkanal,yes,baliamba,yes,55,55 dhenkanal,dhenkanal
+2683,dhenkanal,yes,dhenkanal,yes,beltikiri,yes,55,55 dhenkanal,dhenkanal
+2684,dhenkanal,yes,dhenkanal,yes,bhaliabolkateni,yes,55,55 dhenkanal,dhenkanal
+2685,dhenkanal,yes,dhenkanal,yes,bhapur,yes,55,55 dhenkanal,dhenkanal
+2686,dhenkanal,yes,dhenkanal,yes,chandrasekhar prasad,yes,55,55 dhenkanal,dhenkanal
+2687,dhenkanal,yes,dhenkanal,yes,dharanipatana,yes,55,55 dhenkanal,dhenkanal
+2688,dhenkanal,yes,dhenkanal,yes,gobindpur,yes,55,55 dhenkanal,dhenkanal
+2689,dhenkanal,yes,dhenkanal,yes,kaeimati,yes,55,55 dhenkanal,dhenkanal
+2690,dhenkanal,yes,dhenkanal,yes,kakudibhaga,yes,55,55 dhenkanal,dhenkanal
+2691,dhenkanal,yes,dhenkanal,yes,suakhaikateni,yes,55,55 dhenkanal,dhenkanal
+2692,dhenkanal,yes,dhenkanal,yes,kankadahada,yes,55,55 dhenkanal,dhenkanal
+2693,dhenkanal,yes,dhenkanal,yes,kankadapala,yes,55,55 dhenkanal,dhenkanal
+2694,dhenkanal,yes,dhenkanal,yes,madhusahupatana,yes,55,55 dhenkanal,dhenkanal
+2695,dhenkanal,yes,dhenkanal,yes,mangalpur,yes,55,55 dhenkanal,dhenkanal
+2696,dhenkanal,yes,dhenkanal,yes,manipur,yes,55,55 dhenkanal,dhenkanal
+2697,dhenkanal,yes,dhenkanal,yes,nadiali,yes,55,55 dhenkanal,dhenkanal
+2698,dhenkanal,yes,dhenkanal,yes,nagiapasi,yes,55,55 dhenkanal,dhenkanal
+2699,dhenkanal,yes,dhenkanal,yes,sankarpur,yes,55,55 dhenkanal,dhenkanal
+2700,dhenkanal,yes,dhenkanal,yes,saptasajya,yes,55,55 dhenkanal,dhenkanal
+2701,dhenkanal,yes,dhenkanal,yes,talabarakota,yes,55,55 dhenkanal,dhenkanal
 2702,dhenkanal,yes,odapada,yes,badalo,yes,56,56 hindol (sc),dhenkanal
 2703,dhenkanal,yes,odapada,yes,balaramprasad,yes,56,56 hindol (sc),dhenkanal
 2704,dhenkanal,yes,odapada,yes,balarampur,yes,56,56 hindol (sc),dhenkanal
@@ -2763,15 +2763,15 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 2762,dhenkanal,yes,hindol,yes,rasol,yes,56,56 hindol (sc),dhenkanal
 2763,dhenkanal,yes,hindol,yes,sanjapada,yes,56,56 hindol (sc),dhenkanal
 2764,dhenkanal,yes,hindol,yes,thokar,yes,56,56 hindol (sc),dhenkanal
-2765,dhenkanal,yes,dhenkanal,yes,barada,no,57,57 kamakhyanagar,dhenkanal
-2766,dhenkanal,yes,dhenkanal,yes,gengutia,no,57,57 kamakhyanagar,dhenkanal
-2767,dhenkanal,yes,dhenkanal,yes,chaulia,no,57,57 kamakhyanagar,dhenkanal
-2768,dhenkanal,yes,dhenkanal,yes,sankulei,no,57,57 kamakhyanagar,dhenkanal
-2769,dhenkanal,yes,dhenkanal,yes,sogarapasi,no,57,57 kamakhyanagar,dhenkanal
-2770,dhenkanal,yes,dhenkanal,yes,bansing,no,57,57 kamakhyanagar,dhenkanal
-2771,dhenkanal,yes,dhenkanal,yes,tarabha,no,57,57 kamakhyanagar,dhenkanal
-2772,dhenkanal,yes,dhenkanal,yes,radhadeipur,no,57,57 kamakhyanagar,dhenkanal
-2773,dhenkanal,yes,dhenkanal,yes,nuagaon,no,57,57 kamakhyanagar,dhenkanal
+2765,dhenkanal,yes,dhenkanal,yes,barada,yes,57,57 kamakhyanagar,dhenkanal
+2766,dhenkanal,yes,dhenkanal,yes,gengutia,yes,57,57 kamakhyanagar,dhenkanal
+2767,dhenkanal,yes,dhenkanal,yes,chaulia,yes,57,57 kamakhyanagar,dhenkanal
+2768,dhenkanal,yes,dhenkanal,yes,sankulei,yes,57,57 kamakhyanagar,dhenkanal
+2769,dhenkanal,yes,dhenkanal,yes,sogarapasi,yes,57,57 kamakhyanagar,dhenkanal
+2770,dhenkanal,yes,dhenkanal,yes,bansing,yes,57,57 kamakhyanagar,dhenkanal
+2771,dhenkanal,yes,dhenkanal,yes,tarabha,yes,57,57 kamakhyanagar,dhenkanal
+2772,dhenkanal,yes,dhenkanal,yes,radhadeipur,yes,57,57 kamakhyanagar,dhenkanal
+2773,dhenkanal,yes,dhenkanal,yes,nuagaon,yes,57,57 kamakhyanagar,dhenkanal
 2774,dhenkanal,yes,kamakhyanagar,yes,badasuanlo,yes,57,57 kamakhyanagar,dhenkanal
 2775,dhenkanal,yes,kamakhyanagar,yes,baisinga,yes,57,57 kamakhyanagar,dhenkanal
 2776,dhenkanal,yes,kamakhyanagar,yes,baligorad,yes,57,57 kamakhyanagar,dhenkanal
@@ -2805,62 +2805,62 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 2804,dhenkanal,yes,bhuban,yes,mrudanga,yes,57,57 kamakhyanagar,dhenkanal
 2805,dhenkanal,yes,bhuban,yes,odisa,yes,57,57 kamakhyanagar,dhenkanal
 2806,dhenkanal,yes,bhuban,yes,surapratapapur,yes,57,57 kamakhyanagar,dhenkanal
-2807,dhenkanal,yes,kankadahada,yes,balikuma,no,58,58 parjanga,dhenkanal
-2808,dhenkanal,yes,kankadahada,yes,bam,no,58,58 parjanga,dhenkanal
-2809,dhenkanal,yes,kankadahada,yes,batagan,no,58,58 parjanga,dhenkanal
-2810,dhenkanal,yes,kankadahada,yes,birashal,no,58,58 parjanga,dhenkanal
-2811,dhenkanal,yes,kankadahada,yes,biribolei,no,58,58 parjanga,dhenkanal
-2812,dhenkanal,yes,kankadahada,yes,chandapur,no,58,58 parjanga,dhenkanal
-2813,dhenkanal,yes,kankadahada,yes,dashipur,no,58,58 parjanga,dhenkanal
-2814,dhenkanal,yes,kankadahada,yes,garhapalashuni,no,58,58 parjanga,dhenkanal
-2815,dhenkanal,yes,kankadahada,yes,ghagaramunda,no,58,58 parjanga,dhenkanal
-2816,dhenkanal,yes,kankadahada,yes,jhilli,no,58,58 parjanga,dhenkanal
-2817,dhenkanal,yes,kankadahada,yes,kankadahad,no,58,58 parjanga,dhenkanal
-2818,dhenkanal,yes,kankadahada,yes,kantapal,no,58,58 parjanga,dhenkanal
-2819,dhenkanal,yes,kankadahada,yes,kantol,no,58,58 parjanga,dhenkanal
-2820,dhenkanal,yes,kankadahada,yes,karagola,no,58,58 parjanga,dhenkanal
-2821,dhenkanal,yes,kankadahada,yes,kerjoli,no,58,58 parjanga,dhenkanal
-2822,dhenkanal,yes,kankadahada,yes,kuturia,no,58,58 parjanga,dhenkanal
-2823,dhenkanal,yes,kankadahada,yes,mahabiroad,no,58,58 parjanga,dhenkanal
-2824,dhenkanal,yes,kankadahada,yes,makua kateni,no,58,58 parjanga,dhenkanal
-2825,dhenkanal,yes,kankadahada,yes,maruabili,no,58,58 parjanga,dhenkanal
-2826,dhenkanal,yes,kankadahada,yes,pangatira,no,58,58 parjanga,dhenkanal
-2827,dhenkanal,yes,kankadahada,yes,raibola,no,58,58 parjanga,dhenkanal
+2807,dhenkanal,yes,kankadahada,yes,balikuma,yes,58,58 parjanga,dhenkanal
+2808,dhenkanal,yes,kankadahada,yes,bam,yes,58,58 parjanga,dhenkanal
+2809,dhenkanal,yes,kankadahada,yes,batagan,yes,58,58 parjanga,dhenkanal
+2810,dhenkanal,yes,kankadahada,yes,birashal,yes,58,58 parjanga,dhenkanal
+2811,dhenkanal,yes,kankadahada,yes,biribolei,yes,58,58 parjanga,dhenkanal
+2812,dhenkanal,yes,kankadahada,yes,chandapur,yes,58,58 parjanga,dhenkanal
+2813,dhenkanal,yes,kankadahada,yes,dashipur,yes,58,58 parjanga,dhenkanal
+2814,dhenkanal,yes,kankadahada,yes,garhapalashuni,yes,58,58 parjanga,dhenkanal
+2815,dhenkanal,yes,kankadahada,yes,ghagaramunda,yes,58,58 parjanga,dhenkanal
+2816,dhenkanal,yes,kankadahada,yes,jhilli,yes,58,58 parjanga,dhenkanal
+2817,dhenkanal,yes,kankadahada,yes,kankadahad,yes,58,58 parjanga,dhenkanal
+2818,dhenkanal,yes,kankadahada,yes,kantapal,yes,58,58 parjanga,dhenkanal
+2819,dhenkanal,yes,kankadahada,yes,kantol,yes,58,58 parjanga,dhenkanal
+2820,dhenkanal,yes,kankadahada,yes,karagola,yes,58,58 parjanga,dhenkanal
+2821,dhenkanal,yes,kankadahada,yes,kerjoli,yes,58,58 parjanga,dhenkanal
+2822,dhenkanal,yes,kankadahada,yes,kuturia,yes,58,58 parjanga,dhenkanal
+2823,dhenkanal,yes,kankadahada,yes,mahabiroad,yes,58,58 parjanga,dhenkanal
+2824,dhenkanal,yes,kankadahada,yes,makua kateni,yes,58,58 parjanga,dhenkanal
+2825,dhenkanal,yes,kankadahada,yes,maruabili,yes,58,58 parjanga,dhenkanal
+2826,dhenkanal,yes,kankadahada,yes,pangatira,yes,58,58 parjanga,dhenkanal
+2827,dhenkanal,yes,kankadahada,yes,raibola,yes,58,58 parjanga,dhenkanal
 2828,dhenkanal,yes,kamakhyanagar,yes,kusumajodi,yes,58,58 parjanga,dhenkanal
 2829,dhenkanal,yes,kamakhyanagar,yes,kantapal,yes,58,58 parjanga,dhenkanal
 2830,dhenkanal,yes,kamakhyanagar,yes,kantio kateni,yes,58,58 parjanga,dhenkanal
 2831,dhenkanal,yes,kamakhyanagar,yes,kantio putasahi,yes,58,58 parjanga,dhenkanal
 2832,dhenkanal,yes,kamakhyanagar,yes,analabereni,yes,58,58 parjanga,dhenkanal
 2833,dhenkanal,yes,kamakhyanagar,yes,tumusinga,yes,58,58 parjanga,dhenkanal
-2834,dhenkanal,yes,parjanga,yes,akhuapal,no,58,58 parjanga,dhenkanal
-2835,dhenkanal,yes,parjanga,yes,ambopalasa,no,58,58 parjanga,dhenkanal
-2836,dhenkanal,yes,parjanga,yes,badajhara,no,58,58 parjanga,dhenkanal
-2837,dhenkanal,yes,parjanga,yes,barihapur,no,58,58 parjanga,dhenkanal
-2838,dhenkanal,yes,parjanga,yes,basoi,no,58,58 parjanga,dhenkanal
-2839,dhenkanal,yes,parjanga,yes,basulei,no,58,58 parjanga,dhenkanal
-2840,dhenkanal,yes,parjanga,yes,chandapura,no,58,58 parjanga,dhenkanal
-2841,dhenkanal,yes,parjanga,yes,damal,no,58,58 parjanga,dhenkanal
-2842,dhenkanal,yes,parjanga,yes,gengutia,no,58,58 parjanga,dhenkanal
-2843,dhenkanal,yes,parjanga,yes,jayapura kateni,no,58,58 parjanga,dhenkanal
-2844,dhenkanal,yes,parjanga,yes,kalada,no,58,58 parjanga,dhenkanal
-2845,dhenkanal,yes,parjanga,yes,kandarasingha,no,58,58 parjanga,dhenkanal
-2846,dhenkanal,yes,parjanga,yes,kankadasoda,no,58,58 parjanga,dhenkanal
-2847,dhenkanal,yes,parjanga,yes,kankili,no,58,58 parjanga,dhenkanal
-2848,dhenkanal,yes,parjanga,yes,kantor,no,58,58 parjanga,dhenkanal
-2849,dhenkanal,yes,parjanga,yes,kualo,no,58,58 parjanga,dhenkanal
-2850,dhenkanal,yes,parjanga,yes,kumushi,no,58,58 parjanga,dhenkanal
-2851,dhenkanal,yes,parjanga,yes,lodhani,no,58,58 parjanga,dhenkanal
-2852,dhenkanal,yes,parjanga,yes,manikmara,no,58,58 parjanga,dhenkanal
-2853,dhenkanal,yes,parjanga,yes,muktapasi,no,58,58 parjanga,dhenkanal
-2854,dhenkanal,yes,parjanga,yes,mundeilo,no,58,58 parjanga,dhenkanal
-2855,dhenkanal,yes,parjanga,yes,parjanga,no,58,58 parjanga,dhenkanal
-2856,dhenkanal,yes,parjanga,yes,patarpada,no,58,58 parjanga,dhenkanal
-2857,dhenkanal,yes,parjanga,yes,patharakhumba,no,58,58 parjanga,dhenkanal
-2858,dhenkanal,yes,parjanga,yes,pitiri,no,58,58 parjanga,dhenkanal
-2859,dhenkanal,yes,parjanga,yes,renthapat,no,58,58 parjanga,dhenkanal
-2860,dhenkanal,yes,parjanga,yes,roda,no,58,58 parjanga,dhenkanal
-2861,dhenkanal,yes,parjanga,yes,sanda,no,58,58 parjanga,dhenkanal
-2862,dhenkanal,yes,parjanga,yes,saranga,no,58,58 parjanga,dhenkanal
+2834,dhenkanal,yes,parjanga,yes,akhuapal,yes,58,58 parjanga,dhenkanal
+2835,dhenkanal,yes,parjanga,yes,ambopalasa,yes,58,58 parjanga,dhenkanal
+2836,dhenkanal,yes,parjanga,yes,badajhara,yes,58,58 parjanga,dhenkanal
+2837,dhenkanal,yes,parjanga,yes,barihapur,yes,58,58 parjanga,dhenkanal
+2838,dhenkanal,yes,parjanga,yes,basoi,yes,58,58 parjanga,dhenkanal
+2839,dhenkanal,yes,parjanga,yes,basulei,yes,58,58 parjanga,dhenkanal
+2840,dhenkanal,yes,parjanga,yes,chandapura,yes,58,58 parjanga,dhenkanal
+2841,dhenkanal,yes,parjanga,yes,damal,yes,58,58 parjanga,dhenkanal
+2842,dhenkanal,yes,parjanga,yes,gengutia,yes,58,58 parjanga,dhenkanal
+2843,dhenkanal,yes,parjanga,yes,jayapura kateni,yes,58,58 parjanga,dhenkanal
+2844,dhenkanal,yes,parjanga,yes,kalada,yes,58,58 parjanga,dhenkanal
+2845,dhenkanal,yes,parjanga,yes,kandarasingha,yes,58,58 parjanga,dhenkanal
+2846,dhenkanal,yes,parjanga,yes,kankadasoda,yes,58,58 parjanga,dhenkanal
+2847,dhenkanal,yes,parjanga,yes,kankili,yes,58,58 parjanga,dhenkanal
+2848,dhenkanal,yes,parjanga,yes,kantor,yes,58,58 parjanga,dhenkanal
+2849,dhenkanal,yes,parjanga,yes,kualo,yes,58,58 parjanga,dhenkanal
+2850,dhenkanal,yes,parjanga,yes,kumushi,yes,58,58 parjanga,dhenkanal
+2851,dhenkanal,yes,parjanga,yes,lodhani,yes,58,58 parjanga,dhenkanal
+2852,dhenkanal,yes,parjanga,yes,manikmara,yes,58,58 parjanga,dhenkanal
+2853,dhenkanal,yes,parjanga,yes,muktapasi,yes,58,58 parjanga,dhenkanal
+2854,dhenkanal,yes,parjanga,yes,mundeilo,yes,58,58 parjanga,dhenkanal
+2855,dhenkanal,yes,parjanga,yes,parjanga,yes,58,58 parjanga,dhenkanal
+2856,dhenkanal,yes,parjanga,yes,patarpada,yes,58,58 parjanga,dhenkanal
+2857,dhenkanal,yes,parjanga,yes,patharakhumba,yes,58,58 parjanga,dhenkanal
+2858,dhenkanal,yes,parjanga,yes,pitiri,yes,58,58 parjanga,dhenkanal
+2859,dhenkanal,yes,parjanga,yes,renthapat,yes,58,58 parjanga,dhenkanal
+2860,dhenkanal,yes,parjanga,yes,roda,yes,58,58 parjanga,dhenkanal
+2861,dhenkanal,yes,parjanga,yes,sanda,yes,58,58 parjanga,dhenkanal
+2862,dhenkanal,yes,parjanga,yes,saranga,yes,58,58 parjanga,dhenkanal
 2863,sonapur (subarnapur),yes,ullunda,yes,bishipada,yes,64,64 birmaharajpur (sc),bolangir
 2864,sonapur (subarnapur),yes,ullunda,yes,chadeipank,yes,64,64 birmaharajpur (sc),bolangir
 2865,sonapur (subarnapur),yes,ullunda,yes,jaloe,yes,64,64 birmaharajpur (sc),bolangir
@@ -3207,19 +3207,19 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 3206,bolangir,yes,saintala,yes,siskela,yes,69,69 titlagarh,bolangir
 3207,bolangir,yes,saintala,yes,talbahal,yes,69,69 titlagarh,bolangir
 3208,bolangir,yes,saintala,yes,tikrapada,yes,69,69 titlagarh,bolangir
-3209,bolangir,yes,tentulikhunti (gudvella),yes,badangomunda,no,69,69 titlagarh,bolangir
-3210,bolangir,yes,tentulikhunti (gudvella),yes,birmunda,no,69,69 titlagarh,bolangir
-3211,bolangir,yes,tentulikhunti (gudvella),yes,chinched,no,69,69 titlagarh,bolangir
-3212,bolangir,yes,tentulikhunti (gudvella),yes,deulgudi,no,69,69 titlagarh,bolangir
-3213,bolangir,yes,tentulikhunti (gudvella),yes,gambhariguda,no,69,69 titlagarh,bolangir
-3214,bolangir,yes,tentulikhunti (gudvella),yes,ghuna,no,69,69 titlagarh,bolangir
-3215,bolangir,yes,tentulikhunti (gudvella),yes,gudvela,no,69,69 titlagarh,bolangir
-3216,bolangir,yes,tentulikhunti (gudvella),yes,jamut,no,69,69 titlagarh,bolangir
-3217,bolangir,yes,tentulikhunti (gudvella),yes,madhekela,no,69,69 titlagarh,bolangir
-3218,bolangir,yes,tentulikhunti (gudvella),yes,nuapada,no,69,69 titlagarh,bolangir
-3219,bolangir,yes,tentulikhunti (gudvella),yes,rusuda,no,69,69 titlagarh,bolangir
-3220,bolangir,yes,tentulikhunti (gudvella),yes,samara,no,69,69 titlagarh,bolangir
-3221,bolangir,yes,tentulikhunti (gudvella),yes,tentelkhunti,no,69,69 titlagarh,bolangir
+3209,bolangir,yes,tentulikhunti (gudvella),yes,badangomunda,yes,69,69 titlagarh,bolangir
+3210,bolangir,yes,tentulikhunti (gudvella),yes,birmunda,yes,69,69 titlagarh,bolangir
+3211,bolangir,yes,tentulikhunti (gudvella),yes,chinched,yes,69,69 titlagarh,bolangir
+3212,bolangir,yes,tentulikhunti (gudvella),yes,deulgudi,yes,69,69 titlagarh,bolangir
+3213,bolangir,yes,tentulikhunti (gudvella),yes,gambhariguda,yes,69,69 titlagarh,bolangir
+3214,bolangir,yes,tentulikhunti (gudvella),yes,ghuna,yes,69,69 titlagarh,bolangir
+3215,bolangir,yes,tentulikhunti (gudvella),yes,gudvela,yes,69,69 titlagarh,bolangir
+3216,bolangir,yes,tentulikhunti (gudvella),yes,jamut,yes,69,69 titlagarh,bolangir
+3217,bolangir,yes,tentulikhunti (gudvella),yes,madhekela,yes,69,69 titlagarh,bolangir
+3218,bolangir,yes,tentulikhunti (gudvella),yes,nuapada,yes,69,69 titlagarh,bolangir
+3219,bolangir,yes,tentulikhunti (gudvella),yes,rusuda,yes,69,69 titlagarh,bolangir
+3220,bolangir,yes,tentulikhunti (gudvella),yes,samara,yes,69,69 titlagarh,bolangir
+3221,bolangir,yes,tentulikhunti (gudvella),yes,tentelkhunti,yes,69,69 titlagarh,bolangir
 3222,bolangir,yes,turekela,yes,badbanki,yes,70,70 kantabanji,bolangir
 3223,bolangir,yes,turekela,yes,baddakla,yes,70,70 kantabanji,bolangir
 3224,bolangir,yes,turekela,yes,buromal,yes,70,70 kantabanji,bolangir
@@ -3468,27 +3468,27 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 3467,kalahandi,yes,thuamul rampur,yes,talnagi,yes,77,77 lanjigarh (st),kalahandi
 3468,kalahandi,yes,thuamul rampur,yes,thuamul,yes,77,77 lanjigarh (st),kalahandi
 3469,kalahandi,yes,thuamul rampur,yes,thuamul rampur,yes,77,77 lanjigarh (st),kalahandi
-3470,kalahandi,yes,jaipatana,yes,anlabhata,no,77,77 lanjigarh (st),kalahandi
-3471,kalahandi,yes,jaipatana,yes,bad pujariguda,no,77,77 lanjigarh (st),kalahandi
-3472,kalahandi,yes,jaipatana,yes,badkarlakote,no,77,77 lanjigarh (st),kalahandi
-3473,kalahandi,yes,jaipatana,yes,badatemri,no,77,77 lanjigarh (st),kalahandi
-3474,kalahandi,yes,jaipatana,yes,bhejiguda,no,77,77 lanjigarh (st),kalahandi
-3475,kalahandi,yes,jaipatana,yes,khaliabhata,no,77,77 lanjigarh (st),kalahandi
+3470,kalahandi,yes,jaipatana,yes,anlabhata,yes,77,77 lanjigarh (st),kalahandi
+3471,kalahandi,yes,jaipatana,yes,bad pujariguda,yes,77,77 lanjigarh (st),kalahandi
+3472,kalahandi,yes,jaipatana,yes,badkarlakote,yes,77,77 lanjigarh (st),kalahandi
+3473,kalahandi,yes,jaipatana,yes,badatemri,yes,77,77 lanjigarh (st),kalahandi
+3474,kalahandi,yes,jaipatana,yes,bhejiguda,yes,77,77 lanjigarh (st),kalahandi
+3475,kalahandi,yes,jaipatana,yes,khaliabhata,yes,77,77 lanjigarh (st),kalahandi
 3476,kalahandi,yes,jaipatana,yes,ranmal,no,77,77 lanjigarh (st),kalahandi
-3477,kalahandi,yes,jaipatana,yes,sindhikaguda,no,77,77 lanjigarh (st),kalahandi
-3478,kalahandi,yes,jaipatana,yes,baner,no,77,77 lanjigarh (st),kalahandi
-3479,kalahandi,yes,jaipatana,yes,bhainripali,no,77,77 lanjigarh (st),kalahandi
-3480,kalahandi,yes,jaipatana,yes,dhansuli,no,77,77 lanjigarh (st),kalahandi
-3481,kalahandi,yes,jaipatana,yes,hirapur,no,77,77 lanjigarh (st),kalahandi
-3482,kalahandi,yes,jaipatana,yes,jayapatna,no,77,77 lanjigarh (st),kalahandi
-3483,kalahandi,yes,jaipatana,yes,kuchagaon,no,77,77 lanjigarh (st),kalahandi
-3484,kalahandi,yes,jaipatana,yes,mangalpur,no,77,77 lanjigarh (st),kalahandi
-3485,kalahandi,yes,jaipatana,yes,mukhiguda,no,77,77 lanjigarh (st),kalahandi
-3486,kalahandi,yes,jaipatana,yes,paik kendumundi,no,77,77 lanjigarh (st),kalahandi
-3487,kalahandi,yes,jaipatana,yes,pratap pure,no,77,77 lanjigarh (st),kalahandi
-3488,kalahandi,yes,jaipatana,yes,rengapali,no,77,77 lanjigarh (st),kalahandi
-3489,kalahandi,yes,jaipatana,yes,sargiguda,no,77,77 lanjigarh (st),kalahandi
-3490,kalahandi,yes,jaipatana,yes,uchhala,no,77,77 lanjigarh (st),kalahandi
+3477,kalahandi,yes,jaipatana,yes,sindhikaguda,yes,77,77 lanjigarh (st),kalahandi
+3478,kalahandi,yes,jaipatana,yes,baner,yes,77,77 lanjigarh (st),kalahandi
+3479,kalahandi,yes,jaipatana,yes,bhainripali,yes,77,77 lanjigarh (st),kalahandi
+3480,kalahandi,yes,jaipatana,yes,dhansuli,yes,77,77 lanjigarh (st),kalahandi
+3481,kalahandi,yes,jaipatana,yes,hirapur,yes,77,77 lanjigarh (st),kalahandi
+3482,kalahandi,yes,jaipatana,yes,jayapatna,yes,77,77 lanjigarh (st),kalahandi
+3483,kalahandi,yes,jaipatana,yes,kuchagaon,yes,77,77 lanjigarh (st),kalahandi
+3484,kalahandi,yes,jaipatana,yes,mangalpur,yes,77,77 lanjigarh (st),kalahandi
+3485,kalahandi,yes,jaipatana,yes,mukhiguda,yes,77,77 lanjigarh (st),kalahandi
+3486,kalahandi,yes,jaipatana,yes,paik kendumundi,yes,77,77 lanjigarh (st),kalahandi
+3487,kalahandi,yes,jaipatana,yes,pratap pure,yes,77,77 lanjigarh (st),kalahandi
+3488,kalahandi,yes,jaipatana,yes,rengapali,yes,77,77 lanjigarh (st),kalahandi
+3489,kalahandi,yes,jaipatana,yes,sargiguda,yes,77,77 lanjigarh (st),kalahandi
+3490,kalahandi,yes,jaipatana,yes,uchhala,yes,77,77 lanjigarh (st),kalahandi
 3491,kalahandi,yes,bhawanipatna,yes,risigaon,yes,77,77 lanjigarh (st),kalahandi
 3492,kalahandi,yes,bhawanipatna,yes,chancher,yes,77,77 lanjigarh (st),kalahandi
 3493,kalahandi,yes,bhawanipatna,yes,duarsuni,yes,77,77 lanjigarh (st),kalahandi
@@ -3581,30 +3581,30 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 3580,kalahandi,yes,koksara,yes,podaguda,yes,79,79 dharamgarh,kalahandi
 3581,kalahandi,yes,koksara,yes,rengalipali,yes,79,79 dharamgarh,kalahandi
 3582,kalahandi,yes,koksara,yes,temra,yes,79,79 dharamgarh,kalahandi
-3583,kalahandi,yes,dharmgarh,yes,bada ghumer,no,79,79 dharamgarh,kalahandi
-3584,kalahandi,yes,dharmgarh,yes,badabasul,no,79,79 dharamgarh,kalahandi
-3585,kalahandi,yes,dharmgarh,yes,badfurla,no,79,79 dharamgarh,kalahandi
-3586,kalahandi,yes,dharmgarh,yes,bagad,no,79,79 dharamgarh,kalahandi
-3587,kalahandi,yes,dharmgarh,yes,behera,no,79,79 dharamgarh,kalahandi
-3588,kalahandi,yes,dharmgarh,yes,boden,no,79,79 dharamgarh,kalahandi
-3589,kalahandi,yes,dharmgarh,yes,brahmanchhendia,no,79,79 dharamgarh,kalahandi
-3590,kalahandi,yes,dharmgarh,yes,chhanchanbahali,no,79,79 dharamgarh,kalahandi
-3591,kalahandi,yes,dharmgarh,yes,chhilpa,no,79,79 dharamgarh,kalahandi
-3592,kalahandi,yes,dharmgarh,yes,dhanar pur,no,79,79 dharamgarh,kalahandi
-3593,kalahandi,yes,dharmgarh,yes,dumerguda,no,79,79 dharamgarh,kalahandi
-3594,kalahandi,yes,dharmgarh,yes,godiajore,no,79,79 dharamgarh,kalahandi
-3595,kalahandi,yes,dharmgarh,yes,jayant pur,no,79,79 dharamgarh,kalahandi
-3596,kalahandi,yes,dharmgarh,yes,kadalimunda,no,79,79 dharamgarh,kalahandi
-3597,kalahandi,yes,dharmgarh,yes,kanagaon,no,79,79 dharamgarh,kalahandi
-3598,kalahandi,yes,dharmgarh,yes,kankeri,no,79,79 dharamgarh,kalahandi
-3599,kalahandi,yes,dharmgarh,yes,khair padar,no,79,79 dharamgarh,kalahandi
-3600,kalahandi,yes,dharmgarh,yes,nandagaon,no,79,79 dharamgarh,kalahandi
-3601,kalahandi,yes,dharmgarh,yes,parla,no,79,79 dharamgarh,kalahandi
-3602,kalahandi,yes,dharmgarh,yes,sandhikulihari,no,79,79 dharamgarh,kalahandi
-3603,kalahandi,yes,dharmgarh,yes,tambachhada,no,79,79 dharamgarh,kalahandi
-3604,kalahandi,yes,dharmgarh,yes,tarapur,no,79,79 dharamgarh,kalahandi
-3605,kalahandi,yes,dharmgarh,yes,tendapali,no,79,79 dharamgarh,kalahandi
-3606,kalahandi,yes,dharmgarh,yes,tipiguda,no,79,79 dharamgarh,kalahandi
+3583,kalahandi,yes,dharmgarh,yes,bada ghumer,yes,79,79 dharamgarh,kalahandi
+3584,kalahandi,yes,dharmgarh,yes,badabasul,yes,79,79 dharamgarh,kalahandi
+3585,kalahandi,yes,dharmgarh,yes,badfurla,yes,79,79 dharamgarh,kalahandi
+3586,kalahandi,yes,dharmgarh,yes,bagad,yes,79,79 dharamgarh,kalahandi
+3587,kalahandi,yes,dharmgarh,yes,behera,yes,79,79 dharamgarh,kalahandi
+3588,kalahandi,yes,dharmgarh,yes,boden,yes,79,79 dharamgarh,kalahandi
+3589,kalahandi,yes,dharmgarh,yes,brahmanchhendia,yes,79,79 dharamgarh,kalahandi
+3590,kalahandi,yes,dharmgarh,yes,chhanchanbahali,yes,79,79 dharamgarh,kalahandi
+3591,kalahandi,yes,dharmgarh,yes,chhilpa,yes,79,79 dharamgarh,kalahandi
+3592,kalahandi,yes,dharmgarh,yes,dhanar pur,yes,79,79 dharamgarh,kalahandi
+3593,kalahandi,yes,dharmgarh,yes,dumerguda,yes,79,79 dharamgarh,kalahandi
+3594,kalahandi,yes,dharmgarh,yes,godiajore,yes,79,79 dharamgarh,kalahandi
+3595,kalahandi,yes,dharmgarh,yes,jayant pur,yes,79,79 dharamgarh,kalahandi
+3596,kalahandi,yes,dharmgarh,yes,kadalimunda,yes,79,79 dharamgarh,kalahandi
+3597,kalahandi,yes,dharmgarh,yes,kanagaon,yes,79,79 dharamgarh,kalahandi
+3598,kalahandi,yes,dharmgarh,yes,kankeri,yes,79,79 dharamgarh,kalahandi
+3599,kalahandi,yes,dharmgarh,yes,khair padar,yes,79,79 dharamgarh,kalahandi
+3600,kalahandi,yes,dharmgarh,yes,nandagaon,yes,79,79 dharamgarh,kalahandi
+3601,kalahandi,yes,dharmgarh,yes,parla,yes,79,79 dharamgarh,kalahandi
+3602,kalahandi,yes,dharmgarh,yes,sandhikulihari,yes,79,79 dharamgarh,kalahandi
+3603,kalahandi,yes,dharmgarh,yes,tambachhada,yes,79,79 dharamgarh,kalahandi
+3604,kalahandi,yes,dharmgarh,yes,tarapur,yes,79,79 dharamgarh,kalahandi
+3605,kalahandi,yes,dharmgarh,yes,tendapali,yes,79,79 dharamgarh,kalahandi
+3606,kalahandi,yes,dharmgarh,yes,tipiguda,yes,79,79 dharamgarh,kalahandi
 3607,kalahandi,yes,kalampur,yes,badakuturu,yes,79,79 dharamgarh,kalahandi
 3608,kalahandi,yes,kalampur,yes,bijamara,yes,79,79 dharamgarh,kalahandi
 3609,kalahandi,yes,kalampur,yes,bndahakona,yes,79,79 dharamgarh,kalahandi
@@ -3616,7 +3616,7 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 3615,kalahandi,yes,kalampur,yes,mingur,yes,79,79 dharamgarh,kalahandi
 3616,kalahandi,yes,kalampur,yes,nuagaon,yes,79,79 dharamgarh,kalahandi
 3617,kalahandi,yes,kalampur,yes,pandgaon,yes,79,79 dharamgarh,kalahandi
-3618,kalahandi,yes,jaipatana,yes,bandigaon,no,79,79 dharamgarh,kalahandi
+3618,kalahandi,yes,jaipatana,yes,bandigaon,yes,79,79 dharamgarh,kalahandi
 3619,kalahandi,yes,jaipatana,yes,ranamal,no,79,79 dharamgarh,kalahandi
 3620,kalahandi,yes,bhawanipatna,yes,madiguda,yes,80,80 bhawanipatna (sc),kalahandi
 3621,kalahandi,yes,bhawanipatna,yes,sripur,yes,80,80 bhawanipatna (sc),kalahandi
@@ -4176,14 +4176,14 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 4175,kandhamal(phulbani),yes,daringbadi,yes,sraniketa,yes,83,83 g. udayagiri (st),kandhamal
 4176,kandhamal(phulbani),yes,daringbadi,yes,tajungia,yes,83,83 g. udayagiri (st),kandhamal
 4177,kandhamal(phulbani),yes,daringbadi,yes,tillori,yes,83,83 g. udayagiri (st),kandhamal
-4178,kandhamal(phulbani),yes,udayagiri,yes,gressingia,no,83,83 g. udayagiri (st),kandhamal
-4179,kandhamal(phulbani),yes,udayagiri,yes,kalinga,no,83,83 g. udayagiri (st),kandhamal
+4178,kandhamal(phulbani),yes,udayagiri,yes,gressingia,yes,83,83 g. udayagiri (st),kandhamal
+4179,kandhamal(phulbani),yes,udayagiri,yes,kalinga,yes,83,83 g. udayagiri (st),kandhamal
 4180,kandhamal(phulbani),yes,udayagiri,yes,katingia,no,83,83 g. udayagiri (st),kandhamal
-4181,kandhamal(phulbani),yes,udayagiri,yes,lingagada,no,83,83 g. udayagiri (st),kandhamal
-4182,kandhamal(phulbani),yes,udayagiri,yes,mallikpodi,no,83,83 g. udayagiri (st),kandhamal
-4183,kandhamal(phulbani),yes,udayagiri,yes,raikola,no,83,83 g. udayagiri (st),kandhamal
+4181,kandhamal(phulbani),yes,udayagiri,yes,lingagada,yes,83,83 g. udayagiri (st),kandhamal
+4182,kandhamal(phulbani),yes,udayagiri,yes,mallikpodi,yes,83,83 g. udayagiri (st),kandhamal
+4183,kandhamal(phulbani),yes,udayagiri,yes,raikola,yes,83,83 g. udayagiri (st),kandhamal
 4184,kandhamal(phulbani),yes,udayagiri,yes,ratingia,no,83,83 g. udayagiri (st),kandhamal
-4185,kandhamal(phulbani),yes,udayagiri,yes,talarimaha,no,83,83 g. udayagiri (st),kandhamal
+4185,kandhamal(phulbani),yes,udayagiri,yes,talarimaha,yes,83,83 g. udayagiri (st),kandhamal
 4186,kandhamal(phulbani),yes,tikabali,yes,bodimunda,yes,83,83 g. udayagiri (st),kandhamal
 4187,kandhamal(phulbani),yes,tikabali,yes,burbinaju,yes,83,83 g. udayagiri (st),kandhamal
 4188,kandhamal(phulbani),yes,tikabali,yes,gadaguda,yes,83,83 g. udayagiri (st),kandhamal
@@ -4543,40 +4543,40 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 4542,cuttack,yes,barang,yes,kunheipada,yes,88,88 banki,cuttack
 4543,cuttack,yes,barang,yes,mundali,yes,88,88 banki,cuttack
 4544,cuttack,yes,barang,yes,sribantapur,yes,88,88 banki,cuttack
-4545,cuttack,yes,athagarh,yes,anantapur,no,89,89 athagarh,cuttack
-4546,cuttack,yes,athagarh,yes,badabhuin,no,89,89 athagarh,cuttack
-4547,cuttack,yes,athagarh,yes,bentapada,no,89,89 athagarh,cuttack
-4548,cuttack,yes,athagarh,yes,bhogara,no,89,89 athagarh,cuttack
-4549,cuttack,yes,athagarh,yes,chhagaon,no,89,89 athagarh,cuttack
-4550,cuttack,yes,athagarh,yes,dhaipur,no,89,89 athagarh,cuttack
-4551,cuttack,yes,athagarh,yes,dhurusia,no,89,89 athagarh,cuttack
-4552,cuttack,yes,athagarh,yes,dlabhaga,no,89,89 athagarh,cuttack
-4553,cuttack,yes,athagarh,yes,dorada,no,89,89 athagarh,cuttack
-4554,cuttack,yes,athagarh,yes,ghantikhala,no,89,89 athagarh,cuttack
-4555,cuttack,yes,athagarh,yes,gobara,no,89,89 athagarh,cuttack
-4556,cuttack,yes,athagarh,yes,gurudijhata,no,89,89 athagarh,cuttack
-4557,cuttack,yes,athagarh,yes,ichhapur,no,89,89 athagarh,cuttack
-4558,cuttack,yes,athagarh,yes,jenapadadesh,no,89,89 athagarh,cuttack
+4545,cuttack,yes,athagarh,yes,anantapur,yes,89,89 athagarh,cuttack
+4546,cuttack,yes,athagarh,yes,badabhuin,yes,89,89 athagarh,cuttack
+4547,cuttack,yes,athagarh,yes,bentapada,yes,89,89 athagarh,cuttack
+4548,cuttack,yes,athagarh,yes,bhogara,yes,89,89 athagarh,cuttack
+4549,cuttack,yes,athagarh,yes,chhagaon,yes,89,89 athagarh,cuttack
+4550,cuttack,yes,athagarh,yes,dhaipur,yes,89,89 athagarh,cuttack
+4551,cuttack,yes,athagarh,yes,dhurusia,yes,89,89 athagarh,cuttack
+4552,cuttack,yes,athagarh,yes,dlabhaga,yes,89,89 athagarh,cuttack
+4553,cuttack,yes,athagarh,yes,dorada,yes,89,89 athagarh,cuttack
+4554,cuttack,yes,athagarh,yes,ghantikhala,yes,89,89 athagarh,cuttack
+4555,cuttack,yes,athagarh,yes,gobara,yes,89,89 athagarh,cuttack
+4556,cuttack,yes,athagarh,yes,gurudijhata,yes,89,89 athagarh,cuttack
+4557,cuttack,yes,athagarh,yes,ichhapur,yes,89,89 athagarh,cuttack
+4558,cuttack,yes,athagarh,yes,jenapadadesh,yes,89,89 athagarh,cuttack
 4559,cuttack,yes,athagarh,yes,joranda,no,89,89 athagarh,cuttack
-4560,cuttack,yes,athagarh,yes,kandarpur,no,89,89 athagarh,cuttack
-4561,cuttack,yes,athagarh,yes,katakiasahi,no,89,89 athagarh,cuttack
-4562,cuttack,yes,athagarh,yes,khandarei,no,89,89 athagarh,cuttack
-4563,cuttack,yes,athagarh,yes,khuntakata,no,89,89 athagarh,cuttack
-4564,cuttack,yes,athagarh,yes,khuntuni,no,89,89 athagarh,cuttack
-4565,cuttack,yes,athagarh,yes,kulailo,no,89,89 athagarh,cuttack
-4566,cuttack,yes,athagarh,yes,kumarpur,no,89,89 athagarh,cuttack
-4567,cuttack,yes,athagarh,yes,kuspangi,no,89,89 athagarh,cuttack
-4568,cuttack,yes,athagarh,yes,mahakalnbasta,no,89,89 athagarh,cuttack
-4569,cuttack,yes,athagarh,yes,mancheaswar,no,89,89 athagarh,cuttack
-4570,cuttack,yes,athagarh,yes,megha,no,89,89 athagarh,cuttack
+4560,cuttack,yes,athagarh,yes,kandarpur,yes,89,89 athagarh,cuttack
+4561,cuttack,yes,athagarh,yes,katakiasahi,yes,89,89 athagarh,cuttack
+4562,cuttack,yes,athagarh,yes,khandarei,yes,89,89 athagarh,cuttack
+4563,cuttack,yes,athagarh,yes,khuntakata,yes,89,89 athagarh,cuttack
+4564,cuttack,yes,athagarh,yes,khuntuni,yes,89,89 athagarh,cuttack
+4565,cuttack,yes,athagarh,yes,kulailo,yes,89,89 athagarh,cuttack
+4566,cuttack,yes,athagarh,yes,kumarpur,yes,89,89 athagarh,cuttack
+4567,cuttack,yes,athagarh,yes,kuspangi,yes,89,89 athagarh,cuttack
+4568,cuttack,yes,athagarh,yes,mahakalnbasta,yes,89,89 athagarh,cuttack
+4569,cuttack,yes,athagarh,yes,mancheaswar,yes,89,89 athagarh,cuttack
+4570,cuttack,yes,athagarh,yes,megha,yes,89,89 athagarh,cuttack
 4571,cuttack,yes,athagarh,yes,oranda,no,89,89 athagarh,cuttack
-4572,cuttack,yes,athagarh,yes,radhagovindapur,no,89,89 athagarh,cuttack
-4573,cuttack,yes,athagarh,yes,radhakishorepur,no,89,89 athagarh,cuttack
-4574,cuttack,yes,athagarh,yes,radhakrushnapur,no,89,89 athagarh,cuttack
-4575,cuttack,yes,athagarh,yes,rajnagar,no,89,89 athagarh,cuttack
-4576,cuttack,yes,athagarh,yes,samsarpur,no,89,89 athagarh,cuttack
-4577,cuttack,yes,athagarh,yes,sathilo,no,89,89 athagarh,cuttack
-4578,cuttack,yes,athagarh,yes,tarading,no,89,89 athagarh,cuttack
+4572,cuttack,yes,athagarh,yes,radhagovindapur,yes,89,89 athagarh,cuttack
+4573,cuttack,yes,athagarh,yes,radhakishorepur,yes,89,89 athagarh,cuttack
+4574,cuttack,yes,athagarh,yes,radhakrushnapur,yes,89,89 athagarh,cuttack
+4575,cuttack,yes,athagarh,yes,rajnagar,yes,89,89 athagarh,cuttack
+4576,cuttack,yes,athagarh,yes,samsarpur,yes,89,89 athagarh,cuttack
+4577,cuttack,yes,athagarh,yes,sathilo,yes,89,89 athagarh,cuttack
+4578,cuttack,yes,athagarh,yes,tarading,yes,89,89 athagarh,cuttack
 4579,cuttack,yes,tigiria,yes,achalkota,yes,89,89 athagarh,cuttack
 4580,cuttack,yes,tigiria,yes,badanauput,yes,89,89 athagarh,cuttack
 4581,cuttack,yes,tigiria,yes,baliput,yes,89,89 athagarh,cuttack
@@ -5380,45 +5380,45 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 5379,puri,yes,gop,yes,erabanga,yes,106,106 nimapara,jagatsinghpur (sc)
 5380,puri,yes,gop,yes,kuanpada,yes,106,106 nimapara,jagatsinghpur (sc)
 5381,puri,yes,gop,yes,payara,yes,106,106 nimapara,jagatsinghpur (sc)
-5382,puri,yes,puri sadar,yes,birapratappur,no,107,107 puri,puri
-5383,puri,yes,puri sadar,yes,balipada,no,107,107 puri,puri
-5384,puri,yes,puri sadar,yes,jamarsuan,no,107,107 puri,puri
-5385,puri,yes,puri sadar,yes,baliput,no,107,107 puri,puri
-5386,puri,yes,puri sadar,yes,gadamrugasira,no,107,107 puri,puri
-5387,puri,yes,puri sadar,yes,beladal,no,107,107 puri,puri
-5388,puri,yes,puri sadar,yes,ganganarayanpur,no,107,107 puri,puri
+5382,puri,yes,puri sadar,yes,birapratappur,yes,107,107 puri,puri
+5383,puri,yes,puri sadar,yes,balipada,yes,107,107 puri,puri
+5384,puri,yes,puri sadar,yes,jamarsuan,yes,107,107 puri,puri
+5385,puri,yes,puri sadar,yes,baliput,yes,107,107 puri,puri
+5386,puri,yes,puri sadar,yes,gadamrugasira,yes,107,107 puri,puri
+5387,puri,yes,puri sadar,yes,beladal,yes,107,107 puri,puri
+5388,puri,yes,puri sadar,yes,ganganarayanpur,yes,107,107 puri,puri
 5389,puri,yes,puri sadar,yes,amanga,no,107,107 puri,puri
-5390,puri,yes,puri sadar,yes,raigorada,no,107,107 puri,puri
+5390,puri,yes,puri sadar,yes,raigorada,yes,107,107 puri,puri
 5391,puri,yes,puri sadar,yes,garhmrugasira,no,107,107 puri,puri
 5392,puri,yes,puri sadar,yes,chalisbatia,no,107,107 puri,puri
-5393,puri,yes,puri sadar,yes,malatipatpur,no,107,107 puri,puri
-5394,puri,yes,puri sadar,yes,chandanpur,no,107,107 puri,puri
-5395,puri,yes,puri sadar,yes,sasan damodarpur,no,107,107 puri,puri
+5393,puri,yes,puri sadar,yes,malatipatpur,yes,107,107 puri,puri
+5394,puri,yes,puri sadar,yes,chandanpur,yes,107,107 puri,puri
+5395,puri,yes,puri sadar,yes,sasan damodarpur,yes,107,107 puri,puri
 5396,puri,yes,puri sadar,yes,samanga,no,107,107 puri,puri
-5397,puri,yes,puri sadar,yes,samangara,no,107,107 puri,puri
-5398,puri,yes,puri sadar,yes,gopinathpur,no,107,107 puri,puri
+5397,puri,yes,puri sadar,yes,samangara,yes,107,107 puri,puri
+5398,puri,yes,puri sadar,yes,gopinathpur,yes,107,107 puri,puri
 5399,puri,yes,puri sadar,yes,harekrushnapur,no,107,107 puri,puri
-5400,puri,yes,puri sadar,yes,baliguali,no,107,107 puri,puri
-5401,puri,yes,puri sadar,yes,talajanga,no,107,107 puri,puri
+5400,puri,yes,puri sadar,yes,baliguali,yes,107,107 puri,puri
+5401,puri,yes,puri sadar,yes,talajanga,yes,107,107 puri,puri
 5402,puri,yes,gop,yes,itibhuan,yes,107,107 puri,puri
 5403,puri,yes,gop,yes,chhaitana,yes,107,107 puri,puri
 5404,puri,yes,gop,yes,gadabhingura,yes,107,107 puri,puri
 5405,puri,yes,puri sadar,yes,kanhei,no,108,108 brahmagiri,puri
 5406,puri,yes,puri sadar,yes,bidyadharpur,no,108,108 brahmagiri,puri
-5407,puri,yes,puri sadar,yes,gaudakera,no,108,108 brahmagiri,puri
+5407,puri,yes,puri sadar,yes,gaudakera,yes,108,108 brahmagiri,puri
 5408,puri,yes,puri sadar,yes,bijaya ramachandrapur,no,108,108 brahmagiri,puri
-5409,puri,yes,puri sadar,yes,kanheibidyadharpur,no,108,108 brahmagiri,puri
-5410,puri,yes,puri sadar,yes,biranarsinghpur,no,108,108 brahmagiri,puri
-5411,puri,yes,puri sadar,yes,kashiharipur,no,108,108 brahmagiri,puri
-5412,puri,yes,puri sadar,yes,pratap ramachandrapur,no,108,108 brahmagiri,puri
+5409,puri,yes,puri sadar,yes,kanheibidyadharpur,yes,108,108 brahmagiri,puri
+5410,puri,yes,puri sadar,yes,biranarsinghpur,yes,108,108 brahmagiri,puri
+5411,puri,yes,puri sadar,yes,kashiharipur,yes,108,108 brahmagiri,puri
+5412,puri,yes,puri sadar,yes,pratap ramachandrapur,yes,108,108 brahmagiri,puri
 5413,puri,yes,puri sadar,yes,bira narasinghapur,no,108,108 brahmagiri,puri
-5414,puri,yes,puri sadar,yes,bira harekrushnapur,no,108,108 brahmagiri,puri
+5414,puri,yes,puri sadar,yes,bira harekrushnapur,yes,108,108 brahmagiri,puri
 5415,puri,yes,puri sadar,yes,bira balabhadrapur,no,108,108 brahmagiri,puri
-5416,puri,yes,puri sadar,yes,pratap purusottampur,no,108,108 brahmagiri,puri
-5417,puri,yes,puri sadar,yes,hantuka,no,108,108 brahmagiri,puri
+5416,puri,yes,puri sadar,yes,pratap purusottampur,yes,108,108 brahmagiri,puri
+5417,puri,yes,puri sadar,yes,hantuka,yes,108,108 brahmagiri,puri
 5418,puri,yes,puri sadar,yes,basudevpur,no,108,108 brahmagiri,puri
-5419,puri,yes,puri sadar,yes,kerandipur,no,108,108 brahmagiri,puri
-5420,puri,yes,puri sadar,yes,bhailipur,no,108,108 brahmagiri,puri
+5419,puri,yes,puri sadar,yes,kerandipur,yes,108,108 brahmagiri,puri
+5420,puri,yes,puri sadar,yes,bhailipur,yes,108,108 brahmagiri,puri
 5421,puri,yes,krushnaprasad,yes,alanda,yes,108,108 brahmagiri,puri
 5422,puri,yes,krushnaprasad,yes,arakhakuda,yes,108,108 brahmagiri,puri
 5423,puri,yes,krushnaprasad,yes,badaanla,yes,108,108 brahmagiri,puri
@@ -5744,13 +5744,13 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 5743,khurda,yes,bhubaneswar,yes,tikarapada,yes,114,114 ekamra?bhubaneswar,bhubaneswar
 5744,khurda,yes,bhubaneswar,yes,dhauli,yes,114,114 ekamra?bhubaneswar,bhubaneswar
 5745,khurda,yes,bhubaneswar,yes,sisupal,yes,114,114 ekamra?bhubaneswar,bhubaneswar
-5746,khurda,yes,khurda,yes,garh haladia,no,115,115 jatani,bhubaneswar
-5747,khurda,yes,khurda,yes,keranga,no,115,115 jatani,bhubaneswar
-5748,khurda,yes,khurda,yes,malipur,no,115,115 jatani,bhubaneswar
-5749,khurda,yes,khurda,yes,barasahi,no,115,115 jatani,bhubaneswar
-5750,khurda,yes,khurda,yes,nalipada arjunpur,no,115,115 jatani,bhubaneswar
-5751,khurda,yes,khurda,yes,pubusahi,no,115,115 jatani,bhubaneswar
-5752,khurda,yes,khurda,yes,tangiapada,no,115,115 jatani,bhubaneswar
+5746,khurda,yes,khurda,yes,garh haladia,yes,115,115 jatani,bhubaneswar
+5747,khurda,yes,khurda,yes,keranga,yes,115,115 jatani,bhubaneswar
+5748,khurda,yes,khurda,yes,malipur,yes,115,115 jatani,bhubaneswar
+5749,khurda,yes,khurda,yes,barasahi,yes,115,115 jatani,bhubaneswar
+5750,khurda,yes,khurda,yes,nalipada arjunpur,yes,115,115 jatani,bhubaneswar
+5751,khurda,yes,khurda,yes,pubusahi,yes,115,115 jatani,bhubaneswar
+5752,khurda,yes,khurda,yes,tangiapada,yes,115,115 jatani,bhubaneswar
 5753,khurda,yes,jatani,yes,angarpada,yes,115,115 jatani,bhubaneswar
 5754,khurda,yes,jatani,yes,benapanjari,yes,115,115 jatani,bhubaneswar
 5755,khurda,yes,jatani,yes,chanaghara,yes,115,115 jatani,bhubaneswar
@@ -5844,20 +5844,20 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 5843,khurda,yes,tangi,yes,tangi,yes,117,117 khurda,bhubaneswar
 5844,khurda,yes,tangi,yes,tankol,yes,117,117 khurda,bhubaneswar
 5845,khurda,yes,tangi,yes,ujalagopinathpur,yes,117,117 khurda,bhubaneswar
-5846,khurda,yes,khurda,yes,bajapur,no,117,117 khurda,bhubaneswar
-5847,khurda,yes,khurda,yes,bangida,no,117,117 khurda,bhubaneswar
-5848,khurda,yes,khurda,yes,brajamohanpur,no,117,117 khurda,bhubaneswar
-5849,khurda,yes,khurda,yes,dhauli muhan,no,117,117 khurda,bhubaneswar
-5850,khurda,yes,khurda,yes,godipada,no,117,117 khurda,bhubaneswar
-5851,khurda,yes,khurda,yes,golabai sasan,no,117,117 khurda,bhubaneswar
-5852,khurda,yes,khurda,yes,jankia,no,117,117 khurda,bhubaneswar
-5853,khurda,yes,khurda,yes,kaipadar,no,117,117 khurda,bhubaneswar
-5854,khurda,yes,khurda,yes,kanpur,no,117,117 khurda,bhubaneswar
-5855,khurda,yes,khurda,yes,kuradhamal,no,117,117 khurda,bhubaneswar
-5856,khurda,yes,khurda,yes,narangarh,no,117,117 khurda,bhubaneswar
-5857,khurda,yes,khurda,yes,nijigarh tapanga,no,117,117 khurda,bhubaneswar
-5858,khurda,yes,khurda,yes,orabarsingh,no,117,117 khurda,bhubaneswar
-5859,khurda,yes,khurda,yes,pallatotapada,no,117,117 khurda,bhubaneswar
+5846,khurda,yes,khurda,yes,bajapur,yes,117,117 khurda,bhubaneswar
+5847,khurda,yes,khurda,yes,bangida,yes,117,117 khurda,bhubaneswar
+5848,khurda,yes,khurda,yes,brajamohanpur,yes,117,117 khurda,bhubaneswar
+5849,khurda,yes,khurda,yes,dhauli muhan,yes,117,117 khurda,bhubaneswar
+5850,khurda,yes,khurda,yes,godipada,yes,117,117 khurda,bhubaneswar
+5851,khurda,yes,khurda,yes,golabai sasan,yes,117,117 khurda,bhubaneswar
+5852,khurda,yes,khurda,yes,jankia,yes,117,117 khurda,bhubaneswar
+5853,khurda,yes,khurda,yes,kaipadar,yes,117,117 khurda,bhubaneswar
+5854,khurda,yes,khurda,yes,kanpur,yes,117,117 khurda,bhubaneswar
+5855,khurda,yes,khurda,yes,kuradhamal,yes,117,117 khurda,bhubaneswar
+5856,khurda,yes,khurda,yes,narangarh,yes,117,117 khurda,bhubaneswar
+5857,khurda,yes,khurda,yes,nijigarh tapanga,yes,117,117 khurda,bhubaneswar
+5858,khurda,yes,khurda,yes,orabarsingh,yes,117,117 khurda,bhubaneswar
+5859,khurda,yes,khurda,yes,pallatotapada,yes,117,117 khurda,bhubaneswar
 5860,ganjam,yes,buguda,yes,a.karadabadi,no,124,124 polasara,aska
 5861,ganjam,yes,buguda,yes,antarapada,yes,124,124 polasara,aska
 5862,ganjam,yes,buguda,yes,arakhapur,yes,124,124 polasara,aska
@@ -6443,27 +6443,27 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 6442,gajapati,yes,kashinagar,yes,ranipeta,yes,137,137 paralakhemundi,berhampur
 6443,gajapati,yes,kashinagar,yes,siali,yes,137,137 paralakhemundi,berhampur
 6444,gajapati,yes,kashinagar,yes,sidhamadanga,yes,137,137 paralakhemundi,berhampur
-6445,gajapati,yes,gosani (paralakhemundi),yes,agarakhandi,no,137,137 paralakhemundi,berhampur
-6446,gajapati,yes,gosani (paralakhemundi),yes,bada gosani,no,137,137 paralakhemundi,berhampur
-6447,gajapati,yes,gosani (paralakhemundi),yes,bada koturu,no,137,137 paralakhemundi,berhampur
-6448,gajapati,yes,gosani (paralakhemundi),yes,bagasala,no,137,137 paralakhemundi,berhampur
-6449,gajapati,yes,gosani (paralakhemundi),yes,bhuskudi,no,137,137 paralakhemundi,berhampur
-6450,gajapati,yes,gosani (paralakhemundi),yes,bomika,no,137,137 paralakhemundi,berhampur
-6451,gajapati,yes,gosani (paralakhemundi),yes,garabandha,no,137,137 paralakhemundi,berhampur
-6452,gajapati,yes,gosani (paralakhemundi),yes,ghorani,no,137,137 paralakhemundi,berhampur
-6453,gajapati,yes,gosani (paralakhemundi),yes,gurandi,no,137,137 paralakhemundi,berhampur
-6454,gajapati,yes,gosani (paralakhemundi),yes,kantragada,no,137,137 paralakhemundi,berhampur
-6455,gajapati,yes,gosani (paralakhemundi),yes,katala kaitha,no,137,137 paralakhemundi,berhampur
-6456,gajapati,yes,gosani (paralakhemundi),yes,kerandi,no,137,137 paralakhemundi,berhampur
-6457,gajapati,yes,gosani (paralakhemundi),yes,kharasanda,no,137,137 paralakhemundi,berhampur
-6458,gajapati,yes,gosani (paralakhemundi),yes,labanyagada,no,137,137 paralakhemundi,berhampur
-6459,gajapati,yes,gosani (paralakhemundi),yes,machamara,no,137,137 paralakhemundi,berhampur
-6460,gajapati,yes,gosani (paralakhemundi),yes,madhusudanpur,no,137,137 paralakhemundi,berhampur
-6461,gajapati,yes,gosani (paralakhemundi),yes,rampa,no,137,137 paralakhemundi,berhampur
-6462,gajapati,yes,gosani (paralakhemundi),yes,saradhapur,no,137,137 paralakhemundi,berhampur
-6463,gajapati,yes,gosani (paralakhemundi),yes,sobara,no,137,137 paralakhemundi,berhampur
-6464,gajapati,yes,gosani (paralakhemundi),yes,tatipetti,no,137,137 paralakhemundi,berhampur
-6465,gajapati,yes,gosani (paralakhemundi),yes,uppalada,no,137,137 paralakhemundi,berhampur
+6445,gajapati,yes,gosani (paralakhemundi),yes,agarakhandi,yes,137,137 paralakhemundi,berhampur
+6446,gajapati,yes,gosani (paralakhemundi),yes,bada gosani,yes,137,137 paralakhemundi,berhampur
+6447,gajapati,yes,gosani (paralakhemundi),yes,bada koturu,yes,137,137 paralakhemundi,berhampur
+6448,gajapati,yes,gosani (paralakhemundi),yes,bagasala,yes,137,137 paralakhemundi,berhampur
+6449,gajapati,yes,gosani (paralakhemundi),yes,bhuskudi,yes,137,137 paralakhemundi,berhampur
+6450,gajapati,yes,gosani (paralakhemundi),yes,bomika,yes,137,137 paralakhemundi,berhampur
+6451,gajapati,yes,gosani (paralakhemundi),yes,garabandha,yes,137,137 paralakhemundi,berhampur
+6452,gajapati,yes,gosani (paralakhemundi),yes,ghorani,yes,137,137 paralakhemundi,berhampur
+6453,gajapati,yes,gosani (paralakhemundi),yes,gurandi,yes,137,137 paralakhemundi,berhampur
+6454,gajapati,yes,gosani (paralakhemundi),yes,kantragada,yes,137,137 paralakhemundi,berhampur
+6455,gajapati,yes,gosani (paralakhemundi),yes,katala kaitha,yes,137,137 paralakhemundi,berhampur
+6456,gajapati,yes,gosani (paralakhemundi),yes,kerandi,yes,137,137 paralakhemundi,berhampur
+6457,gajapati,yes,gosani (paralakhemundi),yes,kharasanda,yes,137,137 paralakhemundi,berhampur
+6458,gajapati,yes,gosani (paralakhemundi),yes,labanyagada,yes,137,137 paralakhemundi,berhampur
+6459,gajapati,yes,gosani (paralakhemundi),yes,machamara,yes,137,137 paralakhemundi,berhampur
+6460,gajapati,yes,gosani (paralakhemundi),yes,madhusudanpur,yes,137,137 paralakhemundi,berhampur
+6461,gajapati,yes,gosani (paralakhemundi),yes,rampa,yes,137,137 paralakhemundi,berhampur
+6462,gajapati,yes,gosani (paralakhemundi),yes,saradhapur,yes,137,137 paralakhemundi,berhampur
+6463,gajapati,yes,gosani (paralakhemundi),yes,sobara,yes,137,137 paralakhemundi,berhampur
+6464,gajapati,yes,gosani (paralakhemundi),yes,tatipetti,yes,137,137 paralakhemundi,berhampur
+6465,gajapati,yes,gosani (paralakhemundi),yes,uppalada,yes,137,137 paralakhemundi,berhampur
 6466,rayagada,yes,ramanaguda,yes,bhamini,yes,138,138 gunupur (st),koraput (st)
 6467,rayagada,yes,ramanaguda,yes,boothing,yes,138,138 gunupur (st),koraput (st)
 6468,rayagada,yes,ramanaguda,yes,gogupadu,yes,138,138 gunupur (st),koraput (st)
@@ -6646,22 +6646,22 @@ g_match_id,g_district,district_mapped,g_block,block_mapped,g_gp,gp_mapped,g_ac_i
 6645,rayagada,yes,rayagada,yes,pipalguda,yes,140,140 rayagada (st),koraput (st)
 6646,rayagada,yes,rayagada,yes,pitamahal,yes,140,140 rayagada (st),koraput (st)
 6647,rayagada,yes,rayagada,yes,tadama,yes,140,140 rayagada (st),koraput (st)
-6648,koraput,yes,dasmantpur,yes,chanabada,no,141,141 lakshmipur (st),koraput (st)
-6649,koraput,yes,dasmantpur,yes,chikambo,no,141,141 lakshmipur (st),koraput (st)
-6650,koraput,yes,dasmantpur,yes,dasamantapur,no,141,141 lakshmipur (st),koraput (st)
-6651,koraput,yes,dasmantpur,yes,duarsuni,no,141,141 lakshmipur (st),koraput (st)
-6652,koraput,yes,dasmantpur,yes,dumbaguda,no,141,141 lakshmipur (st),koraput (st)
-6653,koraput,yes,dasmantpur,yes,gadiaguda,no,141,141 lakshmipur (st),koraput (st)
-6654,koraput,yes,dasmantpur,yes,giriligumma,no,141,141 lakshmipur (st),koraput (st)
-6655,koraput,yes,dasmantpur,yes,lulla,no,141,141 lakshmipur (st),koraput (st)
-6656,koraput,yes,dasmantpur,yes,malkangiri,no,141,141 lakshmipur (st),koraput (st)
-6657,koraput,yes,dasmantpur,yes,mujango,no,141,141 lakshmipur (st),koraput (st)
-6658,koraput,yes,dasmantpur,yes,murkar,no,141,141 lakshmipur (st),koraput (st)
-6659,koraput,yes,dasmantpur,yes,nandigam,no,141,141 lakshmipur (st),koraput (st)
-6660,koraput,yes,dasmantpur,yes,paika phulbeda,no,141,141 lakshmipur (st),koraput (st)
-6661,koraput,yes,dasmantpur,yes,pindapadar,no,141,141 lakshmipur (st),koraput (st)
-6662,koraput,yes,dasmantpur,yes,podagada,no,141,141 lakshmipur (st),koraput (st)
-6663,koraput,yes,dasmantpur,yes,poraja bedapodar,no,141,141 lakshmipur (st),koraput (st)
+6648,koraput,yes,dasmantpur,yes,chanabada,yes,141,141 lakshmipur (st),koraput (st)
+6649,koraput,yes,dasmantpur,yes,chikambo,yes,141,141 lakshmipur (st),koraput (st)
+6650,koraput,yes,dasmantpur,yes,dasamantapur,yes,141,141 lakshmipur (st),koraput (st)
+6651,koraput,yes,dasmantpur,yes,duarsuni,yes,141,141 lakshmipur (st),koraput (st)
+6652,koraput,yes,dasmantpur,yes,dumbaguda,yes,141,141 lakshmipur (st),koraput (st)
+6653,koraput,yes,dasmantpur,yes,gadiaguda,yes,141,141 lakshmipur (st),koraput (st)
+6654,koraput,yes,dasmantpur,yes,giriligumma,yes,141,141 lakshmipur (st),koraput (st)
+6655,koraput,yes,dasmantpur,yes,lulla,yes,141,141 lakshmipur (st),koraput (st)
+6656,koraput,yes,dasmantpur,yes,malkangiri,yes,141,141 lakshmipur (st),koraput (st)
+6657,koraput,yes,dasmantpur,yes,mujango,yes,141,141 lakshmipur (st),koraput (st)
+6658,koraput,yes,dasmantpur,yes,murkar,yes,141,141 lakshmipur (st),koraput (st)
+6659,koraput,yes,dasmantpur,yes,nandigam,yes,141,141 lakshmipur (st),koraput (st)
+6660,koraput,yes,dasmantpur,yes,paika phulbeda,yes,141,141 lakshmipur (st),koraput (st)
+6661,koraput,yes,dasmantpur,yes,pindapadar,yes,141,141 lakshmipur (st),koraput (st)
+6662,koraput,yes,dasmantpur,yes,podagada,yes,141,141 lakshmipur (st),koraput (st)
+6663,koraput,yes,dasmantpur,yes,poraja bedapodar,yes,141,141 lakshmipur (st),koraput (st)
 6664,koraput,yes,laxmipur,yes,bhitaragada,yes,141,141 lakshmipur (st),koraput (st)
 6665,koraput,yes,laxmipur,yes,burja,yes,141,141 lakshmipur (st),koraput (st)
 6666,koraput,yes,laxmipur,yes,champi,yes,141,141 lakshmipur (st),koraput (st)
