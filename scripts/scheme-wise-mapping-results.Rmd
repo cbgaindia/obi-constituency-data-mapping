@@ -15,9 +15,11 @@ output:
 
 
 
-### Results
+### Results {.tabset}
 
 <br />
+
+#### Scheme-Wise
 
 ```{r chunk-options, include=FALSE}
 # Options for building this document
@@ -140,7 +142,78 @@ all_schemes_mapping_summary_t <-
 all_schemes_mapping_summary_t
 ```
 
+#### District Wise {.tabset}
+
+```{r district-level-summary}
+
+district_mapping_summary <- function(scheme_to_summarise){
+    # Read files
+  scheme_mapping_summary <-
+    readr::read_csv(glue(
+      "../data/results/{scheme_to_summarise}-geography-mapping-summary.csv"
+    ))
+  
+  
+   district_total <- scheme_mapping_summary %>% group_by(g_district) %>% summarise(total_GP = length(g_match_id), mapped_GP=length(g_match_id[gp_mapped=="yes"])) %>% mutate(mapping_percent=round(mapped_GP/total_GP*100))
+   
+   district_total$scheme_name <- scheme_to_summarise
+  
+   return(district_total)
+}
+
+district_wise_mapping_summary <- lapply(scheme_to_summarise, district_mapping_summary)
+
+```
+
+##### MNREGA (2018-19)
+
+```{r district-summary-mnrega-2018-19}
+
+district_wise_mapping_summary <- bind_rows(district_wise_mapping_summary)
+mnrega_2018_district_wise_mapping_summary <- district_wise_mapping_summary[district_wise_mapping_summary$scheme_name=="mnrega-2018-19",]
+mnrega_2018_district_wise_mapping_summary$scheme_name <- NULL
+
+
+mnrega_2018_district_wise_mapping_summary_t <- mnrega_2018_district_wise_mapping_summary %>% arrange(desc(mapping_percent)) %>% gt(rowname_col = "g_district") %>%    tab_stubhead(label = "District") %>%  cols_label(
+    g_district = "District",
+    total_GP = "totalGP",
+    mapped_GP = "mappedGP",
+    mapping_percent = "MappingPercent"
+  ) %>% fmt_number(
+    columns = c("total_GP", "mapped_GP"),
+    use_seps = TRUE,
+    decimals = 0
+  ) %>% fmt_percent(columns = "mapping_percent",
+                    scale_values = FALSE,
+                    decimals = 0) %>% text_transform(
+  locations = cells_body(columns = mapping_percent,
+                         rows = total_GP == mapped_GP),
+  fn = function(x)
+    paste(x, bullet_green)
+) %>% text_transform(
+  locations = cells_body(columns = mapping_percent,
+                         rows = mapped_GP < total_GP),
+  fn = function(x)
+    paste(x, bullet_red)
+) %>%  tab_options(table.width = pct(80),table.align = "center",
+                    column_labels.font.size = "small",
+                     table.border.top.color =  "#000",
+                 table.border.top.width = 2,
+                 table_body.border.bottom.color =  "#000",
+                 table_body.border.bottom.width = 2,
+    table.font.size = "small",
+    row_group.font.size = "small",
+    data_row.padding = px(3)) %>%  tab_style(
+    style = cell_text(weight = "bold", font = google_font(name = "Roboto")),
+    locations = cells_body(columns = mapping_percent)
+  )
+
+
+mnrega_2018_district_wise_mapping_summary_t
+```
 <br />
+
+
 
 ### Dataset Links
 
