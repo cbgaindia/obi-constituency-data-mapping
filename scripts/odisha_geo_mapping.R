@@ -175,4 +175,61 @@ scheme_data <-
 names(scheme_data)[which(names(scheme_data)=='s_gp_mapping')] <- 'updated_gp_name'
 # readr::write_csv(scheme_data, "data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv")
 # readr::write_csv(scheme_data, "data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv")
-readr::write_csv(scheme_data, "data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv")
+# readr::write_csv(scheme_data, "data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv")
+
+
+
+
+# Manual Update Blocks - Map GP -------------------------------------------
+
+scheme_data <- read_csv("data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv")
+scheme_data$updated_gp_name <- NULL
+all_geo_districts <- unique(geo_mapping$g_district)
+
+odisha_gp_match <- data.frame()
+
+for(i in 1:length(all_geo_districts)){
+  all_geo_blocks <- unique(geo_mapping$g_block[geo_mapping$g_district == all_geo_districts[[i]]])
+  # j <- 6
+  for(j in 1:length(all_geo_blocks)){
+    
+    geo_gp_df <- unique(geo_mapping[geo_mapping$g_district == all_geo_districts[[i]] & geo_mapping$g_block == all_geo_blocks[[j]],c("g_district","g_block","g_gp")])
+    scheme_gp_df <- scheme_data[scheme_data$updated_district_name == all_geo_districts[[i]] & scheme_data$updated_block_name == all_geo_blocks[[j]],]
+    scheme_gp_df <- scheme_gp_df[!is.na(scheme_gp_df$s_gp),]
+    
+    geo_gp_df <-
+      geo_gp_df %>% stringdist_left_join(scheme_gp_df[,c("updated_district_name", "updated_block_name", "s_gp")],
+                                         by = c('g_gp' = 's_gp'),
+                                         max_dist = 1,distance_col = 'distance')
+    
+    geo_gp_df$final_match <- 1
+    geo_gp_df$final_match[is.na(geo_gp_df$s_gp)] <- 0
+    
+    gps_one_to_many <- geo_gp_df %>% group_by(g_gp) %>% summarise(total_count=length(g_district)) %>% filter(total_count>1) %>% select(g_gp)
+    gps_one_to_many <- gps_one_to_many$g_gp[!is.na(gps_one_to_many$g_gp)]
+    geo_gp_df$final_match[geo_gp_df$g_gp %in% gps_one_to_many] <- 0
+    
+    gps_many_to_one <- geo_gp_df %>% group_by(s_gp) %>% summarise(total_count=length(g_district)) %>% filter(total_count>1) %>% select(s_gp)
+    gps_many_to_one <- gps_many_to_one$s_gp[!is.na(gps_many_to_one$s_gp)]
+    geo_gp_df$final_match[geo_gp_df$s_gp %in% gps_many_to_one] <- 0
+    
+    
+    odisha_gp_match <- bind_rows(odisha_gp_match, geo_gp_df)
+    
+  }
+}
+
+odisha_gp_match_result <- odisha_gp_match[odisha_gp_match$final_match == 1,]
+odisha_gp_match_result$s_gp_mapping <- odisha_gp_match_result$s_gp
+odisha_gp_match_result$s_gp_mapping[odisha_gp_match_result$distance == 1] <- odisha_gp_match_result$g_gp[odisha_gp_match_result$distance == 1]
+
+scheme_data <-
+  left_join(
+    scheme_data,
+    odisha_gp_match_result[, c("g_district","g_block","s_gp","s_gp_mapping")],
+    by = c("updated_district_name" = "g_district", "updated_block_name" = "g_block","s_gp"="s_gp")
+  )
+
+names(scheme_data)[which(names(scheme_data)=='s_gp_mapping')] <- 'updated_gp_name'
+
+readr::write_csv(scheme_data, "data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv")
