@@ -35,7 +35,7 @@ knitr::opts_chunk$set(
 
 ```{r function-to-summarise-mapping-for-scheme}
 source("../scripts/libraries.R")
-scheme_to_summarise <- c("mnrega-2018-19","mnrega-2019-20","pmagy-2019-20")
+scheme_to_summarise <- c("mnrega-2018-19","mnrega-2019-20","pmagy-2018-19","pmagy-2019-20")
 
 summarise_scheme_mapping <- function(scheme_to_summarise){
   
@@ -86,7 +86,7 @@ summarise_scheme_mapping <- function(scheme_to_summarise){
                  'Total' = var_total,
                  'Mapped' = var_mapped)
     var_df$MappingPercent <- round(var_df$Mapped / var_df$Total*100)
-    var_df$scheme <- ifelse(scheme_to_summarise == "mnrega-2018-19","MNREGA (2018-19)",ifelse(scheme_to_summarise == "mnrega-2019-20","MNREGA (2019-20)","PMAGY (2019-20)"))
+    var_df$scheme <- ifelse(scheme_to_summarise == "mnrega-2018-19","MNREGA (2018-19)",ifelse(scheme_to_summarise == "mnrega-2019-20","MNREGA (2019-20)",ifelse(scheme_to_summarise == "pmagy-2018-19","PMAGY (2018-19)","PMAGY (2019-20)")))
     mapping_summary_table <- bind_rows(mapping_summary_table ,var_df)
   }
   
@@ -165,16 +165,15 @@ district_wise_mapping_summary <- lapply(scheme_to_summarise, district_mapping_su
 
 ```
 
-##### MNREGA (2018-19)
 
-```{r district-summary-mnrega-2018-19}
+```{r generate-district-summary-function}
 
 district_wise_mapping_summary <- bind_rows(district_wise_mapping_summary)
-mnrega_2018_district_wise_mapping_summary <- district_wise_mapping_summary[district_wise_mapping_summary$scheme_name=="mnrega-2018-19",]
-mnrega_2018_district_wise_mapping_summary$scheme_name <- NULL
 
-
-mnrega_2018_district_wise_mapping_summary_t <- mnrega_2018_district_wise_mapping_summary %>% arrange(desc(mapping_percent)) %>% gt(rowname_col = "g_district") %>%    tab_stubhead(label = "District") %>%  cols_label(
+generate_district_wise_tables <- function(scheme_name){
+  district_wise_mapping_summary_scheme <- district_wise_mapping_summary[district_wise_mapping_summary$scheme_name==scheme_name,]
+district_wise_mapping_summary_scheme$scheme_name <- NULL
+  district_wise_mapping_summary_t <- district_wise_mapping_summary_scheme %>% arrange(desc(mapping_percent)) %>% gt(rowname_col = "g_district") %>%    tab_stubhead(label = "District") %>%  cols_label(
     g_district = "District",
     total_GP = "totalGP",
     mapped_GP = "mappedGP",
@@ -207,10 +206,40 @@ mnrega_2018_district_wise_mapping_summary_t <- mnrega_2018_district_wise_mapping
     style = cell_text(weight = "bold", font = google_font(name = "Roboto")),
     locations = cells_body(columns = mapping_percent)
   )
+  
+  return(district_wise_mapping_summary_t)
+}
 
-
-mnrega_2018_district_wise_mapping_summary_t
 ```
+
+##### MNREGA (2018-19)
+```{r mnrega-2018-district-summary}
+generate_district_wise_tables(scheme_name = scheme_to_summarise[[1]])
+
+
+```
+
+
+##### MNREGA (2019-20)
+```{r mnrega-2019-district-summary}
+generate_district_wise_tables(scheme_name = scheme_to_summarise[[2]])
+
+
+```
+
+##### PMAGY (2018-19)
+```{r pmagy-2018-district-summary}
+generate_district_wise_tables(scheme_name = scheme_to_summarise[[3]])
+
+```
+
+##### PMAGY (2019-20)
+```{r pmagy-2019-district-summary}
+generate_district_wise_tables(scheme_name = scheme_to_summarise[[4]])
+
+```
+
+
 <br />
 
 
