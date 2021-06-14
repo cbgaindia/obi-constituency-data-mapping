@@ -1,6 +1,6 @@
 ---
-title: "Mapping scmeme indicators to Constituencies"
-subtitle: "Matching geographies between the two databases"
+title: "Mapping scheme indicators to Constituencies"
+subtitle: "Merging databases on GP name"
 output: 
   html_document:
     df_print: default
