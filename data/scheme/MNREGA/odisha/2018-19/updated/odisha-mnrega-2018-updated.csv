@@ -11,8 +11,8 @@ odisha,bolangir,agalpur,jharanipali,9,bolangir,agalpur,jharanipali
 odisha,bolangir,agalpur,kutasingha,10,bolangir,agalpur,kutasingha
 odisha,bolangir,agalpur,luhuramunda,11,bolangir,agalpur,luhuramunda
 odisha,bolangir,agalpur,mursundhi,12,bolangir,agalpur,mursundhi
-odisha,bolangir,agalpur,nagaon-a,13,bolangir,agalpur,NA
-odisha,bolangir,agalpur,nagaon-b,14,bolangir,agalpur,NA
+odisha,bolangir,agalpur,nagaon-a,13,bolangir,agalpur,nagaon-a
+odisha,bolangir,agalpur,nagaon-b,14,bolangir,agalpur,nagaon-b
 odisha,bolangir,agalpur,nuniapali,15,bolangir,agalpur,nuniapali
 odisha,bolangir,agalpur,patuapali,16,bolangir,agalpur,patuapali
 odisha,bolangir,agalpur,rinbachan,17,bolangir,agalpur,rinbachan
@@ -781,8 +781,8 @@ odisha,gajapati,nuagada,udayapur,779,gajapati,nuagada,udayapur
 odisha,gajapati,r. udayagiri,abarsing,780,gajapati,r. udayagiri,abarsing
 odisha,gajapati,r. udayagiri,anagha,781,gajapati,r. udayagiri,anagha
 odisha,gajapati,r. udayagiri,bastriguda,782,gajapati,r. udayagiri,bastriguda
-odisha,gajapati,r. udayagiri,chellagada,783,gajapati,r. udayagiri,NA
-odisha,gajapati,r. udayagiri,chelligada,784,gajapati,r. udayagiri,NA
+odisha,gajapati,r. udayagiri,chellagada,783,gajapati,r. udayagiri,chellagada
+odisha,gajapati,r. udayagiri,chelligada,784,gajapati,r. udayagiri,chelligada
 odisha,gajapati,r. udayagiri,dabaraguda,785,gajapati,r. udayagiri,dabaraguda
 odisha,gajapati,r. udayagiri,mahendragada,786,gajapati,r. udayagiri,mahendragada
 odisha,gajapati,r. udayagiri,mangarajpur,787,gajapati,r. udayagiri,mangarajpur
@@ -906,10 +906,10 @@ odisha,ganjam,bhanjanagar,mujagada,904,ganjam,bhanjanagar,mujagada
 odisha,ganjam,bhanjanagar,sanakodanda,905,ganjam,bhanjanagar,sanakodanda
 odisha,ganjam,bhanjanagar,tilisingi,906,ganjam,bhanjanagar,tilisingi
 odisha,ganjam,bhanjanagar,turumu,907,ganjam,bhanjanagar,turumu
-odisha,ganjam,buguda,a.karadabadi,908,ganjam,buguda,NA
+odisha,ganjam,buguda,a.karadabadi,908,ganjam,buguda,a.karadabadi
 odisha,ganjam,buguda,antarapada,909,ganjam,buguda,antarapada
 odisha,ganjam,buguda,arakhapur,910,ganjam,buguda,arakhapur
-odisha,ganjam,buguda,b.karadabadi,911,ganjam,buguda,NA
+odisha,ganjam,buguda,b.karadabadi,911,ganjam,buguda,b.karadabadi
 odisha,ganjam,buguda,balipadara,912,ganjam,buguda,balipadara
 odisha,ganjam,buguda,bhagabanpur,913,ganjam,buguda,bhagabanpur
 odisha,ganjam,buguda,bhamasiali,914,ganjam,buguda,bhamasiali
@@ -1508,7 +1508,7 @@ odisha,kalahandi,jaipatana,rengapali,1506,kalahandi,jaipatana,rengapali
 odisha,kalahandi,jaipatana,sargiguda,1507,kalahandi,jaipatana,sargiguda
 odisha,kalahandi,jaipatana,sindhikaguda,1508,kalahandi,jaipatana,sindhikaguda
 odisha,kalahandi,jaipatana,uchhala,1509,kalahandi,jaipatana,uchhala
-odisha,kalahandi,junagarh,atigaon,1510,kalahandi,junagarh,NA
+odisha,kalahandi,junagarh,atigaon,1510,kalahandi,junagarh,atigaon
 odisha,kalahandi,junagarh,baldiamal,1511,kalahandi,junagarh,baldiamal
 odisha,kalahandi,junagarh,bankapalash,1512,kalahandi,junagarh,bankapalash
 odisha,kalahandi,junagarh,bauxi-tulasipalli,1513,kalahandi,junagarh,bauxi-tulasipalli
@@ -1531,7 +1531,7 @@ odisha,kalahandi,junagarh,kalopalla,1529,kalahandi,junagarh,kalopalla
 odisha,kalahandi,junagarh,kendupati,1530,kalahandi,junagarh,kendupati
 odisha,kalahandi,junagarh,mahichala,1531,kalahandi,junagarh,mahichala
 odisha,kalahandi,junagarh,maliguda,1532,kalahandi,junagarh,maliguda
-odisha,kalahandi,junagarh,matigaon,1533,kalahandi,junagarh,NA
+odisha,kalahandi,junagarh,matigaon,1533,kalahandi,junagarh,matigaon
 odisha,kalahandi,junagarh,meriabandhli,1534,kalahandi,junagarh,meriabandhli
 odisha,kalahandi,junagarh,mundraguda,1535,kalahandi,junagarh,mundraguda
 odisha,kalahandi,junagarh,naktiguda,1536,kalahandi,junagarh,naktiguda
@@ -1739,8 +1739,8 @@ odisha,kandhamal,daringbadi,bamunigam,1737,kandhamal,daringbadi,bamunigam
 odisha,kandhamal,daringbadi,bhramarabadi,1738,kandhamal,daringbadi,bhramarabadi
 odisha,kandhamal,daringbadi,budaguda,1739,kandhamal,daringbadi,budaguda
 odisha,kandhamal,daringbadi,danekabadi,1740,kandhamal,daringbadi,danekabadi
-odisha,kandhamal,daringbadi,daringibadi,1741,kandhamal,daringbadi,NA
-odisha,kandhamal,daringbadi,dasingibadi,1742,kandhamal,daringbadi,NA
+odisha,kandhamal,daringbadi,daringibadi,1741,kandhamal,daringbadi,daringibadi
+odisha,kandhamal,daringbadi,dasingibadi,1742,kandhamal,daringbadi,dasingibadi
 odisha,kandhamal,daringbadi,gadapur,1743,kandhamal,daringbadi,gadapur
 odisha,kandhamal,daringbadi,greenbadi,1744,kandhamal,daringbadi,greenbadi
 odisha,kandhamal,daringbadi,gumikia,1745,kandhamal,daringbadi,gumikia
@@ -1761,11 +1761,11 @@ odisha,kandhamal,daringbadi,tajungia,1759,kandhamal,daringbadi,tajungia
 odisha,kandhamal,daringbadi,tillori,1760,kandhamal,daringbadi,tillori
 odisha,kandhamal,g. udayagiri,gressingia,1761,kandhamal,g. udayagiri,gressingia
 odisha,kandhamal,g. udayagiri,kalinga,1762,kandhamal,g. udayagiri,kalinga
-odisha,kandhamal,g. udayagiri,katingia,1763,kandhamal,g. udayagiri,NA
+odisha,kandhamal,g. udayagiri,katingia,1763,kandhamal,g. udayagiri,katingia
 odisha,kandhamal,g. udayagiri,lingagada,1764,kandhamal,g. udayagiri,lingagada
 odisha,kandhamal,g. udayagiri,mallikpodi,1765,kandhamal,g. udayagiri,mallikpodi
 odisha,kandhamal,g. udayagiri,raikola,1766,kandhamal,g. udayagiri,raikola
-odisha,kandhamal,g. udayagiri,ratingia,1767,kandhamal,g. udayagiri,NA
+odisha,kandhamal,g. udayagiri,ratingia,1767,kandhamal,g. udayagiri,ratingia
 odisha,kandhamal,g. udayagiri,talarimaha,1768,kandhamal,g. udayagiri,talarimaha
 odisha,kandhamal,k.nuagam,adimaha,1769,kandhamal,k.nuagam,adimaha
 odisha,kandhamal,k.nuagam,balligada,1770,kandhamal,k.nuagam,balligada
@@ -2021,12 +2021,12 @@ odisha,keonjhar,harichandpur,thakurapada,2019,keonjhar,harichandpur,thakurapada
 odisha,keonjhar,hatadihi,aiti pur,2020,keonjhar,hatadihi,aiti pur
 odisha,keonjhar,hatadihi,akarua,2021,keonjhar,hatadihi,akarua
 odisha,keonjhar,hatadihi,ambo,2022,keonjhar,hatadihi,ambo
-odisha,keonjhar,hatadihi,anara,2023,keonjhar,hatadihi,NA
+odisha,keonjhar,hatadihi,anara,2023,keonjhar,hatadihi,anara
 odisha,keonjhar,hatadihi,badarampas,2024,keonjhar,hatadihi,badarampas
 odisha,keonjhar,hatadihi,balibarei,2025,keonjhar,hatadihi,balibarei
 odisha,keonjhar,hatadihi,bancho,2026,keonjhar,hatadihi,bancho
 odisha,keonjhar,hatadihi,bangore,2027,keonjhar,hatadihi,bangore
-odisha,keonjhar,hatadihi,danara,2028,keonjhar,hatadihi,NA
+odisha,keonjhar,hatadihi,danara,2028,keonjhar,hatadihi,danara
 odisha,keonjhar,hatadihi,dhanurjaypur,2029,keonjhar,hatadihi,dhanurjaypur
 odisha,keonjhar,hatadihi,dhenka,2030,keonjhar,hatadihi,dhenka
 odisha,keonjhar,hatadihi,gedma,2031,keonjhar,hatadihi,gedma
@@ -2042,11 +2042,11 @@ odisha,keonjhar,hatadihi,orali,2040,keonjhar,hatadihi,orali
 odisha,keonjhar,hatadihi,padhiaripalli,2041,keonjhar,hatadihi,padhiaripalli
 odisha,keonjhar,hatadihi,panchugochhia,2042,keonjhar,hatadihi,panchugochhia
 odisha,keonjhar,hatadihi,pandado,2043,keonjhar,hatadihi,pandado
-odisha,keonjhar,hatadihi,sadanga,2044,keonjhar,hatadihi,NA
+odisha,keonjhar,hatadihi,sadanga,2044,keonjhar,hatadihi,sadanga
 odisha,keonjhar,hatadihi,sadha,2045,keonjhar,hatadihi,sadha
 odisha,keonjhar,hatadihi,salania,2046,keonjhar,hatadihi,salania
 odisha,keonjhar,hatadihi,samana,2047,keonjhar,hatadihi,samana
-odisha,keonjhar,hatadihi,sasanga,2048,keonjhar,hatadihi,NA
+odisha,keonjhar,hatadihi,sasanga,2048,keonjhar,hatadihi,sasanga
 odisha,keonjhar,hatadihi,soso,2049,keonjhar,hatadihi,soso
 odisha,keonjhar,hatadihi,sulana,2050,keonjhar,hatadihi,sulana
 odisha,keonjhar,jhumpura,arsala,2051,keonjhar,jhumpura,arsala
@@ -2165,8 +2165,8 @@ odisha,keonjhar,telkol,deuladiha,2163,keonjhar,telkol,deuladiha
 odisha,keonjhar,telkol,dobalapal,2164,keonjhar,telkol,dobalapal
 odisha,keonjhar,telkol,jagamohanpur,2165,keonjhar,telkol,jagamohanpur
 odisha,keonjhar,telkol,kaliahata,2166,keonjhar,telkol,kaliahata
-odisha,keonjhar,telkol,karadangi,2167,keonjhar,telkol,NA
-odisha,keonjhar,telkol,karamangi,2168,keonjhar,telkol,NA
+odisha,keonjhar,telkol,karadangi,2167,keonjhar,telkol,karadangi
+odisha,keonjhar,telkol,karamangi,2168,keonjhar,telkol,karamangi
 odisha,keonjhar,telkol,khuntapada,2169,keonjhar,telkol,khuntapada
 odisha,keonjhar,telkol,oriya-birida,2170,keonjhar,telkol,oriya-birida
 odisha,keonjhar,telkol,podang,2171,keonjhar,telkol,podang
@@ -2226,8 +2226,8 @@ odisha,koraput,borigumma,gumuda,2224,koraput,borigumma,gumuda
 odisha,koraput,borigumma,haridaguda,2225,koraput,borigumma,haridaguda
 odisha,koraput,borigumma,hordoli,2226,koraput,borigumma,hordoli
 odisha,koraput,borigumma,jujhari,2227,koraput,borigumma,jujhari
-odisha,koraput,borigumma,kamara,2228,koraput,borigumma,NA
-odisha,koraput,borigumma,kamata,2229,koraput,borigumma,NA
+odisha,koraput,borigumma,kamara,2228,koraput,borigumma,kamara
+odisha,koraput,borigumma,kamata,2229,koraput,borigumma,kamata
 odisha,koraput,borigumma,kanagam,2230,koraput,borigumma,kanagam
 odisha,koraput,borigumma,katharagada,2231,koraput,borigumma,katharagada
 odisha,koraput,borigumma,kumuli,2232,koraput,borigumma,kumuli
@@ -2418,8 +2418,8 @@ odisha,koraput,semiliguda,sorisapadar,2416,koraput,semiliguda,sorisapadar
 odisha,koraput,semiliguda,subai,2417,koraput,semiliguda,subai
 odisha,koraput,semiliguda,upper kanti,2418,koraput,semiliguda,upper kanti
 odisha,malkangiri,kudumulugumma,andrapalli,2419,malkangiri,kudumulugumma,andrapalli
-odisha,malkangiri,kudumulugumma,badapoda,2420,malkangiri,kudumulugumma,NA
-odisha,malkangiri,kudumulugumma,badapodar,2421,malkangiri,kudumulugumma,NA
+odisha,malkangiri,kudumulugumma,badapoda,2420,malkangiri,kudumulugumma,badapoda
+odisha,malkangiri,kudumulugumma,badapodar,2421,malkangiri,kudumulugumma,badapodar
 odisha,malkangiri,kudumulugumma,chitrakonda,2422,malkangiri,kudumulugumma,chitrakonda
 odisha,malkangiri,kudumulugumma,dhuliput,2423,malkangiri,kudumulugumma,dhuliput
 odisha,malkangiri,kudumulugumma,doraguda,2424,malkangiri,kudumulugumma,doraguda
@@ -3212,12 +3212,12 @@ odisha,nuapara,nuapada,dharambandha,3210,nuapara,nuapada,dharambandha
 odisha,nuapara,nuapada,dumarpani,3211,nuapara,nuapada,dumarpani
 odisha,nuapara,nuapada,godfula,3212,nuapara,nuapada,godfula
 odisha,nuapara,nuapada,jampani,3213,nuapara,nuapada,jampani
-odisha,nuapara,nuapada,kadomeri,3214,nuapara,nuapada,NA
+odisha,nuapara,nuapada,kadomeri,3214,nuapara,nuapada,kadomeri
 odisha,nuapara,nuapada,kendubahara,3215,nuapara,nuapada,kendubahara
 odisha,nuapara,nuapada,kermeli,3216,nuapara,nuapada,kermeli
 odisha,nuapara,nuapada,khairani,3217,nuapara,nuapada,khairani
 odisha,nuapara,nuapada,khutbanbhera,3218,nuapara,nuapada,khutbanbhera
-odisha,nuapara,nuapada,kodomeri,3219,nuapara,nuapada,NA
+odisha,nuapara,nuapada,kodomeri,3219,nuapara,nuapada,kodomeri
 odisha,nuapara,nuapada,kotenchuan,3220,nuapara,nuapada,kotenchuan
 odisha,nuapara,nuapada,kuliabandha,3221,nuapara,nuapada,kuliabandha
 odisha,nuapara,nuapada,motanuapada,3222,nuapara,nuapada,motanuapada
@@ -3859,8 +3859,8 @@ odisha,sundargarh,lathikata,garjan,3857,sundargarh,lathikata,garjan
 odisha,sundargarh,lathikata,hatibandha,3858,sundargarh,lathikata,hatibandha
 odisha,sundargarh,lathikata,jadakudar,3859,sundargarh,lathikata,jadakudar
 odisha,sundargarh,lathikata,jalda,3860,sundargarh,lathikata,jalda
-odisha,sundargarh,lathikata,kalunga a,3861,sundargarh,lathikata,NA
-odisha,sundargarh,lathikata,kalunga b,3862,sundargarh,lathikata,NA
+odisha,sundargarh,lathikata,kalunga a,3861,sundargarh,lathikata,kalunga a
+odisha,sundargarh,lathikata,kalunga b,3862,sundargarh,lathikata,kalunga b
 odisha,sundargarh,lathikata,lathikata,3863,sundargarh,lathikata,lathikata
 odisha,sundargarh,lathikata,lungei,3864,sundargarh,lathikata,lungei
 odisha,sundargarh,lathikata,mundajore,3865,sundargarh,lathikata,mundajore
@@ -4064,25 +4064,25 @@ odisha,anugul,banarpal,turanga,4062,anugul,banarpal,turanga
 odisha,anugul,chhendipada,bagedia,4063,anugul,chhendipada,bagedia
 odisha,anugul,chhendipada,bahalsahi,4064,anugul,chhendipada,bahalsahi
 odisha,anugul,chhendipada,balipata,4065,anugul,chhendipada,balipata
-odisha,anugul,chhendipada,barapada,4066,anugul,chhendipada,NA
+odisha,anugul,chhendipada,barapada,4066,anugul,chhendipada,barapada
 odisha,anugul,chhendipada,barasahi,4067,anugul,chhendipada,barasahi
 odisha,anugul,chhendipada,basantapur,4068,anugul,chhendipada,basantapur
 odisha,anugul,chhendipada,brahmanbil,4069,anugul,chhendipada,brahmanbil
 odisha,anugul,chhendipada,changudia,4070,anugul,chhendipada,changudia
 odisha,anugul,chhendipada,chhendipada,4071,anugul,chhendipada,chhendipada
 odisha,anugul,chhendipada,durgapur,4072,anugul,chhendipada,durgapur
-odisha,anugul,chhendipada,jarapada,4073,anugul,chhendipada,NA
+odisha,anugul,chhendipada,jarapada,4073,anugul,chhendipada,jarapada
 odisha,anugul,chhendipada,jerang dehurisahi,4074,anugul,chhendipada,jerang dehurisahi
 odisha,anugul,chhendipada,kampasala,4075,anugul,chhendipada,kampasala
 odisha,anugul,chhendipada,kanaloi,4076,anugul,chhendipada,kanaloi
 odisha,anugul,chhendipada,kankarei,4077,anugul,chhendipada,kankarei
-odisha,anugul,chhendipada,katada,4078,anugul,chhendipada,NA
+odisha,anugul,chhendipada,katada,4078,anugul,chhendipada,katada
 odisha,anugul,chhendipada,korada,4079,anugul,chhendipada,korada
 odisha,anugul,chhendipada,kosala,4080,anugul,chhendipada,kosala
 odisha,anugul,chhendipada,kukurpeta,4081,anugul,chhendipada,kukurpeta
 odisha,anugul,chhendipada,kusakila,4082,anugul,chhendipada,kusakila
 odisha,anugul,chhendipada,machhakuta,4083,anugul,chhendipada,machhakuta
-odisha,anugul,chhendipada,natada,4084,anugul,chhendipada,NA
+odisha,anugul,chhendipada,natada,4084,anugul,chhendipada,natada
 odisha,anugul,chhendipada,nisa,4085,anugul,chhendipada,nisa
 odisha,anugul,chhendipada,nuagaon,4086,anugul,chhendipada,nuagaon
 odisha,anugul,chhendipada,ogi,4087,anugul,chhendipada,ogi
@@ -4246,8 +4246,8 @@ odisha,balasore,balasore,parikhi,4244,balasore,balasore,parikhi
 odisha,balasore,balasore,patrapada,4245,balasore,balasore,patrapada
 odisha,balasore,balasore,raisuan,4246,balasore,balasore,raisuan
 odisha,balasore,balasore,ransahi,4247,balasore,balasore,ransahi
-odisha,balasore,balasore,rasalpur,4248,balasore,balasore,NA
-odisha,balasore,balasore,rasulpur,4249,balasore,balasore,NA
+odisha,balasore,balasore,rasalpur,4248,balasore,balasore,rasalpur
+odisha,balasore,balasore,rasulpur,4249,balasore,balasore,rasulpur
 odisha,balasore,balasore,rupsa samil hasanpur,4250,balasore,balasore,rupsa samil hasanpur
 odisha,balasore,balasore,sargan,4251,balasore,balasore,sargan
 odisha,balasore,balasore,sartha,4252,balasore,balasore,sartha
@@ -4514,8 +4514,8 @@ odisha,balasore,simulia,anandapur,4512,balasore,simulia,anandapur
 odisha,balasore,simulia,andarai,4513,balasore,simulia,andarai
 odisha,balasore,simulia,bangalpur,4514,balasore,simulia,bangalpur
 odisha,balasore,simulia,bangarkhandigadia,4515,balasore,simulia,bangarkhandigadia
-odisha,balasore,simulia,bari,4516,balasore,simulia,NA
-odisha,balasore,simulia,bati,4517,balasore,simulia,NA
+odisha,balasore,simulia,bari,4516,balasore,simulia,bari
+odisha,balasore,simulia,bati,4517,balasore,simulia,bati
 odisha,balasore,simulia,bauripada,4518,balasore,simulia,bauripada
 odisha,balasore,simulia,chalunigaon,4519,balasore,simulia,chalunigaon
 odisha,balasore,simulia,iswarpur,4520,balasore,simulia,iswarpur
@@ -4808,14 +4808,14 @@ odisha,baragarh,sohella,sohella.,4806,baragarh,sohella,sohella.
 odisha,baragarh,sohella,srigida,4807,baragarh,sohella,srigida
 odisha,baragarh,sohella,tabda,4808,baragarh,sohella,tabda
 odisha,baragarh,sohella,tungibandhali,4809,baragarh,sohella,tungibandhali
-odisha,bhadrak,basudevpur,adhuan,4810,bhadrak,basudevpur,NA
+odisha,bhadrak,basudevpur,adhuan,4810,bhadrak,basudevpur,adhuan
 odisha,bhadrak,basudevpur,andola,4811,bhadrak,basudevpur,andola
-odisha,bhadrak,basudevpur,arandua,4812,bhadrak,basudevpur,NA
+odisha,bhadrak,basudevpur,arandua,4812,bhadrak,basudevpur,arandua
 odisha,bhadrak,basudevpur,artung,4813,bhadrak,basudevpur,artung
 odisha,bhadrak,basudevpur,aruhan,4814,bhadrak,basudevpur,aruhan
 odisha,bhadrak,basudevpur,balimeda,4815,bhadrak,basudevpur,balimeda
 odisha,bhadrak,basudevpur,balimunda,4816,bhadrak,basudevpur,balimunda
-odisha,bhadrak,basudevpur,barandua,4817,bhadrak,basudevpur,NA
+odisha,bhadrak,basudevpur,barandua,4817,bhadrak,basudevpur,barandua
 odisha,bhadrak,basudevpur,bideipur,4818,bhadrak,basudevpur,bideipur
 odisha,bhadrak,basudevpur,binobabhabenagar,4819,bhadrak,basudevpur,binobabhabenagar
 odisha,bhadrak,basudevpur,biras,4820,bhadrak,basudevpur,biras
@@ -4837,7 +4837,7 @@ odisha,bhadrak,basudevpur,lunga,4835,bhadrak,basudevpur,lunga
 odisha,bhadrak,basudevpur,naikanidihi,4836,bhadrak,basudevpur,naikanidihi
 odisha,bhadrak,basudevpur,narsingpur,4837,bhadrak,basudevpur,narsingpur
 odisha,bhadrak,basudevpur,nuagaon,4838,bhadrak,basudevpur,nuagaon
-odisha,bhadrak,basudevpur,padhuan,4839,bhadrak,basudevpur,NA
+odisha,bhadrak,basudevpur,padhuan,4839,bhadrak,basudevpur,padhuan
 odisha,bhadrak,basudevpur,padmapur,4840,bhadrak,basudevpur,padmapur
 odisha,bhadrak,basudevpur,rajgharpokhari,4841,bhadrak,basudevpur,rajgharpokhari
 odisha,bhadrak,basudevpur,sanakrushnapur,4842,bhadrak,basudevpur,sanakrushnapur
@@ -4975,7 +4975,7 @@ odisha,bhadrak,dhamnagar,bayangdihi,4973,bhadrak,dhamnagar,bayangdihi
 odisha,bhadrak,dhamnagar,bhagabanpur,4974,bhadrak,dhamnagar,bhagabanpur
 odisha,bhadrak,dhamnagar,bhatasahi,4975,bhadrak,dhamnagar,bhatasahi
 odisha,bhadrak,dhamnagar,chudakuti,4976,bhadrak,dhamnagar,chudakuti
-odisha,bhadrak,dhamnagar,daipur,4977,bhadrak,dhamnagar,NA
+odisha,bhadrak,dhamnagar,daipur,4977,bhadrak,dhamnagar,daipur
 odisha,bhadrak,dhamnagar,dalanga,4978,bhadrak,dhamnagar,dalanga
 odisha,bhadrak,dhamnagar,dhusuri,4979,bhadrak,dhamnagar,dhusuri
 odisha,bhadrak,dhamnagar,dobal,4980,bhadrak,dhamnagar,dobal
@@ -4995,7 +4995,7 @@ odisha,bhadrak,dhamnagar,nadigaon,4993,bhadrak,dhamnagar,nadigaon
 odisha,bhadrak,dhamnagar,padhani,4994,bhadrak,dhamnagar,padhani
 odisha,bhadrak,dhamnagar,palasahi,4995,bhadrak,dhamnagar,palasahi
 odisha,bhadrak,dhamnagar,radhaballavpur,4996,bhadrak,dhamnagar,radhaballavpur
-odisha,bhadrak,dhamnagar,raipur,4997,bhadrak,dhamnagar,NA
+odisha,bhadrak,dhamnagar,raipur,4997,bhadrak,dhamnagar,raipur
 odisha,bhadrak,dhamnagar,sahaspur,4998,bhadrak,dhamnagar,sahaspur
 odisha,bhadrak,dhamnagar,sohada,4999,bhadrak,dhamnagar,sohada
 odisha,bhadrak,dhamnagar,dhamnagar,5000,bhadrak,dhamnagar,dhamnagar
@@ -5040,9 +5040,9 @@ odisha,jajpur,barachana,balichandrapur,5038,jajpur,barachana,balichandrapur
 odisha,jajpur,barachana,balipadia,5039,jajpur,barachana,balipadia
 odisha,jajpur,barachana,bandalo,5040,jajpur,barachana,bandalo
 odisha,jajpur,barachana,bantala,5041,jajpur,barachana,bantala
-odisha,jajpur,barachana,barada,5042,jajpur,barachana,NA
+odisha,jajpur,barachana,barada,5042,jajpur,barachana,barada
 odisha,jajpur,barachana,barchana,5043,jajpur,barachana,barchana
-odisha,jajpur,barachana,barpada,5044,jajpur,barachana,NA
+odisha,jajpur,barachana,barpada,5044,jajpur,barachana,barpada
 odisha,jajpur,barachana,bharatpur,5045,jajpur,barachana,bharatpur
 odisha,jajpur,barachana,bhusandapur,5046,jajpur,barachana,bhusandapur
 odisha,jajpur,barachana,bikramtiran,5047,jajpur,barachana,bikramtiran
@@ -5210,7 +5210,7 @@ odisha,jajpur,dharmasala,jaraka,5208,jajpur,dharmasala,jaraka
 odisha,jajpur,dharmasala,jenapur,5209,jajpur,dharmasala,jenapur
 odisha,jajpur,dharmasala,kabatabandha,5210,jajpur,dharmasala,kabatabandha
 odisha,jajpur,dharmasala,kadampal,5211,jajpur,dharmasala,kadampal
-odisha,jajpur,dharmasala,kamagarda,5212,jajpur,dharmasala,NA
+odisha,jajpur,dharmasala,kamagarda,5212,jajpur,dharmasala,kamagarda
 odisha,jajpur,dharmasala,kantigadia,5213,jajpur,dharmasala,kantigadia
 odisha,jajpur,dharmasala,khetrapal,5214,jajpur,dharmasala,khetrapal
 odisha,jajpur,dharmasala,kotapur,5215,jajpur,dharmasala,kotapur
@@ -5235,7 +5235,7 @@ odisha,jajpur,dharmasala,talajanga,5233,jajpur,dharmasala,talajanga
 odisha,jajpur,dharmasala,taranjia,5234,jajpur,dharmasala,taranjia
 odisha,jajpur,dharmasala,thanual,5235,jajpur,dharmasala,thanual
 odisha,jajpur,dharmasala,utterpratap,5236,jajpur,dharmasala,utterpratap
-odisha,jajpur,dharmasala,kamagada,5237,jajpur,dharmasala,NA
+odisha,jajpur,dharmasala,kamagada,5237,jajpur,dharmasala,kamagada
 odisha,jajpur,jajpur,badasuar,5238,jajpur,jajpur,badasuar
 odisha,jajpur,jajpur,basudevpur,5239,jajpur,jajpur,basudevpur
 odisha,jajpur,jajpur,beruda,5240,jajpur,jajpur,beruda
@@ -5357,7 +5357,7 @@ odisha,cuttack,athagarh,gobara,5355,cuttack,athagarh,gobara
 odisha,cuttack,athagarh,gurudijhata,5356,cuttack,athagarh,gurudijhata
 odisha,cuttack,athagarh,ichhapur,5357,cuttack,athagarh,ichhapur
 odisha,cuttack,athagarh,jenapadadesh,5358,cuttack,athagarh,jenapadadesh
-odisha,cuttack,athagarh,joranda,5359,cuttack,athagarh,NA
+odisha,cuttack,athagarh,joranda,5359,cuttack,athagarh,joranda
 odisha,cuttack,athagarh,kandarpur,5360,cuttack,athagarh,kandarpur
 odisha,cuttack,athagarh,katakiasahi,5361,cuttack,athagarh,katakiasahi
 odisha,cuttack,athagarh,khandarei,5362,cuttack,athagarh,khandarei
@@ -5369,7 +5369,7 @@ odisha,cuttack,athagarh,kuspangi,5367,cuttack,athagarh,kuspangi
 odisha,cuttack,athagarh,mahakalnbasta,5368,cuttack,athagarh,mahakalnbasta
 odisha,cuttack,athagarh,mancheaswar,5369,cuttack,athagarh,mancheaswar
 odisha,cuttack,athagarh,megha,5370,cuttack,athagarh,megha
-odisha,cuttack,athagarh,oranda,5371,cuttack,athagarh,NA
+odisha,cuttack,athagarh,oranda,5371,cuttack,athagarh,oranda
 odisha,cuttack,athagarh,radhagovindapur,5372,cuttack,athagarh,radhagovindapur
 odisha,cuttack,athagarh,radhakishorepur,5373,cuttack,athagarh,radhakishorepur
 odisha,cuttack,athagarh,radhakrushnapur,5374,cuttack,athagarh,radhakrushnapur
@@ -5388,9 +5388,9 @@ odisha,cuttack,baramba,bhatarika,5386,cuttack,baramba,bhatarika
 odisha,cuttack,baramba,dasarathipur,5387,cuttack,baramba,dasarathipur
 odisha,cuttack,baramba,diniary,5388,cuttack,baramba,diniary
 odisha,cuttack,baramba,godapokhari,5389,cuttack,baramba,godapokhari
-odisha,cuttack,baramba,gopalpur,5390,cuttack,baramba,NA
+odisha,cuttack,baramba,gopalpur,5390,cuttack,baramba,gopalpur
 odisha,cuttack,baramba,gopamathura,5391,cuttack,baramba,gopamathura
-odisha,cuttack,baramba,gopapur,5392,cuttack,baramba,NA
+odisha,cuttack,baramba,gopapur,5392,cuttack,baramba,gopapur
 odisha,cuttack,baramba,gopinathpur,5393,cuttack,baramba,gopinathpur
 odisha,cuttack,baramba,janisahi,5394,cuttack,baramba,janisahi
 odisha,cuttack,baramba,jhajia,5395,cuttack,baramba,jhajia
@@ -5526,10 +5526,10 @@ odisha,cuttack,mahanga,kurujanga,5524,cuttack,mahanga,kurujanga
 odisha,cuttack,mahanga,kusupur,5525,cuttack,mahanga,kusupur
 odisha,cuttack,mahanga,lalitgiri,5526,cuttack,mahanga,lalitgiri
 odisha,cuttack,mahanga,madhupur,5527,cuttack,mahanga,madhupur
-odisha,cuttack,mahanga,mahanga,5528,cuttack,mahanga,NA
+odisha,cuttack,mahanga,mahanga,5528,cuttack,mahanga,mahanga
 odisha,cuttack,mahanga,mouda,5529,cuttack,mahanga,mouda
 odisha,cuttack,mahanga,mulabasanta,5530,cuttack,mahanga,mulabasanta
-odisha,cuttack,mahanga,nahanga,5531,cuttack,mahanga,NA
+odisha,cuttack,mahanga,nahanga,5531,cuttack,mahanga,nahanga
 odisha,cuttack,mahanga,nurtanga,5532,cuttack,mahanga,nurtanga
 odisha,cuttack,mahanga,osanga,5533,cuttack,mahanga,osanga
 odisha,cuttack,mahanga,paikarapur,5534,cuttack,mahanga,paikarapur
@@ -5725,7 +5725,7 @@ odisha,jagatsinghapur,balikuda,anantapur,5723,jagatsinghapur,balikuda,anantapur
 odisha,jagatsinghapur,balikuda,apandara,5724,jagatsinghapur,balikuda,apandara
 odisha,jagatsinghapur,balikuda,arilo,5725,jagatsinghapur,balikuda,arilo
 odisha,jagatsinghapur,balikuda,badagaon,5726,jagatsinghapur,balikuda,badagaon
-odisha,jagatsinghapur,balikuda,baharana,5727,jagatsinghapur,balikuda,NA
+odisha,jagatsinghapur,balikuda,baharana,5727,jagatsinghapur,balikuda,baharana
 odisha,jagatsinghapur,balikuda,balikuda,5728,jagatsinghapur,balikuda,balikuda
 odisha,jagatsinghapur,balikuda,baramundali,5729,jagatsinghapur,balikuda,baramundali
 odisha,jagatsinghapur,balikuda,borikina,5730,jagatsinghapur,balikuda,borikina
@@ -5739,7 +5739,7 @@ odisha,jagatsinghapur,balikuda,machhagaon,5737,jagatsinghapur,balikuda,machhagao
 odisha,jagatsinghapur,balikuda,marichpur,5738,jagatsinghapur,balikuda,marichpur
 odisha,jagatsinghapur,balikuda,mulugaon,5739,jagatsinghapur,balikuda,mulugaon
 odisha,jagatsinghapur,balikuda,nagapur,5740,jagatsinghapur,balikuda,nagapur
-odisha,jagatsinghapur,balikuda,naharana,5741,jagatsinghapur,balikuda,NA
+odisha,jagatsinghapur,balikuda,naharana,5741,jagatsinghapur,balikuda,naharana
 odisha,jagatsinghapur,balikuda,osakana,5742,jagatsinghapur,balikuda,osakana
 odisha,jagatsinghapur,balikuda,rahan,5743,jagatsinghapur,balikuda,rahan
 odisha,jagatsinghapur,balikuda,sangrampur,5744,jagatsinghapur,balikuda,sangrampur
@@ -5861,8 +5861,8 @@ odisha,jagatsinghapur,naugaon,galadhari,5859,jagatsinghapur,naugaon,galadhari
 odisha,jagatsinghapur,naugaon,ghodanso,5860,jagatsinghapur,naugaon,ghodanso
 odisha,jagatsinghapur,naugaon,jamugan,5861,jagatsinghapur,naugaon,jamugan
 odisha,jagatsinghapur,naugaon,korua,5862,jagatsinghapur,naugaon,korua
-odisha,jagatsinghapur,naugaon,naugan,5863,jagatsinghapur,naugaon,NA
-odisha,jagatsinghapur,naugaon,nuagan,5864,jagatsinghapur,naugaon,NA
+odisha,jagatsinghapur,naugaon,naugan,5863,jagatsinghapur,naugaon,naugan
+odisha,jagatsinghapur,naugaon,nuagan,5864,jagatsinghapur,naugaon,nuagan
 odisha,jagatsinghapur,naugaon,oskana,5865,jagatsinghapur,naugaon,oskana
 odisha,jagatsinghapur,naugaon,rohia,5866,jagatsinghapur,naugaon,rohia
 odisha,jagatsinghapur,naugaon,sikhar,5867,jagatsinghapur,naugaon,sikhar
@@ -6040,7 +6040,7 @@ odisha,kendrapara,mahakalapada,kansar and kansar bada dandua,6038,kendrapara,mah
 odisha,kendrapara,mahakalapada,karnja,6039,kendrapara,mahakalapada,karnja
 odisha,kendrapara,mahakalapada,kharinasi,6040,kendrapara,mahakalapada,kharinasi
 odisha,kendrapara,mahakalapada,khurusia,6041,kendrapara,mahakalapada,khurusia
-odisha,kendrapara,mahakalapada,lanjura,6042,kendrapara,mahakalapada,NA
+odisha,kendrapara,mahakalapada,lanjura,6042,kendrapara,mahakalapada,lanjura
 odisha,kendrapara,mahakalapada,mahakalapada,6043,kendrapara,mahakalapada,mahakalapada
 odisha,kendrapara,mahakalapada,mangalpur,6044,kendrapara,mahakalapada,mangalpur
 odisha,kendrapara,mahakalapada,patalipanka,6045,kendrapara,mahakalapada,patalipanka
@@ -6051,7 +6051,7 @@ odisha,kendrapara,mahakalapada,suniti,6049,kendrapara,mahakalapada,suniti
 odisha,kendrapara,mahakalapada,teragan,6050,kendrapara,mahakalapada,teragan
 odisha,kendrapara,mahakalapada,tikarapanga,6051,kendrapara,mahakalapada,tikarapanga
 odisha,kendrapara,mahakalapada,tikhiri,6052,kendrapara,mahakalapada,tikhiri
-odisha,kendrapara,mahakalapada,nanjura,6053,kendrapara,mahakalapada,NA
+odisha,kendrapara,mahakalapada,nanjura,6053,kendrapara,mahakalapada,nanjura
 odisha,kendrapara,marsaghai,aitipur,6054,kendrapara,marsaghai,aitipur
 odisha,kendrapara,marsaghai,akhuadakhin,6055,kendrapara,marsaghai,akhuadakhin
 odisha,kendrapara,marsaghai,angulai,6056,kendrapara,marsaghai,angulai
@@ -6303,8 +6303,8 @@ odisha,khurda,jatani,haripur,6301,khurda,jatani,haripur
 odisha,khurda,jatani,jamukoli,6302,khurda,jatani,jamukoli
 odisha,khurda,jatani,janla,6303,khurda,jatani,janla
 odisha,khurda,jatani,kantia,6304,khurda,jatani,kantia
-odisha,khurda,jatani,madanpur,6305,khurda,jatani,NA
-odisha,khurda,jatani,padanpur,6306,khurda,jatani,NA
+odisha,khurda,jatani,madanpur,6305,khurda,jatani,madanpur
+odisha,khurda,jatani,padanpur,6306,khurda,jatani,padanpur
 odisha,khurda,jatani,padhansahi,6307,khurda,jatani,padhansahi
 odisha,khurda,jatani,panchapalli,6308,khurda,jatani,panchapalli
 odisha,khurda,jatani,taraboi,6309,khurda,jatani,taraboi
@@ -6468,7 +6468,7 @@ odisha,nayagarh,nuagaon,haripura,6466,nayagarh,nuagaon,haripura
 odisha,nayagarh,nuagaon,jakeda,6467,nayagarh,nuagaon,jakeda
 odisha,nayagarh,nuagaon,kaptapalli,6468,nayagarh,nuagaon,kaptapalli
 odisha,nayagarh,nuagaon,khandugaon,6469,nayagarh,nuagaon,khandugaon
-odisha,nayagarh,nuagaon,korada,6470,nayagarh,nuagaon,NA
+odisha,nayagarh,nuagaon,korada,6470,nayagarh,nuagaon,korada
 odisha,nayagarh,nuagaon,mahipura,6471,nayagarh,nuagaon,mahipura
 odisha,nayagarh,nuagaon,maichheli,6472,nayagarh,nuagaon,maichheli
 odisha,nayagarh,nuagaon,malisahi,6473,nayagarh,nuagaon,malisahi
@@ -6476,7 +6476,7 @@ odisha,nayagarh,nuagaon,nuagaon,6474,nayagarh,nuagaon,nuagaon
 odisha,nayagarh,nuagaon,paradhipi,6475,nayagarh,nuagaon,paradhipi
 odisha,nayagarh,nuagaon,sikrida,6476,nayagarh,nuagaon,sikrida
 odisha,nayagarh,nuagaon,singarapalli,6477,nayagarh,nuagaon,singarapalli
-odisha,nayagarh,nuagaon,sorada,6478,nayagarh,nuagaon,NA
+odisha,nayagarh,nuagaon,sorada,6478,nayagarh,nuagaon,sorada
 odisha,nayagarh,nuagaon,udaypur,6479,nayagarh,nuagaon,udaypur
 odisha,nayagarh,odagaon,angisingi,6480,nayagarh,odagaon,angisingi
 odisha,nayagarh,odagaon,arada,6481,nayagarh,odagaon,arada
@@ -6659,13 +6659,13 @@ odisha,puri,kakatpur,lata haran,6657,puri,kakatpur,lata haran
 odisha,puri,kakatpur,nashikeswar,6658,puri,kakatpur,nashikeswar
 odisha,puri,kakatpur,othaka,6659,puri,kakatpur,othaka
 odisha,puri,kakatpur,patasundar pur,6660,puri,kakatpur,patasundar pur
-odisha,puri,kakatpur,suhagpur,6661,puri,kakatpur,NA
-odisha,puri,kakatpur,suhanpur,6662,puri,kakatpur,NA
+odisha,puri,kakatpur,suhagpur,6661,puri,kakatpur,suhagpur
+odisha,puri,kakatpur,suhanpur,6662,puri,kakatpur,suhanpur
 odisha,puri,kanas,alibada,6663,puri,kanas,alibada
 odisha,puri,kanas,andarsingh,6664,puri,kanas,andarsingh
 odisha,puri,kanas,anlajodi,6665,puri,kanas,anlajodi
-odisha,puri,kanas,badal,6666,puri,kanas,NA
-odisha,puri,kanas,badas,6667,puri,kanas,NA
+odisha,puri,kanas,badal,6666,puri,kanas,badal
+odisha,puri,kanas,badas,6667,puri,kanas,badas
 odisha,puri,kanas,baku,6668,puri,kanas,baku
 odisha,puri,kanas,bijipur,6669,puri,kanas,bijipur
 odisha,puri,kanas,bindhan,6670,puri,kanas,bindhan
@@ -6717,7 +6717,7 @@ odisha,puri,nimapara,arisandha,6715,puri,nimapara,arisandha
 odisha,puri,nimapara,bada siribila,6716,puri,nimapara,bada siribila
 odisha,puri,nimapara,badamachhapur,6717,puri,nimapara,badamachhapur
 odisha,puri,nimapara,baharana,6718,puri,nimapara,baharana
-odisha,puri,nimapara,balanga,6719,puri,nimapara,NA
+odisha,puri,nimapara,balanga,6719,puri,nimapara,balanga
 odisha,puri,nimapara,bamanala,6720,puri,nimapara,bamanala
 odisha,puri,nimapara,bhiligram,6721,puri,nimapara,bhiligram
 odisha,puri,nimapara,bhodar,6722,puri,nimapara,bhodar
@@ -6738,7 +6738,7 @@ odisha,puri,nimapara,ratilo,6736,puri,nimapara,ratilo
 odisha,puri,nimapara,rencha,6737,puri,nimapara,rencha
 odisha,puri,nimapara,sagada,6738,puri,nimapara,sagada
 odisha,puri,nimapara,sainsa sasana,6739,puri,nimapara,sainsa sasana
-odisha,puri,nimapara,salanga,6740,puri,nimapara,NA
+odisha,puri,nimapara,salanga,6740,puri,nimapara,salanga
 odisha,puri,nimapara,tampala,6741,puri,nimapara,tampala
 odisha,puri,nimapara,terundia,6742,puri,nimapara,terundia
 odisha,puri,nimapara,tulashipur,6743,puri,nimapara,tulashipur
