@@ -246,23 +246,31 @@ generate_district_wise_tables(scheme_name = scheme_to_summarise[[4]])
 
 ### Dataset Links
 
-| Scheme | Year    | Mapping Summary | Raw Data File | Updated Data File  |
-|:------:| :-----: | :--------------:| :------------:| :----------------: |
-| MNREGA | 2018-19 | [Link](../data/results/mnrega-2018-19-geography-mapping-summary.csv)        | [Link](../data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA-Odisha-2018-19.csv)      | [Link](../data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv)           |
-| MNREGA | 2019-20 | [Link](../data/results/mnrega-2019-20-geography-mapping-summary.csv)        | [Link](../data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20.csv)      | [Link](..//data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv)           |
-| PMAGY  | 2019-20 | [Link](../data/results/pmagy-2019-20-geography-mapping-summary.csv)        | [Link](../data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20.csv)      | [Link](../data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv)           |
+| Scheme | Year    | Geographic Mapping Summary | Updated Scheme Data File  |
+|:------:| :-----: | :--------------:| :----------------: |
+| MNREGA | 2018-19 | [Link](../data/results/mnrega-2018-19-geography-mapping-summary.csv)        |   [Link](../data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv)           |
+MNREGA | 2019-20 | [Link](../data/results/mnrega-2019-20-geography-mapping-summary.csv)        |       | [Link](..//data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv)           |
+PMAGY  | 2018-19 | [Link](../data/results/pmagy-2018-19-geography-mapping-summary.csv)         [Link](../data/scheme/PMAGY/odisha/2018-19/updated/odisha-pmagy-2018-updated.csv)           |
+PMAGY  | 2019-20 | [Link](../data/results/pmagy-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv)           |
 
 
-Geography File for Odisha -- [Link](../data/geography/updated/geo-odisha-updated.csv)
+#### Files shared by CBGA
+
+1. Geography File for Odisha -- [Link](../data/geography/updated/geo-odisha-updated.csv)
+
+2. Data for scheme indicators
+  1. MNREGA 2018-19 - [Link](../data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA_Odisha_2018-19_040621.csv)
+  2. MNREGA 2019-20 - [Link](../data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20_040621.csv)
+  3. PMAGY 2018-19 - [Link](../data/scheme/PMAGY/odisha/2018-19/raw/csv/PMAYG-Odisha 2018-19_040621.csv)
+  4. PMAGY 2019-20 - [Link](data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20_040621.csv)
 
 <br />
 
 #### Dataset Descriptions
 
-1. **Mapping Summary** -- To check which entities (district/block/village) from the Geography file were mapped to entities in the scheme file. 
-2. **Raw Data File** -- This file contains information on the scheme level indicators in a CSV format.
-3. **Updated Data File** -- List of geographies that were updated in the scheme file after the mapping process between the two files.
-4. The **Geography File** contains the list of all Gram Panchayats present within an assembly and parliamentary constituency. The file was curated and shared by the CBGA team.
+1. **Geographic Mapping Summary** -- To check which entities (district/block/village) from the Geography file were mapped to entities in the scheme file. 
+2. **Updated Scheme Data File** -- Scheme indicators with updated geographies as per the geography file.
+3. The **Geography File** contains the list of all Gram Panchayats located within an assembly and parliamentary constituency. 
 
 
 ---
