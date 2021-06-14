@@ -85,7 +85,7 @@ summarise_scheme_mapping <- function(scheme_to_summarise){
       data.frame('Type' = var_type,
                  'Total' = var_total,
                  'Mapped' = var_mapped)
-    var_df$MappingPercent <- round(var_df$Mapped / var_df$Total*100)
+    var_df$MappingPercent <- var_df$Mapped / var_df$Total*100
     var_df$scheme <- ifelse(scheme_to_summarise == "mnrega-2018-19","MNREGA (2018-19)",ifelse(scheme_to_summarise == "mnrega-2019-20","MNREGA (2019-20)",ifelse(scheme_to_summarise == "pmagy-2018-19","PMAGY (2018-19)","PMAGY (2019-20)")))
     mapping_summary_table <- bind_rows(mapping_summary_table ,var_df)
   }
@@ -112,7 +112,7 @@ all_schemes_mapping_summary_t <-
     decimals = 0
   ) %>% fmt_percent(columns = "MappingPercent",
                     scale_values = FALSE,
-                    decimals = 0) %>% text_transform(
+                    decimals = 2) %>% text_transform(
   locations = cells_body(columns = Mapped,
                          rows = Total == Mapped),
   fn = function(x)
