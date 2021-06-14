@@ -3,6 +3,7 @@ title: "Mapping scheme indicators to Constituencies"
 subtitle: "Merging databases on GP name"
 output: 
   html_document:
+    css: "css/style.css"
     df_print: default
     number_sections: no
     self_contained: no
@@ -239,6 +240,7 @@ generate_district_wise_tables(scheme_name = scheme_to_summarise[[4]])
 
 ```
 
+---
 
 <br />
 
@@ -249,20 +251,20 @@ generate_district_wise_tables(scheme_name = scheme_to_summarise[[4]])
 | Scheme | Year    | Geographic Mapping Summary | Updated Scheme Data File  |
 |:------:| :-----: | :--------------:| :----------------: |
 | MNREGA | 2018-19 | [Link](../data/results/mnrega-2018-19-geography-mapping-summary.csv)        |   [Link](../data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv)           |
-MNREGA | 2019-20 | [Link](../data/results/mnrega-2019-20-geography-mapping-summary.csv)        |       | [Link](..//data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv)           |
-PMAGY  | 2018-19 | [Link](../data/results/pmagy-2018-19-geography-mapping-summary.csv)         [Link](../data/scheme/PMAGY/odisha/2018-19/updated/odisha-pmagy-2018-updated.csv)           |
+MNREGA | 2019-20 | [Link](../data/results/mnrega-2019-20-geography-mapping-summary.csv)| [Link](..//data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv)           |
+PMAGY  | 2018-19 | [Link](../data/results/pmagy-2018-19-geography-mapping-summary.csv)        | [Link](../data/scheme/PMAGY/odisha/2018-19/updated/odisha-pmagy-2018-updated.csv)           |
 PMAGY  | 2019-20 | [Link](../data/results/pmagy-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv)           |
 
 
 #### Files shared by CBGA
 
-1. Geography File for Odisha -- [Link](../data/geography/updated/geo-odisha-updated.csv)
+- **Geography File** for Odisha -- [Link](../data/geography/updated/geo-odisha-updated.csv)
 
-2. Data for scheme indicators
-  1. MNREGA 2018-19 - [Link](../data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA_Odisha_2018-19_040621.csv)
-  2. MNREGA 2019-20 - [Link](../data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20_040621.csv)
-  3. PMAGY 2018-19 - [Link](../data/scheme/PMAGY/odisha/2018-19/raw/csv/PMAYG-Odisha 2018-19_040621.csv)
-  4. PMAGY 2019-20 - [Link](data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20_040621.csv)
+- **Data for scheme indicators**
+  - MNREGA 2018-19 - [Link](../data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA_Odisha_2018-19_040621.csv)
+  - MNREGA 2019-20 - [Link](../data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20_040621.csv)
+  - PMAGY 2018-19 - [Link](../data/scheme/PMAGY/odisha/2018-19/raw/csv/PMAYG-Odisha 2018-19_040621.csv)
+  - PMAGY 2019-20 - [Link](data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20_040621.csv)
 
 <br />
 
