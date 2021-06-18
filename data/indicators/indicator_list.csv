@@ -1,0 +1,29 @@
+scheme,year,indicator_list,aggregate_function,indicator_count,id
+MNREGA,2018-19,Openning Balance for FY 2018-19,,1,1
+MNREGA,2018-19,Total Fund Available for the FY 2018-19,,2,2
+MNREGA,2018-19,Total Expenditure on Wages for FY 2018-19,,3,3
+MNREGA,2018-19,Total Expenditure on Materials for FY 2018-19,,4,4
+MNREGA,2018-19,Total Expenditure on Tax for FY 2018-19,,5,5
+MNREGA,2018-19,Total Expenditure on Admin Expenses  for FY 2018-19,,6,6
+MNREGA,2018-19,Grand Total Expenditure for FY 2018-19,,7,7
+MNREGA,2018-19,Total Unspent Balance for FY 2018-19,,8,8
+MNREGA,2018-19,Total Payment Due for FY 2018-19,,9,9
+MNREGA,2019-20,Opening Balance For FY 2019-20,,1,10
+MNREGA,2019-20,Total Fund Available For  FY 2019-20,,2,11
+MNREGA,2019-20,Total Expenditure on Wages For FY 2019-20,,3,12
+MNREGA,2019-20,Total Expenditure On Materials For FY 2019-20,,4,13
+MNREGA,2019-20,Total Tax Paid For FY 2019-20,,5,14
+MNREGA,2019-20,Total Admin Expenses  For FY 2019-20,,6,15
+MNREGA,2019-20,Grand Total Expenditure For FY 2019-20,,7,16
+MNREGA,2019-20,Total Unspent Balance For FY 2019-20,,8,17
+MNREGA,2019-20,Total Payment Due For FY 2019-20,,9,18
+PMAGY,2018-19,SC,,1,19
+PMAGY,2018-19,ST,,2,20
+PMAGY,2018-19,Minority,,3,21
+PMAGY,2018-19,Others,,4,22
+PMAGY,2018-19,Total,,5,23
+PMAGY,2019-20,SC,,1,24
+PMAGY,2019-20,ST,,2,25
+PMAGY,2019-20,Minority,,3,26
+PMAGY,2019-20,Others,,4,27
+PMAGY,2019-20,Total,,5,28
