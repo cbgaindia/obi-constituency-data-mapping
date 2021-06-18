@@ -11,9 +11,9 @@ source("scripts/libraries.R")
 
 
 # scheme_data <- read_csv("data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20_040621.csv")
-# scheme_data <- read_csv("data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA_Odisha_2018-19_040621.csv")
+scheme_data <- read_csv("data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA_Odisha_2018-19_040621.csv")
 # scheme_data <- read_csv("data/scheme/PMAGY/odisha/2018-19/raw/csv/PMAYG-Odisha 2018-19_040621.csv")
-scheme_data <- read_csv("data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20_040621.csv")
+# scheme_data <- read_csv("data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20_040621.csv")
 
 scheme_data <- scheme_data[,c(1,2,3,5)]
 names(scheme_data)[] <- c("s_state","s_district","s_block","s_gp") 
@@ -59,8 +59,8 @@ district_in_map <- ifelse(all_districts %in% unique(geo_mapping$g_district), 1, 
 district_match_df <- data.frame("district_name"=all_districts, "district_in_scheme"=district_in_scheme,"district_in_map"=district_in_map)
 district_match_df <- district_match_df %>% arrange(district_name)
 district_match_df$updated_district_name <- ""
-readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/odisha-districts.csv")
-# readr::write_csv(district_match_df, file = "data/geography/raw/csv/2018-19/odisha-districts.csv")
+# readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/odisha-districts.csv")
+readr::write_csv(district_match_df, file = "data/geography/raw/csv/2018-19/odisha-districts.csv")
 # readr::write_csv(district_match_df, file = "data/geography/raw/csv/2018-19/pmagy-odisha-districts.csv")
 # readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/pmagy-odisha-districts.csv")
 
@@ -73,9 +73,9 @@ readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/odish
 # "nabrangpur" This district is present in the geography file but not in the scheme file
 
 # odisha_districts <- readr::read_csv("data/geography/raw/csv/2019-20/odisha-districts.csv")
-# odisha_districts <- readr::read_csv("data/geography/raw/csv/2018-19/odisha-districts.csv")
+odisha_districts <- readr::read_csv("data/geography/raw/csv/2018-19/odisha-districts.csv")
 # odisha_districts <- readr::read_csv("data/geography/raw/csv/2018-19/pmagy-odisha-districts.csv")
-odisha_districts <- readr::read_csv("data/geography/raw/csv/2019-20/pmagy-odisha-districts.csv")
+# odisha_districts <- readr::read_csv("data/geography/raw/csv/2019-20/pmagy-odisha-districts.csv")
 
 # Update districts in the scheme file
 odisha_districts_to_update <- odisha_districts[odisha_districts$district_in_map == 0,c('district_name','updated_district_name')] 
@@ -200,9 +200,9 @@ names(scheme_data)[which(names(scheme_data)=='s_gp_mapping')] <- 'updated_gp_nam
 # Updating scheme files - Write to disk -----------------------------------
 
 # readr::write_csv(scheme_data, "data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv")
-# readr::write_csv(scheme_data, "data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv")
+readr::write_csv(scheme_data, "data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv")
 # readr::write_csv(scheme_data, "data/scheme/PMAGY/odisha/2018-19/updated/odisha-pmagy-2018-updated.csv")
-readr::write_csv(scheme_data, "data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv")
+# readr::write_csv(scheme_data, "data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv")
 
 
 
