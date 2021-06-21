@@ -18,7 +18,9 @@ state_mapping_summary <- data.frame()
 p <- progress::progress_bar$new(total = nrow(geo_mapping))
 for (i in 1:nrow(geo_mapping)) {
   p$tick()
+  # print(i)
   map_id <- geo_mapping$g_match_id[i]
+  scheme_geo_entity_id <- ""
   select_district <- geo_mapping$g_district[[i]]
   district_mapped <-
     ifelse(select_district %in% unique(scheme_data$updated_district_name),
@@ -40,8 +42,9 @@ for (i in 1:nrow(geo_mapping)) {
         ifelse(select_gp %in% unique(scheme_data_sub_sub$updated_gp_name),
                "yes",
                "no")
+      scheme_geo_entity_id <- scheme_data_sub_sub$s_id[scheme_data_sub_sub$updated_gp_name == select_gp]
     } else {
-      gp_mapped = "no"
+      gp_mapped <- "no"
     }
   } else {
     block_mapped <-  "no"
@@ -53,7 +56,8 @@ for (i in 1:nrow(geo_mapping)) {
       "g_match_id" = map_id,
       "district_mapped" = district_mapped,
       "block_mapped" = block_mapped,
-      "gp_mapped" = gp_mapped
+      "gp_mapped" = gp_mapped,
+      "s_id" = scheme_geo_entity_id
     ))
 }
 
@@ -61,6 +65,7 @@ state_mapping_summary <- left_join(state_mapping_summary, geo_mapping, by='g_mat
 state_mapping_summary <-
   state_mapping_summary[, c(
     "g_match_id",
+    "s_id",
     "g_district",
     "district_mapped",
     "g_block",
