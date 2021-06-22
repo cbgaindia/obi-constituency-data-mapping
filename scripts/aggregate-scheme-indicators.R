@@ -34,12 +34,20 @@ for(i in 1:length(all_schemes)){
                 by =  "s_id")
     
     indicator_df_ac <-
-      geo_indicators %>% group_by(g_ac) %>% summarise(across(scheme_indicators$indicator_list,sum))
+      geo_indicators %>% group_by(g_ac) %>% summarise(across(scheme_indicators$indicator_list,sum,na.rm=TRUE))
+    names(indicator_df_ac)[which(names(indicator_df_ac) == "g_ac")] <- "geo_entity_title"
     indicator_df_ac$level <- "AC"
     indicator_df_pc <-
-      geo_indicators %>% group_by(g_pc) %>% summarise(across(scheme_indicators$indicator_list,sum))
+      geo_indicators %>% group_by(g_pc) %>% summarise(across(scheme_indicators$indicator_list,sum, na.rm=TRUE))
     indicator_df_pc$level <- "PC"
+    names(indicator_df_pc)[which(names(indicator_df_pc) == "g_pc")] <- "geo_entity_title"
     indicator_df <- bind_rows(indicator_df_ac, indicator_df_pc)
+    
+    names_df <- data.frame("colname"=names(indicator_df))
+    names_df <- left_join(names_df, scheme_indicators, by=c('colname'='indicator_list'))
+    names_df <- names_df[!is.na(names_df$updated_name),]
+    names(indicator_df)[2:(ncol(indicator_df)-1)] <- names_df$updated_name
+    
     indicator_df$scheme <- scheme_title
     indicator_df$year <- year_title
     geo_indicator_df <- bind_rows(geo_indicator_df, indicator_df)
