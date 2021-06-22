@@ -27,11 +27,15 @@ for(i in 1:length(all_schemes)){
       indicator_list %>% filter(scheme == scheme_title &
                                   year == year_title)
     
+    
     # Merge files to get scheme_indicators for all geographies
     geo_indicators <-
       left_join(geo_mapping_file,
                 scheme_ind_file,
                 by =  "s_id")
+    
+    geo_indicators_file_path <- glue("data/indicators/{scheme_title}-{year_title}-gp_indicators.csv")
+    readr::write_csv(geo_indicators, geo_indicators_file_path)
     
     indicator_df_ac <-
       geo_indicators %>% group_by(g_ac) %>% summarise(across(scheme_indicators$indicator_list,sum,na.rm=TRUE))
