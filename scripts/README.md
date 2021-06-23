@@ -7,6 +7,5 @@
 | scheme-wise-mapping-results.Rmd | To create a scheme and district wise report of gepgraphies mapped	|
 | scheme-wise-mapping-results.html |	HTML rendered from the Rmd file |
 | scheme-wise-mapping-results_files | JS libraries used for rendering the mapping report	|
-| css |	|
-
+| css |	CSS files used in rendering the mapping report |
 | aggregate-scheme-indicators.R | To aggrege scheme indicators at the level of AC and PC 	|
