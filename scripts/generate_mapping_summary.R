@@ -10,7 +10,10 @@ geo_mapping <- readr::read_csv(file = "data/geography/updated/geo-odisha-updated
 # scheme_data <- readr::read_csv(file="data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv")
 # scheme_data <- readr::read_csv(file="data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv")
 # scheme_data <- readr::read_csv(file="data/scheme/PMAGY/odisha/2018-19/updated/odisha-pmagy-2018-updated.csv")
-scheme_data <- readr::read_csv(file="data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv")
+# scheme_data <- readr::read_csv(file="data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv")
+# scheme_data <- readr::read_csv(file="data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNDPS-2019-updated.csv")
+# scheme_data <- readr::read_csv(file="data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNOAPS-2019-updated.csv")
+scheme_data <- readr::read_csv(file="data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNWPS-2019-updated.csv")
 
 # Export mapping results --------------------------------------------------
 
@@ -28,7 +31,7 @@ for (i in 1:nrow(geo_mapping)) {
            "no")
   if (district_mapped == "yes") {
     scheme_data_sub <-
-      scheme_data[scheme_data$updated_district_name == select_district,]
+      scheme_data[scheme_data$updated_district_name == select_district, ]
     select_block <- geo_mapping$g_block[i]
     block_mapped <-
       ifelse(select_block %in% unique(scheme_data_sub$updated_block_name),
@@ -36,13 +39,16 @@ for (i in 1:nrow(geo_mapping)) {
              "no")
     if (block_mapped == "yes") {
       scheme_data_sub_sub <-
-        scheme_data_sub[scheme_data_sub$updated_block_name == select_block,]
+        scheme_data_sub[scheme_data_sub$updated_block_name == select_block, ]
       select_gp <- geo_mapping$g_gp[i]
       gp_mapped <-
         ifelse(select_gp %in% unique(scheme_data_sub_sub$updated_gp_name),
                "yes",
                "no")
-      scheme_geo_entity_id <- scheme_data_sub_sub$s_id[scheme_data_sub_sub$updated_gp_name == select_gp]
+      if (gp_mapped == "yes") {
+        scheme_geo_entity_id <-
+          scheme_data_sub_sub$s_id[scheme_data_sub_sub$updated_gp_name == select_gp] %>% as.character()
+      }
     } else {
       gp_mapped <- "no"
     }
@@ -52,13 +58,15 @@ for (i in 1:nrow(geo_mapping)) {
   }
   state_mapping_summary <-
     bind_rows(
-      state_mapping_summary,data.frame(
-      "g_match_id" = map_id,
-      "district_mapped" = district_mapped,
-      "block_mapped" = block_mapped,
-      "gp_mapped" = gp_mapped,
-      "s_id" = scheme_geo_entity_id
-    ))
+      state_mapping_summary,
+      data.frame(
+        "g_match_id" = map_id,
+        "district_mapped" = district_mapped,
+        "block_mapped" = block_mapped,
+        "gp_mapped" = gp_mapped,
+        "s_id" = scheme_geo_entity_id
+      )
+    )
 }
 
 state_mapping_summary <- left_join(state_mapping_summary, geo_mapping, by='g_match_id')
@@ -80,4 +88,7 @@ state_mapping_summary <-
 # readr::write_csv(state_mapping_summary, "data/results/mnrega-2018-19-geography-mapping-summary.csv")
 # readr::write_csv(state_mapping_summary, "data/results/mnrega-2019-20-geography-mapping-summary.csv")
 # readr::write_csv(state_mapping_summary, "data/results/pmagy-2018-19-geography-mapping-summary.csv")
-readr::write_csv(state_mapping_summary, "data/results/pmagy-2019-20-geography-mapping-summary.csv")
+# readr::write_csv(state_mapping_summary, "data/results/pmagy-2019-20-geography-mapping-summary.csv")
+# readr::write_csv(state_mapping_summary, "data/results/nsap-IGNDPS-2019-20-geography-mapping-summary.csv")
+# readr::write_csv(state_mapping_summary, "data/results/nsap-IGNOAPS-2019-20-geography-mapping-summary.csv")
+readr::write_csv(state_mapping_summary, "data/results/nsap-IGNWPS-2019-20-geography-mapping-summary.csv")
