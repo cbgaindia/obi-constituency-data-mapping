@@ -13,14 +13,22 @@ source("scripts/libraries.R")
 # scheme_data <- read_csv("data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20_040621.csv")
 # scheme_data <- read_csv("data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA_Odisha_2018-19_040621.csv")
 # scheme_data <- read_csv("data/scheme/PMAGY/odisha/2018-19/raw/csv/PMAYG-Odisha 2018-19_040621.csv")
-scheme_data <- read_csv("data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20_040621.csv")
+# scheme_data <- read_csv("data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20_040621.csv")
+# scheme_data <- read_csv("data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNDPS.csv")
+# scheme_data <- read_csv("data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNOAPS.csv")
+scheme_data <- read_csv("data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNWPS.csv")
 
+# For non NSAP schemes
 names(scheme_data)[c(1,2,3,5)] <- c("s_state","s_district","s_block","s_gp") 
+
+# For NSAP schemes
+names(scheme_data)[c(1,2,4,5)] <- c("s_state","s_district","s_block","s_gp") 
 scheme_data <- scheme_data %>% mutate_all(funs(str_replace_all(., "�", "")))
 scheme_data <- scheme_data %>% mutate_all(funs(str_trim(str_to_lower(.))))
 
-scheme_data <- scheme_data %>% filter(!s_gp %in% c('total','block level line deptt.','po','grand total'))
+scheme_data <- scheme_data %>% filter(!s_gp %in% c('total','block level line deptt.','po','grand total',NA_character_))
 scheme_data <- scheme_data[!is.na(scheme_data$s_state),]
+scheme_data <- scheme_data[!is.na(scheme_data$s_block),]
 scheme_data$s_id <- 1:nrow(scheme_data)
 
 
@@ -61,7 +69,10 @@ district_match_df$updated_district_name <- ""
 # readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/odisha-districts.csv")
 # readr::write_csv(district_match_df, file = "data/geography/raw/csv/2018-19/odisha-districts.csv")
 # readr::write_csv(district_match_df, file = "data/geography/raw/csv/2018-19/pmagy-odisha-districts.csv")
-readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/pmagy-odisha-districts.csv")
+# readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/pmagy-odisha-districts.csv")
+# readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/nsap-odisha-districtsIGNDPS.csv")
+# readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/nsap-odisha-districts_IGNOAPS.csv")
+readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/nsap-odisha-districts_IGNWPS.csv")
 
 # Read Odisha districts file with updated district names
 
@@ -74,7 +85,10 @@ readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/pmagy
 # odisha_districts <- readr::read_csv("data/geography/raw/csv/2019-20/odisha-districts.csv")
 # odisha_districts <- readr::read_csv("data/geography/raw/csv/2018-19/odisha-districts.csv")
 # odisha_districts <- readr::read_csv("data/geography/raw/csv/2018-19/pmagy-odisha-districts.csv")
-odisha_districts <- readr::read_csv("data/geography/raw/csv/2019-20/pmagy-odisha-districts.csv")
+# odisha_districts <- readr::read_csv("data/geography/raw/csv/2019-20/pmagy-odisha-districts.csv")
+# odisha_districts <- readr::read_csv("data/geography/raw/csv/2019-20/nsap-odisha-districts_IGNDPS.csv")
+# odisha_districts <- readr::read_csv("data/geography/raw/csv/2019-20/nsap-odisha-districts_IGNOAPS.csv")
+odisha_districts <- readr::read_csv("data/geography/raw/csv/2019-20/nsap-odisha-districts_IGNWPS.csv")
 
 # Update districts in the scheme file
 odisha_districts_to_update <- odisha_districts[odisha_districts$district_in_map == 0,c('district_name','updated_district_name')] 
@@ -201,5 +215,7 @@ names(scheme_data)[which(names(scheme_data)=='s_gp_mapping')] <- 'updated_gp_nam
 # readr::write_csv(scheme_data, "data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv")
 # readr::write_csv(scheme_data, "data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv")
 # readr::write_csv(scheme_data, "data/scheme/PMAGY/odisha/2018-19/updated/odisha-pmagy-2018-updated.csv")
-readr::write_csv(scheme_data, "data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv")
-
+# readr::write_csv(scheme_data, "data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv")
+# readr::write_csv(scheme_data, "data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNDPS-2019-updated.csv")
+# readr::write_csv(scheme_data, "data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNOAPS-2019-updated.csv")
+readr::write_csv(scheme_data, "data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNWPS-2019-updated.csv")
