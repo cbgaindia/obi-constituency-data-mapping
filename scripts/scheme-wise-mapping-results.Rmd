@@ -279,10 +279,12 @@ generate_district_wise_tables(scheme_name = scheme_to_summarise[[7]])
 | Scheme | Year    | Geographic Mapping Summary | Updated Scheme Data File  |
 |:------:| :-----: | :--------------:| :----------------: |
 | MNREGA | 2018-19 | [Link](../data/results/mnrega-2018-19-geography-mapping-summary.csv)        |   [Link](../data/scheme/MNREGA/odisha/2018-19/updated/odisha-mnrega-2018-updated.csv)           |
-MNREGA | 2019-20 | [Link](../data/results/mnrega-2019-20-geography-mapping-summary.csv)| [Link](..//data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv)           |
-PMAGY  | 2018-19 | [Link](../data/results/pmagy-2018-19-geography-mapping-summary.csv)        | [Link](../data/scheme/PMAGY/odisha/2018-19/updated/odisha-pmagy-2018-updated.csv)           |
-PMAGY  | 2019-20 | [Link](../data/results/pmagy-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv)           |
-
+| MNREGA | 2019-20 | [Link](../data/results/mnrega-2019-20-geography-mapping-summary.csv)| [Link](..//data/scheme/MNREGA/odisha/2019-20/updated/odisha-mnrega-2019-updated.csv)           |
+| PMAGY  | 2018-19 | [Link](../data/results/pmagy-2018-19-geography-mapping-summary.csv)        | [Link](../data/scheme/PMAGY/odisha/2018-19/updated/odisha-pmagy-2018-updated.csv)           |
+| PMAGY  | 2019-20 | [Link](../data/results/pmagy-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv)           |
+| NSAP - IGNDPS | 2019-20 | [Link](../data/results/nsap-IGNDPS-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNDPS-2019-updated.csv) |
+| NSAP - IGNOAPS | 2019-20 | [Link](../data/results/nsap-IGNOAPS-2019-20-geography-mapping-summary.csv ) | [Link](../data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNOAPS-2019-updated.csv) |
+| NSAP - IGNWPS | 2019-20 | [Link](../data/results/nsap-IGNWPS-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNWPS-2019-updated.csv) |
 
 #### Files shared by CBGA
 
@@ -293,6 +295,9 @@ PMAGY  | 2019-20 | [Link](../data/results/pmagy-2019-20-geography-mapping-summar
   - MNREGA 2019-20 - [Link](../data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20_040621.csv)
   - PMAGY 2018-19 - [Link](../data/scheme/PMAGY/odisha/2018-19/raw/csv/PMAYG-Odisha 2018-19_040621.csv)
   - PMAGY 2019-20 - [Link](../data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20_040621.csv)
+  - NSAP-IGNDPS 2019-20 - [Link](../data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNDPS.csv)
+  - NSAP-IGNOAPS 2019-20 - [Link](../data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNOAPS.csv)
+  - NSAP-IGNWPS 2019-20 - [Link](../data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNWPS.csv)
 
 <br />
 
