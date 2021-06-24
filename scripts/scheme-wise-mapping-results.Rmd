@@ -36,7 +36,7 @@ knitr::opts_chunk$set(
 
 ```{r function-to-summarise-mapping-for-scheme}
 source("../scripts/libraries.R")
-scheme_to_summarise <- c("mnrega-2018-19","mnrega-2019-20","pmagy-2018-19","pmagy-2019-20")
+scheme_to_summarise <- c("mnrega-2018-19","mnrega-2019-20","pmagy-2018-19","pmagy-2019-20","nsap-IGNDPS-2019-20","nsap-IGNOAPS-2019-20","nsap-IGNWPS-2019-20")
 
 summarise_scheme_mapping <- function(scheme_to_summarise){
   
@@ -45,6 +45,16 @@ summarise_scheme_mapping <- function(scheme_to_summarise){
     readr::read_csv(glue(
       "../data/results/{scheme_to_summarise}-geography-mapping-summary.csv"
     ))
+  
+  scheme_title <- switch (scheme_to_summarise,
+    "mnrega-2018-19" = "MNREGA (2018-19)",
+    "mnrega-2019-20" = "MNREGA (2019-20)",
+    "pmagy-2018-19" = "PMAGY (2018-19)",
+    "pmagy-2019-20" = "PMAGY (2019-20)",
+    "nsap-IGNDPS-2019-20" = "NSAP - IGNDPS (2019-20)",
+    "nsap-IGNOAPS-2019-20" = "NSAP - IGNOAPS (2019-20)",
+    "nsap-IGNWPS-2019-20" = "NSAP - IGNWPS (2019-20)"
+  )
 
   # Evaluate percentage mapping for each geographic entity  
   total_districts <-
@@ -87,7 +97,7 @@ summarise_scheme_mapping <- function(scheme_to_summarise){
                  'Total' = var_total,
                  'Mapped' = var_mapped)
     var_df$MappingPercent <- var_df$Mapped / var_df$Total*100
-    var_df$scheme <- ifelse(scheme_to_summarise == "mnrega-2018-19","MNREGA (2018-19)",ifelse(scheme_to_summarise == "mnrega-2019-20","MNREGA (2019-20)",ifelse(scheme_to_summarise == "pmagy-2018-19","PMAGY (2018-19)","PMAGY (2019-20)")))
+    var_df$scheme <- scheme_title
     mapping_summary_table <- bind_rows(mapping_summary_table ,var_df)
   }
   
@@ -237,6 +247,24 @@ generate_district_wise_tables(scheme_name = scheme_to_summarise[[3]])
 ##### PMAGY (2019-20)
 ```{r pmagy-2019-district-summary}
 generate_district_wise_tables(scheme_name = scheme_to_summarise[[4]])
+
+```
+
+##### NSAP - IGNDPS (2019-20)
+```{r nsap-IGNDPS-2019-district-summary}
+generate_district_wise_tables(scheme_name = scheme_to_summarise[[5]])
+
+```
+
+##### NSAP - IGNOAPS (2019-20)
+```{r nsap-IGNOAPS-2019-district-summary}
+generate_district_wise_tables(scheme_name = scheme_to_summarise[[6]])
+
+```
+
+##### NSAP - IGNWPS (2019-20)
+```{r nsap-IGNWPS-2019-district-summary}
+generate_district_wise_tables(scheme_name = scheme_to_summarise[[7]])
 
 ```
 
