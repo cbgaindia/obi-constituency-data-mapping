@@ -61,7 +61,7 @@ scheme_data$s_id <- 1:nrow(scheme_data)
 
 
 if(scheme_type=="urban"){
-  geo_mapping <- read_csv("data/geography/raw/csv/OdishaUrban.csv",col_types = cols(.default = "c")) %>% data.frame()
+  geo_mapping <- read_csv("data/geography/raw/csv/OdishaUrban.csv",col_types = cols(.default = "c")) %>% data.frame(check.names = FALSE)
 } else {
   geo_mapping <- read_csv("data/geography/raw/csv/Odisha_040621.csv")
 }
@@ -76,6 +76,7 @@ geo_mapping <- geo_mapping[!is.na(geo_mapping$g_block),]
 geo_mapping <- unique(geo_mapping)
 geo_mapping$g_match_id <- 1:nrow(geo_mapping)
 # readr::write_csv(geo_mapping, file = "data/geography/updated/geo-odisha-updated.csv")
+# readr::write_csv(geo_mapping, file = "data/geography/updated/geo-odisha-urban-updated.csv")
 
 # District match ----------------------------------------------------------
 
