@@ -10,25 +10,43 @@ source("scripts/libraries.R")
 # 5 - Assign unique ID to each row
 
 
-# scheme_data <- read_csv("data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20_040621.csv")
-# scheme_data <- read_csv("data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA_Odisha_2018-19_040621.csv")
-# scheme_data <- read_csv("data/scheme/PMAGY/odisha/2018-19/raw/csv/PMAYG-Odisha 2018-19_040621.csv")
-# scheme_data <- read_csv("data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20_040621.csv")
-# scheme_data <- read_csv("data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNDPS.csv")
-# scheme_data <- read_csv("data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNOAPS.csv")
-scheme_data <- read_csv("data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNWPS.csv")
+# scheme_file_path <- "data/scheme/MNREGA/odisha/2019-20/raw/csv/MGNREGA-Odisha-2019-20_040621.csv"
+# scheme_file_path <- "data/scheme/MNREGA/odisha/2018-19/raw/csv/MGNREGA_Odisha_2018-19_040621.csv"
+# scheme_file_path <- "data/scheme/PMAGY/odisha/2018-19/raw/csv/PMAYG-Odisha 2018-19_040621.csv"
+# scheme_file_path <- "data/scheme/PMAGY/odisha/2019-20/raw/csv/PMAYG-Odisha 2019-20_040621.csv"
+# scheme_file_path <- "data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNDPS.csv"
+# scheme_file_path <- "data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNOAPS.csv"
+# scheme_file_path <- "data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNWPS.csv"
+# scheme_file_path <- "data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNDPS_urban.csv"
+# scheme_file_path <- "data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNOAPS_urban.csv"
 
-# For non NSAP schemes
-names(scheme_data)[c(1,2,3,5)] <- c("s_state","s_district","s_block","s_gp") 
+scheme_file_path <- "data/scheme/NSAP/odisha/2019-20/raw/csv/nsap_IGNWPS_urban.csv"
+scheme_data <- read_csv(scheme_file_path)
 
-# For NSAP schemes
-names(scheme_data)[c(1,2,4,5)] <- c("s_state","s_district","s_block","s_gp") 
+scheme_type <- ifelse(grepl(scheme_file_path,pattern = "urban",ignore.case = TRUE),"urban","rural")
+scheme_nsap <- grepl(scheme_file_path, pattern = "nsap", ignore.case = TRUE)
+
+if(scheme_nsap){
+  # For NSAP schemes
+  names(scheme_data)[c(1,2,3,4,5)] <- c("s_state","s_district","s_ulb","s_block","s_gp") 
+  
+} else {
+  # For non NSAP schemes
+  names(scheme_data)[c(1,2,3,5)] <- c("s_state","s_district","s_block","s_gp") 
+  
+}
+
 scheme_data <- scheme_data %>% mutate_all(funs(str_replace_all(., "�", "")))
 scheme_data <- scheme_data %>% mutate_all(funs(str_trim(str_to_lower(.))))
-
 scheme_data <- scheme_data %>% filter(!s_gp %in% c('total','block level line deptt.','po','grand total',NA_character_))
 scheme_data <- scheme_data[!is.na(scheme_data$s_state),]
-scheme_data <- scheme_data[!is.na(scheme_data$s_block),]
+
+if(scheme_type == "urban"){
+  scheme_data$s_block <- scheme_data$s_ulb
+} 
+  
+scheme_data <- scheme_data[!is.na(scheme_data$s_block),]  
+
 scheme_data$s_id <- 1:nrow(scheme_data)
 
 
@@ -41,16 +59,17 @@ scheme_data$s_id <- 1:nrow(scheme_data)
 # 6 - Remove duplicates
 # 7 - Assign ID to rows
 
-geo_mapping <- read_csv("data/geography/raw/csv/Odisha_040621.csv", 
-                   col_types = cols(`Notified Area Council (NAC)` = col_skip(), 
-                                    `Municipality (M)` = col_skip(), 
-                                    `Municipal Corporation (MC)` = col_skip(), 
-                                    `Outgrowth (OG)` = col_skip(), `Wards of ULBs` = col_skip(), 
-                                    `Sl. No. of PCs` = col_skip(), REMARKS = col_skip()))
+
+if(scheme_type=="urban"){
+  geo_mapping <- read_csv("data/geography/raw/csv/OdishaUrban.csv",col_types = cols(.default = "c")) %>% data.frame()
+} else {
+  geo_mapping <- read_csv("data/geography/raw/csv/Odisha_040621.csv")
+}
+
 # geo_mapping <- geo_mapping[!is.na(geo_mapping$`SL NO. for AC`),]
 
 geo_mapping$g_match_id <- NULL
-names(geo_mapping) <- c("g_ac_id","g_ac","g_block","g_gp","g_district","g_pc")
+names(geo_mapping)[1:6] <- c("g_ac_id","g_ac","g_block","g_gp","g_district","g_pc")
 geo_mapping <- geo_mapping %>% mutate_all(funs(str_replace_all(., "�", "")))
 geo_mapping <- geo_mapping %>% mutate_all(funs(str_trim(str_to_lower(.))))
 geo_mapping <- geo_mapping[!is.na(geo_mapping$g_block),]
@@ -70,9 +89,9 @@ district_match_df$updated_district_name <- ""
 # readr::write_csv(district_match_df, file = "data/geography/raw/csv/2018-19/odisha-districts.csv")
 # readr::write_csv(district_match_df, file = "data/geography/raw/csv/2018-19/pmagy-odisha-districts.csv")
 # readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/pmagy-odisha-districts.csv")
-# readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/nsap-odisha-districtsIGNDPS.csv")
+# readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/nsap-odisha-districts_IGNDPS.csv")
 # readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/nsap-odisha-districts_IGNOAPS.csv")
-readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/nsap-odisha-districts_IGNWPS.csv")
+# readr::write_csv(district_match_df, file = "data/geography/raw/csv/2019-20/nsap-odisha-districts_IGNWPS.csv")
 
 # Read Odisha districts file with updated district names
 
@@ -218,4 +237,7 @@ names(scheme_data)[which(names(scheme_data)=='s_gp_mapping')] <- 'updated_gp_nam
 # readr::write_csv(scheme_data, "data/scheme/PMAGY/odisha/2019-20/updated/odisha-pmagy-2019-updated.csv")
 # readr::write_csv(scheme_data, "data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNDPS-2019-updated.csv")
 # readr::write_csv(scheme_data, "data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNOAPS-2019-updated.csv")
-readr::write_csv(scheme_data, "data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNWPS-2019-updated.csv")
+# readr::write_csv(scheme_data, "data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNWPS-2019-updated.csv")
+# readr::write_csv(scheme_data, "data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNDPS-urban-2019-updated.csv")
+# readr::write_csv(scheme_data, "data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNOAPS-urban-2019-updated.csv")
+readr::write_csv(scheme_data, "data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNWPS-urban-2019-updated.csv")

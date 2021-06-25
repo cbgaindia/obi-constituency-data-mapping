@@ -1,0 +1,888 @@
+s_state,s_district,s_ulb,s_block,s_gp,Total_IGNDPS,s_id,updated_district_name,updated_block_name,updated_gp_name
+odisha,angul,angul urban,angul urban,ward-1,0.14,1,anugul,NA,NA
+odisha,angul,angul urban,angul urban,ward-13,0.14,2,anugul,NA,NA
+odisha,angul,angul urban,angul urban,ward-14,0.28,3,anugul,NA,NA
+odisha,angul,angul urban,angul urban,ward-15,0.14,4,anugul,NA,NA
+odisha,angul,angul urban,angul urban,ward-16,0.14,5,anugul,NA,NA
+odisha,angul,angul urban,angul urban,ward-2,0.32,6,anugul,NA,NA
+odisha,angul,angul urban,angul urban,ward-22,0.14,7,anugul,NA,NA
+odisha,angul,angul urban,angul urban,ward-3,0.28,8,anugul,NA,NA
+odisha,angul,angul urban,angul urban,ward-8,0.42,9,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-1,4.28,10,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-10,1.43,11,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-12,2.58,12,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-16,1.43,13,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-17,2.03,14,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-18,1.43,15,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-19,5.71,16,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-2,2.86,17,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-20,2.95,18,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-5,3.46,19,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-6,2.86,20,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-7,4.28,21,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-8,9.23,22,anugul,NA,NA
+odisha,angul,talcher urban,talcher urban,ward-9,0.6,23,anugul,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-1,1.1,24,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-10,0.22,25,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-11,0.65,26,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-12,0.87,27,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-13,0.22,28,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-14,0.65,29,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-15,0.87,30,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-16,0.22,31,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-18,0.65,32,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-2,0.43,33,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-20,0.43,34,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-21,0.43,35,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-22,0.43,36,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-23,0.22,37,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-24,1.52,38,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-25,0.65,39,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-27,1.3,40,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-29,0.65,41,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-3,0.22,42,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-30,0.43,43,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-4,0.43,44,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-5,1.3,45,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-6,0.22,46,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-7,1.52,47,balasore,NA,NA
+odisha,baleshwar,balasore urban,balasore urban,ward-8,0.87,48,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,aladiha,2.35,49,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,asti,6.03,50,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,bodas,4.61,51,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,baliapal,0.75,52,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,balikuti,2.22,53,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,baniadiha,0.73,54,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,betagadia,1.48,55,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,bishnupur,2.98,56,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,bolang,1.98,57,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,chaumukh,2.51,58,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,dagara,1.62,59,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,debhog,1.22,60,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,deula,1.81,61,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,ghantua,1.93,62,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,jagatipur,1.91,63,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,jamakunda,1.62,64,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,jambhirai,2.37,65,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,kumbhari,1.18,66,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,kunduli,0.59,67,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,madhupura,5.92,68,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,nikhira,9.14,69,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,nuagaon,1.65,70,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,panchupalli,1.91,71,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,pratappur,1.97,72,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,srirampur,2.37,73,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,ratei,3.14,74,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,balarampur,1.34,75,balasore,NA,NA
+odisha,baleshwar,baliapal,baliapal,saudi,0.73,76,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-10,0.22,77,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-11,0.12,78,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-12,1.64,79,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-13,0.71,80,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-14,1.1,81,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-15,3.54,82,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-16,4.26,83,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-17,1.43,84,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-2,0.22,85,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-3,0.95,86,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-4,0.46,87,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-5,0.67,88,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-6,0.12,89,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-7,1.32,90,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-8,0.8,91,balasore,NA,NA
+odisha,baleshwar,jaleswar urban,jaleswar urban,ward-9,0.55,92,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-1,0.67,93,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-10,0.29,94,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-11,0.44,95,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-12,0.66,96,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-13,0.15,97,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-2,0.44,98,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-3,0.15,99,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-4,0.44,100,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-5,0.66,101,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-7,0.44,102,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-8,0.59,103,balasore,NA,NA
+odisha,baleshwar,nilagiri urban,nilagiri urban,ward-9,0.81,104,balasore,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-1,0.13,105,baragarh,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-10,0.26,106,baragarh,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-11,0.25,107,baragarh,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-2,1.27,108,baragarh,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-3,1.89,109,baragarh,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-4,1.53,110,baragarh,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-5,2.1,111,baragarh,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-6,2.16,112,baragarh,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-7,1.01,113,baragarh,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-8,1.9,114,baragarh,NA,NA
+odisha,bargarh,barpali nac,barpali nac,ward-9,0.76,115,baragarh,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-1,3.97,116,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-10,0.97,117,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-11,1.68,118,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-13,3.42,119,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-14,1.93,120,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-15,0.84,121,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-16,1.47,122,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-18,1.76,123,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-19,1.09,124,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-2,0.88,125,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-20,3.78,126,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-21,1.76,127,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-22,4.75,128,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-3,2.9,129,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-4,0.02,130,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-6,1.85,131,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-7,5.59,132,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-8,1.93,133,bhadrak,NA,NA
+odisha,bhadrak,basudevpur nac,basudevpur nac,ward-9,1.93,134,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-11,0.11,135,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-14,0.06,136,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-17,0.56,137,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-18,0.22,138,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-19,0.06,139,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-20,0.39,140,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-21,0.01,141,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-23,0.22,142,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-25,0.34,143,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-26,0.17,144,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-27,0.45,145,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-28,0.11,146,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-29,0.11,147,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-30,0.73,148,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-4,0.28,149,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-7,0.28,150,bhadrak,NA,NA
+odisha,bhadrak,bhadrak municipality,bhadrak municipality,ward-9,0.17,151,bhadrak,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-10,0.63,152,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-11,3.78,153,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-12,1.26,154,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-14,5.57,155,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-15,3.15,156,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-17,8.19,157,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-18,0.63,158,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-19,0.63,159,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-2,3.57,160,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-4,0.63,161,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-5,1.26,162,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-6,10.29,163,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-7,3.15,164,bolangir,NA,NA
+odisha,bolangir,bolangir urban,bolangir urban,ward-9,1.89,165,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-1,1.76,166,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-10,1.64,167,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-11,1.26,168,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-12,2.6,169,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-14,1.26,170,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-16,0.63,171,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-2,2.04,172,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-3,0.63,173,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-4,1.89,174,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-5,1.26,175,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-6,2.52,176,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-7,1.34,177,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-8,0.82,178,bolangir,NA,NA
+odisha,bolangir,kantabanjhi urban,kantabanjhi urban,ward-9,6.3,179,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-1,0.22,180,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-12,3.36,181,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-13,1.57,182,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-15,0.45,183,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-2,0.22,184,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-4,1.78,185,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-5,0.45,186,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-6,1.12,187,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-7,0.9,188,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-8,0.45,189,bolangir,NA,NA
+odisha,bolangir,patnagarh urban,patnagarh urban,ward-9,0.45,190,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-1,12.85,191,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-10,2.14,192,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-11,4.28,193,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-12,4.28,194,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-13,1.62,195,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-14,4.28,196,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-15,7.73,197,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-2,4.28,198,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-4,4.28,199,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-7,2.14,200,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-8,2.14,201,bolangir,NA,NA
+odisha,bolangir,titlagarh urban,titlagarh urban,ward-9,2.14,202,bolangir,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-1,0.98,203,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-10,0.39,204,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-11,0.2,205,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-12,0.59,206,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-13,0.98,207,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-14,0.98,208,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-15,0.59,209,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-16,0.39,210,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-17,1.18,211,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-2,1.76,212,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-3,1.69,213,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-4,1.37,214,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-5,1.37,215,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-6,0.39,216,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-7,0.2,217,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-8,1.18,218,cuttack,NA,NA
+odisha,cuttack,choudwar urban,choudwar urban,ward-9,0.59,219,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-1,0.84,220,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-11,1.65,221,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-13,0.83,222,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-14,0.83,223,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-16,1.65,224,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-19,1.65,225,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-21,0.83,226,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-23,1.65,227,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-24,1.65,228,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-25,1.65,229,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-27,0.83,230,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-33,0.83,231,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-34,0.83,232,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-38,2.48,233,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-42,1.65,234,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-47,2.48,235,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-5,0.83,236,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-50,0.83,237,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-52,1.65,238,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-54,0.83,239,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-57,1.65,240,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-59,0.83,241,cuttack,NA,NA
+odisha,cuttack,cuttack urban,cuttack urban,ward-9,0.83,242,cuttack,NA,NA
+odisha,deogarh,deogarh urban,deogarh urban,ward-1,0.42,243,deogarh,NA,NA
+odisha,deogarh,deogarh urban,deogarh urban,ward-10,0.02,244,deogarh,NA,NA
+odisha,deogarh,deogarh urban,deogarh urban,ward-2,2.13,245,deogarh,NA,NA
+odisha,deogarh,deogarh urban,deogarh urban,ward-3,1.62,246,deogarh,NA,NA
+odisha,deogarh,deogarh urban,deogarh urban,ward-4,0.44,247,deogarh,NA,NA
+odisha,deogarh,deogarh urban,deogarh urban,ward-5,2.04,248,deogarh,NA,NA
+odisha,deogarh,deogarh urban,deogarh urban,ward-6,1.28,249,deogarh,NA,NA
+odisha,deogarh,deogarh urban,deogarh urban,ward-7,0.04,250,deogarh,NA,NA
+odisha,deogarh,deogarh urban,deogarh urban,ward-8,0.46,251,deogarh,NA,NA
+odisha,deogarh,deogarh urban,deogarh urban,ward-9,0.78,252,deogarh,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-1,0.61,253,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-10,0.61,254,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-12,0.61,255,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-13,0.61,256,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-14,1.42,257,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-15,0.2,258,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-2,0.41,259,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-3,0.41,260,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-5,0.41,261,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-6,1.01,262,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-7,0.2,263,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-8,0.41,264,dhenkanal,NA,NA
+odisha,dhenkanal,hindol urban,hindol urban,ward-9,0.2,265,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-1,0.39,266,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-10,0.78,267,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-11,0.79,268,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-12,0.98,269,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-13,0.2,270,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-14,0.98,271,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-15,0.59,272,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-2,0.39,273,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-3,0.41,274,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-4,0.4,275,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-6,0.59,276,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-8,1.01,277,dhenkanal,NA,NA
+odisha,dhenkanal,kamakhyanagar urban,kamakhyanagar urban,ward-9,0.39,278,dhenkanal,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-1,0.87,279,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-10,0.65,280,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-11,0.87,281,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-12,0.65,282,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-13,1.08,283,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-2,0.22,284,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-3,0.22,285,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-4,0.43,286,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-5,0.43,287,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-6,0.87,288,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-7,0.65,289,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-8,0.22,290,gajapati,NA,NA
+odisha,gajapati,kashinagar nac,kashinagar nac,ward-9,0.22,291,gajapati,NA,NA
+odisha,ganjam,bellaguntha nac,bellaguntha nac,ward-1,0.83,292,ganjam,NA,NA
+odisha,ganjam,bellaguntha nac,bellaguntha nac,ward-10,0.2,293,ganjam,NA,NA
+odisha,ganjam,bellaguntha nac,bellaguntha nac,ward-13,0.22,294,ganjam,NA,NA
+odisha,ganjam,bellaguntha nac,bellaguntha nac,ward-2,0.61,295,ganjam,NA,NA
+odisha,ganjam,bellaguntha nac,bellaguntha nac,ward-3,0.42,296,ganjam,NA,NA
+odisha,ganjam,bellaguntha nac,bellaguntha nac,ward-4,0.84,297,ganjam,NA,NA
+odisha,ganjam,bellaguntha nac,bellaguntha nac,ward-5,0.65,298,ganjam,NA,NA
+odisha,ganjam,bellaguntha nac,bellaguntha nac,ward-6,0.53,299,ganjam,NA,NA
+odisha,ganjam,bellaguntha nac,bellaguntha nac,ward-7,0.2,300,ganjam,NA,NA
+odisha,ganjam,bellaguntha nac,bellaguntha nac,ward-8,0.37,301,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-1,0.42,302,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-11,0.71,303,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-12,0.59,304,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-13,0.39,305,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-14,0.2,306,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-15,0.59,307,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-16,0.39,308,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-17,0.2,309,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-18,0.39,310,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-2,0.9,311,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-4,1.47,312,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-5,0.39,313,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-6,0.78,314,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-7,0.2,315,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-8,0.2,316,ganjam,NA,NA
+odisha,ganjam,kabisuryanagar nac,kabisuryanagar nac,ward-9,0.2,317,ganjam,NA,NA
+odisha,ganjam,kodala nac,kodala nac,ward-13,1.75,318,ganjam,NA,NA
+odisha,ganjam,kodala nac,kodala nac,ward-8,0.92,319,ganjam,NA,NA
+odisha,ganjam,kodala nac,kodala nac,ward-12,0.42,320,ganjam,NA,NA
+odisha,ganjam,kodala nac,kodala nac,ward-5,0.42,321,ganjam,NA,NA
+odisha,ganjam,kodala nac,kodala nac,ward-9,0.42,322,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-1,0.25,323,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-10,1.08,324,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-11,0.47,325,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-2,0.43,326,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-3,0.43,327,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-4,0.65,328,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-5,0.43,329,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-6,1.32,330,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-7,0.47,331,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-8,0.25,332,ganjam,NA,NA
+odisha,ganjam,surada nac,surada nac,ward-9,0.9,333,ganjam,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-8,0.8,334,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-9,0.87,335,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-1,1.32,336,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-10,0.64,337,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-11,0.11,338,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-12,0.15,339,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-13,0.04,340,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-16,1.18,341,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-17,1.05,342,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-18,1.46,343,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-19,0.48,344,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-2,1.54,345,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-20,0.8,346,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-21,0.63,347,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-3,0.15,348,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-5,0.15,349,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-6,0.31,350,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-7,0.15,351,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-8,0.74,352,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,jagatsinghapur urban,jagatsinghapur urban,ward-9,0.15,353,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,paradeep urban,paradeep urban,ward-18,0.36,354,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,paradeep urban,paradeep urban,ward-19,0.11,355,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,paradeep urban,paradeep urban,ward-3,0.15,356,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,paradeep urban,paradeep urban,ward-6,0.15,357,jagatsinghapur,NA,NA
+odisha,jagatsinghapur,paradeep urban,paradeep urban,ward-8,0.08,358,jagatsinghapur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-1,1.26,359,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-11,0.84,360,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-12,0.21,361,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-13,0.84,362,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-14,1.23,363,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-15,0.29,364,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-16,0.42,365,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-2,0.21,366,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-3,0.42,367,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-4,0.63,368,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-5,1.05,369,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-6,0.84,370,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-7,0.21,371,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-8,0.42,372,jajpur,NA,NA
+odisha,jajpur,jajpur urban,jajpur urban,ward-9,0.21,373,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-10,0.53,374,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-11,0.08,375,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-12,0.56,376,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-15,0.36,377,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-16,0.2,378,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-17,2.64,379,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-18,1.99,380,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-19,0.81,381,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-2,0.39,382,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-20,1.01,383,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-21,1.37,384,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-22,0.88,385,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-23,1.42,386,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-24,2.44,387,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-25,5.48,388,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-26,2.03,389,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-3,0.13,390,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-4,0.55,391,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-5,0.2,392,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-6,0.71,393,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-7,0.92,394,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-8,0.36,395,jajpur,NA,NA
+odisha,jajpur,v.n municipality,v.n municipality,ward-9,0.09,396,jajpur,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-1,0.24,397,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-11,0.09,398,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-12,0.13,399,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-14,0.14,400,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-15,0.06,401,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-16,0.08,402,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-17,0.08,403,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-19,0.06,404,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-2,0.16,405,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-3,0.15,406,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-4,0.06,407,jharsuguda,NA,NA
+odisha,jharsuguda,belpahar urban,belpahar urban,ward-8,0.09,408,jharsuguda,NA,NA
+odisha,jharsuguda,jharsuguda urban,jharsuguda urban,ward-12,5.75,409,jharsuguda,NA,NA
+odisha,jharsuguda,jharsuguda urban,jharsuguda urban,ward-13,4.91,410,jharsuguda,NA,NA
+odisha,jharsuguda,jharsuguda urban,jharsuguda urban,ward-15,1.81,411,jharsuguda,NA,NA
+odisha,jharsuguda,jharsuguda urban,jharsuguda urban,ward-16,3.95,412,jharsuguda,NA,NA
+odisha,jharsuguda,jharsuguda urban,jharsuguda urban,ward-17,1.81,413,jharsuguda,NA,NA
+odisha,jharsuguda,jharsuguda urban,jharsuguda urban,ward-20,1.81,414,jharsuguda,NA,NA
+odisha,jharsuguda,jharsuguda urban,jharsuguda urban,ward-21,1.81,415,jharsuguda,NA,NA
+odisha,jharsuguda,jharsuguda urban,jharsuguda urban,ward-22,1.81,416,jharsuguda,NA,NA
+odisha,jharsuguda,jharsuguda urban,jharsuguda urban,ward-8,5.42,417,jharsuguda,NA,NA
+odisha,jharsuguda,jharsuguda urban,jharsuguda urban,ward-9,1.81,418,jharsuguda,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-1,1.13,419,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-10,2.83,420,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-11,1.13,421,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-12,0.09,422,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-13,1.79,423,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-2,0.57,424,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-3,2.51,425,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-4,0.75,426,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-5,1.13,427,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-6,0.79,428,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-7,2.25,429,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-8,2.76,430,kandhamal,NA,NA
+odisha,kandamal,baliguda urban,baliguda urban,ward-9,0.57,431,kandhamal,NA,NA
+odisha,kandamal,g.udayagiri,g.udayagiri,gressingia,0.9,432,kandhamal,NA,NA
+odisha,kandamal,g.udayagiri,g.udayagiri,kalinga,1.48,433,kandhamal,NA,NA
+odisha,kandamal,g.udayagiri,g.udayagiri,katingia,6.96,434,kandhamal,NA,NA
+odisha,kandamal,g.udayagiri,g.udayagiri,lingagada,2.24,435,kandhamal,NA,NA
+odisha,kandamal,g.udayagiri,g.udayagiri,mallikpodi,7.03,436,kandhamal,NA,NA
+odisha,kandamal,g.udayagiri,g.udayagiri,raikola,0.45,437,kandhamal,NA,NA
+odisha,kandamal,g.udayagiri,g.udayagiri,ratingia,1.58,438,kandhamal,NA,NA
+odisha,kandamal,g.udayagiri,g.udayagiri,talarimaha,6.95,439,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-1,0.41,440,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-10,3.08,441,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-11,0.83,442,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-13,0.83,443,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-2,6.15,444,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-3,1.65,445,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-4,1.88,446,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-5,1.65,447,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-6,1.2,448,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-8,3.48,449,kandhamal,NA,NA
+odisha,kandamal,phulbani urban,phulbani urban,ward-9,5.78,450,kandhamal,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-1,0.9,451,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-10,0.06,452,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-11,0.96,453,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-12,0.45,454,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-13,0.28,455,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-14,0.56,456,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-15,0.59,457,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-16,0.22,458,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-17,0.22,459,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-18,0.25,460,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-19,0.17,461,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-2,0.17,462,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-20,0.29,463,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-21,0.52,464,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-3,0.45,465,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-4,0.22,466,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-5,0.17,467,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-6,0.93,468,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-7,0.17,469,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-8,0.06,470,kendrapara,NA,NA
+odisha,kendrapara,kendrapara municipality,kendrapara municipality,ward-9,0.11,471,kendrapara,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-1,10.73,472,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-10,6.13,473,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-12,3.07,474,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-13,1.53,475,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-14,4.6,476,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-15,3.07,477,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-16,1.53,478,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-2,4.6,479,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-3,3.07,480,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-4,1.53,481,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-5,1.53,482,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-6,1.53,483,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-7,1.54,484,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-8,3.07,485,keonjhar,NA,NA
+odisha,kendhujar,anandapur urban,anandapur urban,ward no-9,6.13,486,keonjhar,NA,NA
+odisha,kendhujar,barbil urban,barbil urban,ward no-1,3.04,487,keonjhar,NA,NA
+odisha,kendhujar,barbil urban,barbil urban,ward no-3,7.6,488,keonjhar,NA,NA
+odisha,kendhujar,barbil urban,barbil urban,ward no-4,3.04,489,keonjhar,NA,NA
+odisha,kendhujar,barbil urban,barbil urban,ward no-6,1.52,490,keonjhar,NA,NA
+odisha,kendhujar,barbil urban,barbil urban,ward no-8,1.52,491,keonjhar,NA,NA
+odisha,kendhujar,barbil urban,barbil urban,ward no-9,1.52,492,keonjhar,NA,NA
+odisha,kendhujar,champua urban,champua urban,ward no-1,1.51,493,keonjhar,NA,NA
+odisha,kendhujar,joda urban,joda urban,ward no-1,1.55,494,keonjhar,NA,NA
+odisha,kendhujar,joda urban,joda urban,ward no-10,1.55,495,keonjhar,NA,NA
+odisha,kendhujar,joda urban,joda urban,ward no-11,1.55,496,keonjhar,NA,NA
+odisha,kendhujar,joda urban,joda urban,ward no-13,3.11,497,keonjhar,NA,NA
+odisha,kendhujar,joda urban,joda urban,ward no-3,3.11,498,keonjhar,NA,NA
+odisha,kendhujar,joda urban,joda urban,ward no-5,3.11,499,keonjhar,NA,NA
+odisha,kendhujar,joda urban,joda urban,ward no-6,4.62,500,keonjhar,NA,NA
+odisha,kendhujar,joda urban,joda urban,ward no-7,9.32,501,keonjhar,NA,NA
+odisha,kendhujar,joda urban,joda urban,ward no-9,1.55,502,keonjhar,NA,NA
+odisha,kendhujar,keonjhar urban,keonjhar urban,ward no-1,1.54,503,keonjhar,NA,NA
+odisha,kendhujar,keonjhar urban,keonjhar urban,ward no-15,0.01,504,keonjhar,NA,NA
+odisha,kendhujar,keonjhar urban,keonjhar urban,ward no-18,1.76,505,keonjhar,NA,NA
+odisha,kendhujar,keonjhar urban,keonjhar urban,ward no-3,7.7,506,keonjhar,NA,NA
+odisha,kendhujar,keonjhar urban,keonjhar urban,ward no-4,3.08,507,keonjhar,NA,NA
+odisha,kendhujar,keonjhar urban,keonjhar urban,ward no-5,9.83,508,keonjhar,NA,NA
+odisha,kendhujar,keonjhar urban,keonjhar urban,ward no-6,1.54,509,keonjhar,NA,NA
+odisha,kendhujar,keonjhar urban,keonjhar urban,ward no-7,1.54,510,keonjhar,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-1,0.41,511,khurda,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-10,0.19,512,khurda,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-11,0.56,513,khurda,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-2,0.55,514,khurda,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-3,1.95,515,khurda,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-4,0.4,516,khurda,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-5,1.14,517,khurda,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-6,2.02,518,khurda,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-7,0.38,519,khurda,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-8,0.22,520,khurda,NA,NA
+odisha,khordha,balugaon nac,balugaon nac,ward-9,1.41,521,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-1,1.76,522,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-14,0.2,523,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-16,0.59,524,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-17,0.39,525,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-18,0.2,526,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-19,0.39,527,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-2,2.16,528,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-21,1.76,529,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-22,0.59,530,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-3,0.2,531,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-4,0.39,532,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-5,0.78,533,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-7,0.2,534,khurda,NA,NA
+odisha,khordha,khordha municipality,khordha municipality,ward-8,0.2,535,khurda,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-1,0.2,536,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-10,0.41,537,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-11,0.05,538,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-14,0.2,539,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-2,0.81,540,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-24,0.41,541,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-26,0.2,542,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-28,0.41,543,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-4,0.25,544,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-5,1.22,545,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-7,0.2,546,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-8,0.41,547,koraput,NA,NA
+odisha,koraput,jeypore urban,jeypore urban,ward-9,0.81,548,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-1,2.47,549,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-10,1.34,550,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-11,2.06,551,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-12,1.44,552,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-13,1.8,553,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-14,1.05,554,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-15,0.46,555,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-16,0.59,556,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-17,0.92,557,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-18,1.49,558,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-19,0.47,559,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-2,1.84,560,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-20,0.49,561,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-3,0.9,562,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-4,2.61,563,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-5,0.42,564,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-6,1.39,565,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-7,2.33,566,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-8,1.65,567,koraput,NA,NA
+odisha,koraput,koraput urban,koraput urban,ward-9,4.19,568,koraput,NA,NA
+odisha,koraput,kotpad urban,kotpad urban,ward-1,0.96,569,koraput,NA,NA
+odisha,koraput,kotpad urban,kotpad urban,ward-11,1.89,570,koraput,NA,NA
+odisha,koraput,kotpad urban,kotpad urban,ward-12,0.63,571,koraput,NA,NA
+odisha,koraput,kotpad urban,kotpad urban,ward-2,0.73,572,koraput,NA,NA
+odisha,koraput,kotpad urban,kotpad urban,ward-3,0.42,573,koraput,NA,NA
+odisha,koraput,kotpad urban,kotpad urban,ward-5,1.36,574,koraput,NA,NA
+odisha,koraput,kotpad urban,kotpad urban,ward-8,0.67,575,koraput,NA,NA
+odisha,koraput,kotpad urban,kotpad urban,ward-9,0.82,576,koraput,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-1,1,577,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-10,0.29,578,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-11,0.29,579,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-12,0.6,580,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-2,0.65,581,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-3,0.35,582,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-4,0.15,583,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-5,0.29,584,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-6,0.31,585,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-7,0.33,586,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-8,0.57,587,malkangiri,NA,NA
+odisha,malkajgiri,balimela urban,balimela urban,ward-9,0.51,588,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-1,0.24,589,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-10,0.46,590,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-11,0.3,591,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-12,0.28,592,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-13,0.09,593,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-14,0.45,594,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-15,0.18,595,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-16,0.18,596,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-17,0.18,597,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-18,0.15,598,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-19,0.42,599,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-2,0.47,600,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-3,0.09,601,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-4,0.13,602,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-5,0.57,603,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-6,0.15,604,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-8,0.33,605,malkangiri,NA,NA
+odisha,malkajgiri,malkangiri urban,malkangiri urban,ward-9,0.36,606,malkangiri,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-1,0.64,607,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-11,0.64,608,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-13,0.64,609,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-15,2.58,610,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-16,1.93,611,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-17,2.58,612,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-18,0.64,613,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-19,1.29,614,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-2,0.64,615,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-20,0.64,616,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-22,1.29,617,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-23,0.64,618,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-24,1.44,619,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-26,1.29,620,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-28,0.64,621,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-3,0.64,622,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-4,0.64,623,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-6,0.64,624,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-7,11.59,625,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-8,1.93,626,mayurbhanj,NA,NA
+odisha,mayurbanj,baripada urban,baripada urban,ward-9,0.25,627,mayurbhanj,NA,NA
+odisha,mayurbanj,rairangpur urban,rairangpur urban,ward-10,4.28,628,mayurbhanj,NA,NA
+odisha,mayurbanj,rairangpur urban,rairangpur urban,ward-11,6.43,629,mayurbhanj,NA,NA
+odisha,mayurbanj,rairangpur urban,rairangpur urban,ward-12,4.28,630,mayurbhanj,NA,NA
+odisha,mayurbanj,rairangpur urban,rairangpur urban,ward-14,4.28,631,mayurbhanj,NA,NA
+odisha,mayurbanj,rairangpur urban,rairangpur urban,ward-2,2.14,632,mayurbhanj,NA,NA
+odisha,mayurbanj,rairangpur urban,rairangpur urban,ward-7,2.14,633,mayurbhanj,NA,NA
+odisha,mayurbanj,rairangpur urban,rairangpur urban,ward-8,4.28,634,mayurbhanj,NA,NA
+odisha,mayurbanj,rairangpur urban,rairangpur urban,ward-9,3.44,635,mayurbhanj,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-1,0.08,636,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-10,0.11,637,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-11,0.17,638,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-12,1.39,639,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-13,0.06,640,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-2,0.08,641,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-3,0.17,642,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-4,0.17,643,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-5,0.17,644,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-6,0.87,645,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-7,2.6,646,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-8,2.77,647,nabrangpur,NA,NA
+odisha,nabaragpur,umerkote urban,umerkote urban,ward-9,0.34,648,nabrangpur,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-1,0.08,649,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-10,0.17,650,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-11,0.17,651,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-12,0.08,652,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-13,0.17,653,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-2,0.25,654,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-3,0.97,655,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-4,0.08,656,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-5,0.3,657,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-6,0.39,658,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-7,0.18,659,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-8,0.17,660,nayagarh,NA,NA
+odisha,nayagarh,khandapada urban,khandapada urban,ward-9,0.46,661,nayagarh,NA,NA
+odisha,nayagarh,nayagarh urban,nayagarh urban,ward-1,0.13,662,nayagarh,NA,NA
+odisha,nayagarh,nayagarh urban,nayagarh urban,ward-11,0.08,663,nayagarh,NA,NA
+odisha,nayagarh,nayagarh urban,nayagarh urban,ward-12,0.04,664,nayagarh,NA,NA
+odisha,nayagarh,nayagarh urban,nayagarh urban,ward-13,0.04,665,nayagarh,NA,NA
+odisha,nayagarh,nayagarh urban,nayagarh urban,ward-2,0.04,666,nayagarh,NA,NA
+odisha,nayagarh,nayagarh urban,nayagarh urban,ward-3,0.38,667,nayagarh,NA,NA
+odisha,nayagarh,nayagarh urban,nayagarh urban,ward-5,0.21,668,nayagarh,NA,NA
+odisha,nayagarh,nayagarh urban,nayagarh urban,ward-6,0.34,669,nayagarh,NA,NA
+odisha,nayagarh,nayagarh urban,nayagarh urban,ward-7,0.13,670,nayagarh,NA,NA
+odisha,nayagarh,nayagarh urban,nayagarh urban,ward-8,0.13,671,nayagarh,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-1,1.39,672,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-12,0.65,673,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-13,0.65,674,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-14,0.65,675,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-16,1.08,676,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-17,0.16,677,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-2,0.39,678,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-3,1.3,679,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-6,0.45,680,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-7,1.46,681,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-8,0.65,682,nuapara,NA,NA
+odisha,nuapada,khariar road urban,khariar road urban,ward-9,0.57,683,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-1,0.87,684,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-11,0.45,685,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-12,0.8,686,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-2,0.05,687,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-3,0.22,688,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-4,0.08,689,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-5,0.61,690,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-6,0.32,691,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-7,0.25,692,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-8,0.24,693,nuapara,NA,NA
+odisha,nuapada,khariar urban,khariar urban,ward-9,1.18,694,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-1,0.46,695,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-10,0.09,696,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-12,0.11,697,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-13,0.61,698,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-14,0.07,699,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-2,0.13,700,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-3,0.2,701,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-4,0.08,702,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-5,0.01,703,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-6,0.13,704,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-7,0.2,705,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-8,0.01,706,nuapara,NA,NA
+odisha,nuapada,nuapada urban,nuapada urban,ward-9,0.07,707,nuapara,NA,NA
+odisha,puri,konark urban,konark urban,ward-1,0.19,708,puri,NA,NA
+odisha,puri,konark urban,konark urban,ward-11,0.13,709,puri,NA,NA
+odisha,puri,konark urban,konark urban,ward-12,0.48,710,puri,NA,NA
+odisha,puri,konark urban,konark urban,ward-13,0.48,711,puri,NA,NA
+odisha,puri,konark urban,konark urban,ward-3,0.15,712,puri,NA,NA
+odisha,puri,konark urban,konark urban,ward-8,0.24,713,puri,NA,NA
+odisha,puri,pipili urban,pipili urban,ward-1,0.16,714,puri,NA,NA
+odisha,puri,pipili urban,pipili urban,ward-10,0.17,715,puri,NA,NA
+odisha,puri,pipili urban,pipili urban,ward-12,0.09,716,puri,NA,NA
+odisha,puri,pipili urban,pipili urban,ward-3,0.12,717,puri,NA,NA
+odisha,puri,pipili urban,pipili urban,ward-4,0.1,718,puri,NA,NA
+odisha,puri,pipili urban,pipili urban,ward-6,0.29,719,puri,NA,NA
+odisha,puri,pipili urban,pipili urban,ward-7,0.48,720,puri,NA,NA
+odisha,puri,pipili urban,pipili urban,ward-9,0.17,721,puri,NA,NA
+odisha,puri,puri urban,puri urban,ward-1,0.13,722,puri,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-1,1.14,723,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-10,1.92,724,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-11,1.71,725,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-12,0.81,726,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-13,1.23,727,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-14,1.71,728,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-16,3.91,729,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-17,2.7,730,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-2,1.54,731,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-4,0.73,732,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-6,1.62,733,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-7,12.08,734,rayagada,NA,NA
+odisha,rayagada,gunupur urban,gunupur urban,ward-8,0.77,735,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-10,0.41,736,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-11,0.61,737,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-14,0.2,738,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-16,0.2,739,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-17,0.2,740,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-18,0.41,741,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-19,0.27,742,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-2,0.41,743,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-22,0.41,744,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-23,0.67,745,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-24,1.28,746,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-3,1.27,747,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-4,0.67,748,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-5,0.61,749,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-7,0.2,750,rayagada,NA,NA
+odisha,rayagada,rayagada urban,rayagada urban,ward-8,0.2,751,rayagada,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-1,1.71,752,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-10,1.28,753,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-11,0.43,754,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-12,0.85,755,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-2,2.13,756,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-3,1.28,757,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-4,3.84,758,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-5,1.28,759,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-6,0.43,760,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-7,0.85,761,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-8,4.27,762,sonepur,NA,NA
+odisha,sonepur,binika urban,binika urban,ward-9,2.13,763,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-1,3.15,764,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-10,1.69,765,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-11,2.69,766,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-12,8.82,767,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-13,2.09,768,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-14,1.89,769,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-15,0.83,770,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-2,1.26,771,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-3,2.86,772,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-4,2.52,773,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-5,1.69,774,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-6,2.72,775,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-7,1.06,776,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-8,3.15,777,sonepur,NA,NA
+odisha,sonepur,sonepur urban,sonepur urban,ward-9,1.26,778,sonepur,NA,NA
+odisha,sonepur,tarbha urban,tarbha urban,ward-1,1.89,779,sonepur,NA,NA
+odisha,sonepur,tarbha urban,tarbha urban,ward-10,0.63,780,sonepur,NA,NA
+odisha,sonepur,tarbha urban,tarbha urban,ward-11,0.63,781,sonepur,NA,NA
+odisha,sonepur,tarbha urban,tarbha urban,ward-2,1.26,782,sonepur,NA,NA
+odisha,sonepur,tarbha urban,tarbha urban,ward-3,1.26,783,sonepur,NA,NA
+odisha,sonepur,tarbha urban,tarbha urban,ward-4,0.63,784,sonepur,NA,NA
+odisha,sonepur,tarbha urban,tarbha urban,ward-5,0.63,785,sonepur,NA,NA
+odisha,sonepur,tarbha urban,tarbha urban,ward-7,0.63,786,sonepur,NA,NA
+odisha,sonepur,tarbha urban,tarbha urban,ward-8,4.2,787,sonepur,NA,NA
+odisha,sonepur,tarbha urban,tarbha urban,ward-9,0.63,788,sonepur,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-1,0.5,789,sundargarh,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-10,0.53,790,sundargarh,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-11,1.53,791,sundargarh,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-2,2.41,792,sundargarh,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-3,0.1,793,sundargarh,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-4,0.22,794,sundargarh,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-5,0.31,795,sundargarh,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-6,0.93,796,sundargarh,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-7,0.09,797,sundargarh,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-8,0.05,798,sundargarh,NA,NA
+odisha,sundargarh,biramitrapur urban,biramitrapur urban,ward-9,0.01,799,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-1,2.21,800,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-10,1.4,801,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-11,0.69,802,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-12,0.64,803,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-13,1.19,804,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-14,0.88,805,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-15,0.81,806,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-16,1.05,807,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-17,0.25,808,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-18,0.78,809,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-19,2.48,810,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-2,1.83,811,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-20,0.88,812,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-3,0.09,813,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-4,1.33,814,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-5,0.45,815,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-6,1.49,816,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-7,0.59,817,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-8,1.05,818,sundargarh,NA,NA
+odisha,sundargarh,rajgangpur urban,rajgangpur urban,ward-9,0.82,819,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,auto colony,1.16,820,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,construction colony,1.89,821,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,hamirpur,3.26,822,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,jhartarang new area,0.08,823,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,kantajhar,1.22,824,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,labour colony,1.36,825,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,laltanki,1.16,826,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,laxmi market,2.38,827,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,luakera,2.31,828,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,modern inida,1.63,829,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,nabakrushna nagar,3.25,830,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-1,5.68,831,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-13,1.58,832,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-14,1.41,833,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-15,1.12,834,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-16,0.61,835,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-17,0.07,836,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-18,1.01,837,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-19,0.04,838,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-2,1.53,839,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-20,0.94,840,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-5,0.94,841,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-6,7.02,842,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,sec-7,1.57,843,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,tangarpalli,6.15,844,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,tumkela,0.94,845,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-1,1.88,846,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-10,7.55,847,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-11,3.1,848,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-12,1.93,849,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-13,7.45,850,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-14,1.53,851,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-15,4.94,852,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-16,7.38,853,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-17,13.48,854,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-18,3.08,855,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-19,2.88,856,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-2,17.76,857,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-20,0.94,858,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-21,0.94,859,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-22,0.47,860,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-23,2.35,861,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-25,1.41,862,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-26,0.68,863,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-27,0.02,864,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-28,0.47,865,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-3,7.84,866,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-30,0.47,867,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-31,16.51,868,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-32,10.24,869,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-33,1.06,870,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-4,3.75,871,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-5,5.16,872,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-6,5.23,873,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-7,22.12,874,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-8,0.55,875,sundargarh,NA,NA
+odisha,sundargarh,rourkela urban,rourkela urban,ward-9,7.51,876,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-1,0.17,877,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-11,0.26,878,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-12,0.08,879,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-13,0.08,880,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-14,0.08,881,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-15,0.18,882,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-16,0.08,883,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-18,0.08,884,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-19,0.25,885,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-7,0.08,886,sundargarh,NA,NA
+odisha,sundargarh,sundargarh urban,sundargarh urban,ward-9,0.26,887,sundargarh,NA,NA
