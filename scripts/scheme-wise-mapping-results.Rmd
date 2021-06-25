@@ -36,7 +36,7 @@ knitr::opts_chunk$set(
 
 ```{r function-to-summarise-mapping-for-scheme}
 source("../scripts/libraries.R")
-scheme_to_summarise <- c("mnrega-2018-19","mnrega-2019-20","pmagy-2018-19","pmagy-2019-20","nsap-IGNDPS-2019-20","nsap-IGNOAPS-2019-20","nsap-IGNWPS-2019-20")
+scheme_to_summarise <- c("mnrega-2018-19","mnrega-2019-20","pmagy-2018-19","pmagy-2019-20","nsap-IGNDPS-2019-20","nsap-IGNOAPS-2019-20","nsap-IGNWPS-2019-20","nsap-IGNDPS-urban-2019-20","nsap-IGNOAPS-urban-2019-20","nsap-IGNWPS-urban-2019-20")
 
 summarise_scheme_mapping <- function(scheme_to_summarise){
   
@@ -53,7 +53,10 @@ summarise_scheme_mapping <- function(scheme_to_summarise){
     "pmagy-2019-20" = "PMAGY (2019-20)",
     "nsap-IGNDPS-2019-20" = "NSAP - IGNDPS (2019-20)",
     "nsap-IGNOAPS-2019-20" = "NSAP - IGNOAPS (2019-20)",
-    "nsap-IGNWPS-2019-20" = "NSAP - IGNWPS (2019-20)"
+    "nsap-IGNWPS-2019-20" = "NSAP - IGNWPS (2019-20)",
+    "nsap-IGNDPS-urban-2019-20" = "NSAP - IGNDPS Urban (2019-20)",
+    "nsap-IGNOAPS-urban-2019-20" = "NSAP - IGNOAPS Urban (2019-20)",
+    "nsap-IGNWPS-urban-2019-20" = "NSAP - IGNWPS Urban (2019-20)"
   )
 
   # Evaluate percentage mapping for each geographic entity  
@@ -268,6 +271,24 @@ generate_district_wise_tables(scheme_name = scheme_to_summarise[[7]])
 
 ```
 
+##### NSAP - IGNDPS Urban (2019-20)
+```{r nsap-IGNDPS-urban-2019-district-summary}
+generate_district_wise_tables(scheme_name = scheme_to_summarise[[8]])
+
+```
+
+##### NSAP - IGNOAPS Urban (2019-20)
+```{r nsap-IGNOAPS-urban-2019-district-summary}
+generate_district_wise_tables(scheme_name = scheme_to_summarise[[9]])
+
+```
+
+##### NSAP - IGNWPS Urban (2019-20)
+```{r nsap-IGNWPS-urban-2019-district-summary}
+generate_district_wise_tables(scheme_name = scheme_to_summarise[[10]])
+
+```
+
 ---
 
 <br />
@@ -285,6 +306,9 @@ generate_district_wise_tables(scheme_name = scheme_to_summarise[[7]])
 | NSAP - IGNDPS | 2019-20 | [Link](../data/results/nsap-IGNDPS-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNDPS-2019-updated.csv) |
 | NSAP - IGNOAPS | 2019-20 | [Link](../data/results/nsap-IGNOAPS-2019-20-geography-mapping-summary.csv ) | [Link](../data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNOAPS-2019-updated.csv) |
 | NSAP - IGNWPS | 2019-20 | [Link](../data/results/nsap-IGNWPS-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNWPS-2019-updated.csv) |
+| NSAP - IGNDPS Urban | 2019-20 | [Link](../data/results/nsap-IGNDPS-urban-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNDPS-urban-2019-updated.csv) |
+| NSAP - IGNOAPS Urban | 2019-20 | [Link](../data/results/nsap-IGNOAPS-urban-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNOAPS-urban-2019-updated.csv) |
+| NSAP - IGNWPS Urban | 2019-20 | [Link](../data/results/nsap-IGNWPS-urban-2019-20-geography-mapping-summary.csv) | [Link](../data/scheme/NSAP/odisha/2019-20/updated/odisha-nsap-IGNWPS-urban-2019-updated.csv) |
 
 #### Files shared by CBGA
 
